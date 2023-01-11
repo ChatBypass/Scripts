@@ -1,1 +1,3171 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v26={};for v27=1, #v8 do v6(v26,v0(v4(v1(v2(v8,v27,v27 + 1)),v1(v2(v9,1 + ((v27-1)% #v9),1 + ((v27-1)% #v9) + 1)))%256));end return v5(v26);end do local v10=0 + 0;local v11;local v12;local v13;local v14;local v15;local v16;local v17;local v18;local v19;local v20;local v21;local v22;local v23;local v24;local v25;while true do if (v10==(73 -(68 + 2))) then v20=setmetatable;v21=pcall;v22=select;v10=1707 -(432 + 1271);end if (v10==0) then local v28=0;while true do if (v28==(1 -0)) then v13=string.char;v10=1;break;end if (0==v28) then local v48=0;while true do if (v48==(2 -1)) then v28=1 + 0;break;end if (v48==(0 -0)) then v11=tonumber;v12=string.byte;v48=1 + 0;end end end end end if (v10==2) then local v29=384 -(311 + 73);local v30;while true do if (v29==(661 -(161 + 500))) then v30=0;while true do if (v30==1) then v19=getfenv or function()return _ENV;end;v10=2 + 1;break;end if (v30==(1607 -(889 + 718))) then v17=table.concat;v18=table.insert;v30=1;end end break;end end end if (v10==(9 -5)) then local v31=0 -0;while true do if (v31==1) then v25=nil;v10=1454 -(728 + 721);break;end if (v31==0) then v23=unpack or table.unpack;v24=tonumber;v31=4 -3;end end end if (v10==(1 -0)) then local v32=0;while true do if (v32==(0 + 0)) then v14=string.sub;v15=string.gsub;v32=1 -0;end if (v32==1) then v16=string.rep;v10=5 -3;break;end end end if (v10==(1336 -(1200 + 131))) then v25=function(v33,v34,...)local v35=0 + 0;local v36;local v37;local v38;local v39;local v40;local v41;local v42;local v43;local v44;local v45;local v46;local v47;while true do if (v35==(392 -(71 + 321))) then v36=1;v37=nil;v33=v15(v14(v33,11 -6),v7("\198\103","\232\73\103\32\132"),function(v50)if (v12(v50,1 + 1)==79) then local v87=0 -0;while true do if (v87==0) then local v101=0 + 0;while true do if (v101==0) then v37=v11(v14(v50,1,1));return v7("\106\137","\77\174\66\220\229\184");end end end end else local v88=0 -0;local v89;while true do if (v88==(0 + 0)) then v89=v13(v11(v50,1969 -(872 + 1081)));if v37 then local v111=0;local v112;while true do local v117=0 + 0;while true do if (v117==(0 -0)) then if (v111==(1 + 0)) then return v112;end if (v111==(0 -0)) then v112=v16(v89,v37);v37=nil;v111=2 -1;end break;end end end else return v89;end break;end end end end);v38=nil;v35=1 + 0;end if (v35==(9 -7)) then v40=function()local v55=0 -0;local v56;local v57;local v58;local v59;while true do if (v55==1) then v58=nil;v59=nil;v55=2 + 0;end if (v55==(7 -5)) then while true do if (v56==(0 -0)) then v57=(0 -0) -(0 + 0);v58=nil;v56=1;end if (v56==(1 + 0)) then v59=nil;while true do local v113=0 + 0;while true do if (v113==0) then if (v57==((0 -0) + (0 -0))) then local v127=0;while true do if (v127==0) then local v140=486 -(22 + 464);while true do if (v140==(0 + 0)) then local v150=0;while true do if (v150==1) then v140=1;break;end if (v150==(0 + 0)) then v58,v59=v12(v33,v36,v36 + ((4257 -2270) -(1311 + 350 + (461 -(73 + 64)))));v36=v36 + ((7 -3) -(4 -(4 -2)));v150=1 -0;end end end if (v140==1) then v127=4 -3;break;end end end if (v127==1) then v57=(1 -(0 + 0)) -(262 -(229 + (864 -(764 + 67))));break;end end end if (v57==(43 -((337 -(78 + 246)) + (1486 -(1287 + 170))))) then return (v59 * (((1230 -(290 + 237)) -(521 + 39)) + 113)) + v58;end break;end end end break;end end break;end if (v55==(1822 -(572 + 1250))) then v56=441 -(83 + 358);v57=nil;v55=1;end end end;v41=nil;v41=function()local v60=(0 -0) + (1706 -(771 + 935));local a;local b;local v61;local v62;while true do local v86=1254 -(711 + 543);while true do if (v86==0) then if (v60==((1126 -355) -(206 + 485 + 79))) then return (v62 * ((16780272 -(54 + 1005)) -(171 + 367 + 15 + 1444))) + (v61 * (14610 + 11561 + 15166 + (49927 -25728))) + (b * (983 -(299 + 428))) + a;end if (v60==((305 + 1434) -(9 + 49 + (4899 -3218)))) then local v107=0 + 0;while true do if (v107==1) then v60=1 + 0;break;end if (v107==(0 + 0)) then local v118=0 -0;local v119;while true do if (v118==(0 + 0)) then v119=0 + 0;while true do if (v119==(0 + 0)) then a,b,v61,v62=v12(v33,v36,v36 + (523 -(27 + 493)) + (1484 -(848 + 636)));v36=v36 + ((1332 -(105 + 145)) -(782 + 11 + 285));v119=4 -3;end if (v119==(1 + 0)) then v107=1420 -(544 + 875);break;end end break;end end end end end break;end end end end;v42=nil;v35=1411 -(136 + 1272);end if ((2 + 1)==v35) then v42=function()local v63=1144 -(395 + 749);local v64;local v65;local v66;while true do if (v63==0) then local v93=0;while true do if ((0 + 0)==v93) then v64=0;v65=nil;v93=3 -2;end if (v93==1) then v63=1;break;end end end if (v63==(2 -1)) then v66=nil;while true do if (v64==(0 + (212 -(200 + 12)))) then local v108=0;while true do if (v108==(856 -(459 + 396))) then v64=(1 -0) + 0 + 0;break;end if (v108==0) then local v120=0;while true do if (v120==(3 -2)) then v108=2 -1;break;end if (v120==0) then v65=v41();v66=v41();v120=1;end end end end end if (v64==((1 -0) + (0 -0))) then return (( -2 * v38(v66,(1816 -(1385 + 416)) + ((15 + 109) -((68 -24) + 39 + 24)))) + (1462 -(159 + 1302)) + 0 + 0) * ((8 -(1 + 5))^(v38(v66,70 -(28 + 21),19 + 1 + 11) -((504 + 1152) -((854 -253) + 32)))) * ((((v38(v66,1 + 0,11 + (24 -15)) * (((1 + 2) -(1 + 0 + 0 + 0))^((21 -9) + (58 -38)))) + v65)/(((1931 -(1869 + 61)) + (1967 -(1638 + 328)))^(((1923 -(32 + 59)) -((2418 -1774) + 130)) -(76 + 161 + 769)))) + (4 -3));end end break;end end end;v43=nil;v43=function(v51)local v67=0 -0;local v68;local v69;local v70;local v71;while true do if (v67==0) then v68=0;v69=nil;v67=4 -3;end if (v67==1) then v70=nil;v71=nil;v67=2 -0;end if ((1764 -(897 + 865))==v67) then while true do if (v68==1) then v71=nil;while true do local v114=0 -0;while true do if (v114==(1 -0)) then if (2==v69) then v71={};for v131=(1 -0) + (578 -(559 + 19)), #v70 do v71[v131]=v13(v12(v14(v70,v131,v131)));end v69=3;end if (3==v69) then return v17(v71);end break;end if (v114==0) then if (v69==(3 -2)) then v70=v14(v33,v36,(v36 + v51) -(1838 -(343 + 1390 + 104)));v36=v36 + v51;v69=2 + 0;end if (v69==(882 -(275 + 607))) then v70=nil;if  not v51 then local v133=(0 + 0) -0;while true do if (v133==(0 + 0)) then v51=v41();if (v51==((3230 -1840) -((571 -374) + ((5122 -2724) -((1461 -1100) + (2462 -(1520 + 98))))))) then return v7("\239\249","\200\222\233\231\180\76\27");end break;end end end v69=950 -(410 + 539);end v114=1 + 0;end end end break;end if (v68==0) then v69=0;v70=nil;v68=1;end end break;end end end;v44=v41;v35=10 -6;end if (v35==(2 + 2)) then v45=nil;v45=function(...)return {...},v22(v7("\113","\82\148\93\73\111\66"),...);end;v46=nil;v46=function()local v72=241 -(127 + 82 + 32);local v73;local v74;local v75;local v76;local v77;local v78;local v79;while true do if (v72~=(1772 -(1524 + 245))) then else v79=nil;while true do local v100=0 -0;while true do if (v100==((0 + 0) -(0 + 0))) then local v115=0 + 0;while true do if (v115==0) then if (v73==(0 + 0 + 0)) then local v128=1888 -(1264 + 624);while true do if (v128==(9 -7)) then v73=1;break;end if (v128==(672 -(293 + 378))) then v76={};v77={v74,v75,nil,v76};v128=931 -(356 + 573);end if ((0 -0)==v128) then v74={};v75={};v128=1 + 0;end end end if (v73==((423 -180) -(116 + (408 -282)))) then local v129=0 -0;while true do if (v129~=2) then else v73=(123 -(103 + 18)) + 0;break;end if (v129~=1) then else for v143=1536 -(640 + 895),v78 do local v144=0;local v145;local v146;local v147;local v148;local v149;while true do if (v144==0) then v145=0 + (0 -0);v146=nil;v144=1 -0;end if (v144==(5 -3)) then v149=nil;while true do if (v145==(1644 -((4450 -2815) + 7))) then while true do if (v146==((0 + 0) -0)) then local v170=0 + 0;local v171;while true do if (v170==0) then v171=(3518 -1603) -(449 + 970 + 49 + 447);while true do if ((3 -2)==v171) then v146=2 -1;break;end if (v171~=(0 + 0)) then else local v184=1383 -(515 + 868);local v185;while true do if (v184==(0 -0)) then v185=0 -0;while true do if (((1431 -(1328 + 102)) + (0 -0))==v185) then v171=(6 + 204) -(81 + 128);break;end if (v185~=(0 + (0 -0))) then else local v197=0 -0;local v198;while true do if ((0 -0)==v197) then v198=0 -0;while true do if (0==v198) then v147=(0 -0) + 0;v148=nil;v198=1;end if (v198==(1 + 0)) then v185=1 + 0;break;end end break;end end end end break;end end end end break;end end end if (v146~=(1 + 0)) then else v149=nil;while true do if (v147==((0 + 0) -(0 + 0))) then local v172=0 -0;local v173;local v174;local v175;local v176;while true do if (v172==(0 -0)) then v173=0 + 0;v174=nil;v172=1;end if (v172==2) then while true do if ((222 -(73 + 148))==v173) then v176=nil;while true do if (v174==((3179 -1254) -(170 + 1492 + 255 + 8))) then local v199=0 + 0;local v200;while true do if (v199==(0 + 0)) then v200=0 -0;while true do if ((201 -(141 + 59))==v200) then v174=1;break;end if (v200==(0 -0)) then v175=(2685 -(634 + 814)) -(428 + 809);v176=nil;v200=1;end end break;end end end if (v174~=(1 + 0)) then else while true do if (v175==(944 -(267 + 677))) then v176=1449 -(1172 + 277);while true do if (v176~=((3182 -2286) -(303 + (973 -(36 + 344))))) then else local v290=0 -0;while true do if (v290==(1 -0)) then v176=(2315 -(232 + 1122)) -((1324 -803) + (1303 -(667 + 197)));break;end if (v290==(0 + 0)) then v148=v39();v149=nil;v290=1 + 0;end end end if (v176==((1653 -(509 + 1141)) -(8 -6))) then v147=1;break;end end break;end end break;end end break;end if ((0 -0)==v173) then local v188=0;while true do if ((0 + 0)==v188) then v174=0 + 0;v175=nil;v188=1;end if (v188==(1408 -(433 + 974))) then v173=1;break;end end end end break;end if (v172==(1785 -(1394 + 390))) then v175=nil;v176=nil;v172=2;end end end if (1==v147) then if (v148==(1 + 0)) then v149=v39()~=(0 -(0 + 0));elseif (v148==(1 + 1)) then v149=v42();elseif (v148==(1 + 1 + 1)) then v149=v43();end v79[v143]=v149;break;end end break;end end break;end if (v145==1) then local v166=451 -(332 + 119);local v167;while true do if (v166==(0 + 0)) then v167=0;while true do if (v167==(1786 -(1093 + 693))) then v148=nil;v149=nil;v167=1 + 0;end if (v167==1) then v145=2;break;end end break;end end end if (v145==(1707 -(342 + 26 + 630 + 709))) then v146=0 -0;v147=nil;v145=247 -(24 + 74 + 148);end end break;end if (v144==(2 -1)) then v147=nil;v148=nil;v144=2;end end end v77[(490 -(176 + 306)) -5]=v39();v129=2;end if (v129~=(0 + 0)) then else local v141=0 + 0;while true do if ((1736 -(1601 + 134))==v141) then v129=(975 -(338 + 633)) -(1 + 2);break;end if ((802 -(377 + 425))==v141) then v78=v41();v79={};v141=279 -(18 + 260);end end end end end v115=2 -1;end if (v115==(596 -(316 + 279))) then v100=(118 -(60 + 57)) -(583 -(109 + 474));break;end end end if (v100~=(1783 -(971 + 811))) then else if (v73==2) then local v121=0 -0;local v122;while true do if (v121==(0 -0)) then v122=(758 -297) -(177 + (721 -437));while true do local v132=0 + 0;while true do if ((0 -0)==v132) then if ((0 -0)==v122) then local v151=0 -0;local v152;while true do if ((0 + 0)==v151) then v152=691 -(141 + 63 + (1719 -(961 + 271)));while true do if (v152==0) then local v169=0;while true do if (v169==(0 -0)) then for v177=(3 -1) -1,v41() do local v178=0 -0;local v179;local v180;while true do if (v178==(1 + 0)) then while true do if (v179==(0 -0)) then v180=v39();if (v38(v180,1 + 0,(4021 -2667) -(578 + 750 + 25))==(99 -(40 + 59))) then local v190=0 + 0;local v191;local v192;local v193;local v194;local v195;local v196;while true do if (v190==(7 -5)) then v195=nil;v196=nil;v190=3;end if (v190==(3 -2)) then v193=nil;v194=nil;v190=2;end if (v190==3) then while true do if ((497 -(298 + 199))==v191) then v192=0;v193=nil;v191=769 -(721 + 47);end if (v191==(480 -(207 + 272))) then v194=nil;v195=nil;v191=2 -0;end if (v191==(2 + 0)) then v196=nil;while true do if (v192==((1180 -(790 + 389)) + 1 + 0)) then while true do if ((0 -(0 + 0))~=v193) then else local v318=1116 -(532 + 584);local v319;local v320;while true do if ((1 + 0)==v318) then while true do if (v319~=(1556 -(490 + 1066))) then else v320=(0 + 0) -0;while true do if (v320==(1 + 0)) then v193=534 -(480 + 46 + 7);break;end if (((0 -0) -(0 -0))==v320) then local v407=0;while true do if (v407==(0 -0)) then local v422=0 + 0;while true do if (v422==1) then v407=1;break;end if (v422==0) then v194=v38(v180,2 + 0,2 + 1);v195=v38(v180,4,(12 -6) + (1631 -(1442 + 189)));v422=1;end end end if (v407==(3 -2)) then v320=414 -((1627 -1272) + 58);break;end end end end break;end end break;end if ((0 -0)==v318) then v319=0 -0;v320=nil;v318=1798 -(1306 + 491);end end end if (v193==(1 + (1786 -(671 + 1114)))) then local v321=0 + 0;local v322;while true do if ((0 -0)==v321) then v322=0 -0;while true do if (v322==(1 + 0)) then v193=1 + 0 + 2;break;end if (v322==0) then local v389=0 -0;local v390;while true do if (v389==0) then v390=(0 -0) + 0 + 0;while true do if (v390==(2 -1)) then v322=(1752 -(12 + 1738)) -1;break;end if (v390==(0 + 0 + (1314 -(346 + 968)))) then if (v38(v195,1,1)~=((1007 + 682) -(20 + 1535 + 133))) then else v196[2]=v79[v196[9 -7]];end if (v38(v195,2 + 0 + 0 + 0,1253 -(993 + 258))~=(1 + 0 + (0 -0))) then else v196[11 -8]=v79[v196[(3071 -(1054 + 150)) -(22 + 1 + 1382 + 459)]];end v390=(1 -0) + 0;end end break;end end end end break;end end end if (v193==1) then local v323=922 -(493 + 429);local v324;local v325;while true do if (v323==(0 + 0)) then v324=0 -0;v325=nil;v323=1;end if (v323==1) then while true do if (v324==0) then v325=0 -0;while true do if ((0 + 0)==v325) then local v408=0 + 0;local v409;local v410;local v411;while true do if (v408==(1 + 0)) then v411=nil;while true do if (v409==0) then local v439=0;while true do if (v439==(0 -0)) then v410=(0 + 0) -(1604 -(1581 + 23));v411=nil;v439=1911 -(1088 + 822);end if (v439==1) then v409=1;break;end end end if (v409==(1 + 0)) then while true do if (v410~=0) then else v411=0 + (0 -0);while true do if (((3 -2) -0)==v411) then v325=1;break;end if (v411~=(0 + (74 -(55 + 19)))) then else v196={v40(),v40(),nil,nil};if (v194==((1468 -(1367 + 101)) -(0 -0))) then local v454=0;local v455;local v456;while true do if (v454==(0 + 0)) then local v465=0 + 0;while true do if (v465==1) then v454=1;break;end if (v465==(0 -0)) then v455=658 -((23 -15) + (1856 -(1039 + 167)));v456=nil;v465=33 -(14 + 18);end end end if (v454==(1 -0)) then while true do if (v455==(0 + 0)) then v456=(1266 -719) -((1269 -(139 + 585)) + (1056 -(338 + 716)));while true do if (v456==(1107 -((1792 -1099) + (1741 -(1141 + 186))))) then v196[(1404 -(87 + 296)) -(91 + 600 + 327)]=v40();v196[4]=v40();break;end end break;end end break;end end elseif (v194==((1 + 0) -(0 -0))) then v196[1424 -((2130 -(475 + 1254)) + (1979 -(559 + 400)))]=v41();elseif (v194==(3 -1)) then v196[3]=v41() -(((1 + 1) -0)^(943 -(246 + 681)));elseif (v194==(4 -1)) then local v469=0 + 0;local v470;while true do if (v469==(0 + 0)) then v470=(262 + 96) -(1 + 202 + 155);while true do if (((1849 -(1480 + 369)) -(36 -(10 + 26)))~=v470) then else v196[(3637 -(239 + 1705)) -(22 + 1668)]=v41() -(((1155 -(366 + 787)) + 0 + 0)^(998 -(358 + 624)));v196[1675 -(216 + 639 + 816)]=v40();break;end end break;end end end v411=1;end end break;end end break;end end break;end if (v408==(0 -0)) then v409=0 + 0;v410=nil;v408=1 -0;end end end if (v325==1) then v193=5 -(8 -5);break;end end break;end end break;end end end if ((1 + (602 -(547 + 53)))~=v193) then else if (v38(v195,(373 -(283 + 86)) -(1 -0),5 -(856 -(345 + 509)))==(2 -1)) then v196[3 + 1]=v79[v196[(48 -37) -(15 -8)]];end v74[v177]=v196;break;end end break;end if (v192==(13 -((15 -9) + 7))) then local v291=(4092 -2845) -(707 + (2230 -(430 + 1260)));while true do if (v291==(867 -(71 + 796))) then local v326=0 -0;while true do if (v326~=(1 + 0)) then else v291=(554 -(338 + 215)) + 0 + 0;break;end if (v326==(0 -0)) then local v354=0;while true do if (v354==0) then v193=(0 + 0) -(0 -0);v194=nil;v354=160 -(153 + 6);end if (v354==1) then v326=(5 -1) -(3 + 0);break;end end end end end if (v291~=((1 + 0) -(0 + 0))) then else v192=(566 + 142) -(200 + 117 + 390);break;end end end if (v192==((163 + 522) -(89 + 108 + (2138 -(128 + 1523))))) then local v292=(803 -(549 + 254)) -(0 -0);local v293;while true do if (v292~=0) then else v293=67 -(45 + 22);while true do if (v293==(1371 -((988 -(174 + 609)) + 273 + 892))) then v192=1 + 1;break;end if (v293==((0 -0) + 0 + 0)) then v195=nil;v196=nil;v293=1 -0;end end break;end end end end break;end end break;end if (v190==(0 -0)) then v191=0 -0;v192=nil;v190=1;end end end break;end end break;end if (v178~=((3079 -1672) -((1575 -683) + (834 -319)))) then else local v186=0 -0;local v187;while true do if (v186==(1588 -(1030 + 558))) then v187=(0 -0) + (0 -0);while true do if (v187==(2 -1)) then v178=(2 -1) + 0 + 0;break;end if (v187~=(0 -0)) then else local v201=0;while true do if (v201==(0 -0)) then v179=0 -0;v180=nil;v201=1;end if ((733 -(385 + 347))==v201) then v187=(1 + 0) -0;break;end end end end break;end end end end end for v181=1,v41() do v75[v181-(1 + 0)]=v46();end v169=1583 -(1093 + 489);end if ((1 + 0)==v169) then v152=347 -((50 -26) + (506 -184));break;end end end if (v152==((422 -(249 + 172)) + (0 -0))) then v122=(3488 -(1586 + 85)) -((2307 -(380 + 288)) + 177);break;end end break;end end end if (v122==(1 + 0)) then for v153=1 + 0,v41() do v76[v153]=v41();end return v77;end break;end end end break;end end end break;end end end break;end if (v72==((402 -(253 + 144)) -3)) then local v94=0 + 0;local v95;while true do if (v94==(1504 -(1246 + 258))) then v95=(907 -(886 + 21)) + (346 -(300 + 46));while true do if (v95~=(0 + 0 + (0 -0))) then else v77=nil;v78=nil;v95=(1795 -(192 + 1602)) + 0 + 0;end if (v95==(4 -3)) then v72=(1334 + 577) -(1379 + 360 + 169);break;end end break;end end end if (v72~=1) then else local v96=182 -(110 + 72);while true do if (v96==0) then local v109=0 + 0;while true do if (v109==0) then v75=nil;v76=nil;v109=1 + 0;end if (v109==(1489 -(1456 + 32))) then v96=1 + 0;break;end end end if (v96==(1 + 0)) then v72=(18 -12) -4;break;end end end if (v72==(0 + (0 -0))) then local v97=1748 -(807 + 941);while true do if (v97==0) then local v110=0 -0;while true do if (v110==(1244 -(464 + 780))) then v73=1080 -(219 + 861);v74=nil;v110=1 + 0;end if ((1 + 0)==v110) then v97=2 -1;break;end end end if (v97~=(3 -2)) then else v72=1;break;end end end end end;v35=1462 -(553 + 904);end if (v35==5) then v47=nil;v47=function(v52,v53,v54)local v80=0;local v81;local v82;local v83;local v84;local v85;while true do if (v80==(1369 -(4 + 1364))) then v83=nil;v84=nil;v80=1 + 1;end if (v80==(0 + 0)) then v81=0;v82=nil;v80=2 -1;end if (v80==(1994 -(483 + 1509))) then v85=nil;while true do if (2==v81) then while true do local v116=0;while true do if (0==v116) then if (v82==(3 -2)) then v85=v52[3];return function(...)local v134=0 + 0;local v135;local v136;local v137;local v138;local v139;while true do if (v134==1) then v137={...};v138=v22(v7("\124","\95\56\28\41\55"),...) -(1 -0);v134=344 -(209 + 133);end if (2==v134) then v139=nil;v139=function()local v83=v83;local v84=v84;local v85=v85;local v45=v45;local v154={};local v155={};local v156={};for Idx=0 -(0 -0),v138 do if ((((1986 -(173 + 292)) + 1857 + 903 + 66)>(12056 -8068)) and (Idx>=v85)) then v154[Idx-v85]=v137[Idx + ((2292 -(580 + 1195)) -(((2460 -(905 + 993)) -(341 -175)) + (588 -(150 + 318))))];else v156[Idx]=v137[Idx + (2 -1)];end end local v157=(v138-v85) + ((2 -1) -(0 -(0 + 0)));local v158;local v159;while true do local v163=0 -0;local v164;local v165;while true do if (v163==(371 -(64 + 307))) then local v168=0 + 0;while true do if (v168==0) then v164=(0 + 0) -(476 -(351 + 125));v165=nil;v168=2 -1;end if (v168==1) then v163=828 -(180 + 647);break;end end end if (v163==1) then while true do if ((v164==((1369 -(841 + 528)) -0)) or (((3650 -2885) + 690)>=((566 + 3466) -1707))) then v165=789 -((396 -95) + (870 -382));while true do if ((((1883 + 1967) -((1194 -(523 + 3)) + (1184 -(700 + 203))))>(((5591 -3688) -(206 + (2469 -(292 + 943)))) -(2072 -(28 + 1899)))) and (v165==(0 -((0 -0) + 0 + 0)))) then local v182=(929 -(687 + 242)) -(217 -(15 + 202));local v183;while true do if ((((1778 + 355) -((1938 -1428) + (1643 -(1155 + 11))))<=(((2654 + 2917) -(259 + 541 + (775 -(261 + 86)))) -(248 + 301 + (680 -(89 + 78))))) and (v182==(0 + (0 -0)))) then v183=0 + 0;while true do if (((803 + 237)<=(1442 + 603)) and (v183==((3655 -(1794 + 48)) -(595 + (2345 -1127))))) then local v189=0 + 0 + (0 -0);while true do if ((v189==((4 -2) -(1 + 0))) or (((2420 + 2611) -(144 + (1020 -(129 + 237))))<=(6254 -4470))) then v183=375 -(223 + 151);break;end if ((v189==(((5812 -4070) -(198 + 1295 + (1015 -(46 + 720)))) -(0 + 0))) or (1957>=((3738 + 2359) -(60 + ((1513 + 142) -((17 -6) + 122 + 29)))))) then local v202=0;while true do if (v202==(21 -(18 + 3))) then v158=v83[v135];v159=v158[(210 + (2474 -(1134 + 860))) -((421 -(14 + 16)) + 160 + 138)];v202=2 -1;end if (v202==(1 + 0)) then v189=(419 + 198) -((481 -(10 + 134)) + (654 -375));break;end end end end end if ((v183==(1 -(0 -0))) or (((5977 -(482 + 261)) -((390 -(77 + 47)) + 1303))<((423 + 2306) -(1434 -(45 + 312))))) then v165=(1899 -(114 + 274)) -((912 -628) + (3328 -2102));break;end end break;end end end if ((v165==(2 -1)) or ((1206 -590)==((2752 + 5796) -((8360 + 558) -(3660 -787))))) then if ((((6316 + 4264) -(3820 + 3747))<=(4511 -(21 + 24))) and (v159<=(1113 -(941 + 157)))) then if ((v159<=(1 + 6)) or (((1215 -(197 + 143)) + (1422 -(1098 + 289)))>(13630 -8925))) then if ((((554 + 1431) -(5 + 3 + 29))==(((13749 + 734) -(22373 -12204)) -2366)) and (v159<=((323 -(8 + 313)) + (2 -1)))) then if ((442<(5819 -(5742 -3927))) and (v159<=((1 -0) + 0 + 0))) then if ((4962>=(2581 -(1636 -(31 + 256)))) and (v159==(204 -(66 + 138)))) then local v203=0;local v204;local v205;local v206;local v207;local v208;while true do if (v203==(6 -4)) then v208=nil;while true do if ((((2835 -(858 + 673)) + 2738 + 574)==(17825 -13209)) and (v204==((1308 -(950 + 357)) + (0 -0)))) then local v294=246 -(115 + 131);while true do if (1==v294) then v204=367 -((1046 -(613 + 135)) + (548 -(269 + 212)));break;end if (v294==0) then v207=nil;v208=nil;v294=1 -0;end end end if ((((2897 -(826 + 1133)) + 1806)>(694 -(174 + 316))) and (v204==(421 -(319 + 102)))) then local v295=0 + 0;local v296;local v297;while true do if ((0 + 0)==v295) then v296=0;v297=nil;v295=1 + 0;end if (v295==1) then while true do if (v296==(0 + 0)) then v297=0 + 0;while true do if (v297==(1489 -(515 + 973))) then v204=(3335 -(456 + 1021)) -((1124 -(200 + 112)) + (868 -(54 + 809)) + 1040);break;end if (v297==(0 -0)) then v205=0 -(1299 -(433 + 866));v206=nil;v297=1 -0;end end break;end end break;end end end if (((3655 -(110 + 22 + 3 + 8 + 1594))==(3662 -1744)) and (v204==(1 + 0 + 1 + 0))) then while true do if ((((0 -0) + 0 + 0 + 0 + 0)==v205) or (((16333 -12730) -((1863 -(927 + 590)) + 126 + 147))>(9 + 10 + ((12411 -7525) -(84 + 372 + 803))))) then v206=v158[2];v207=v156[v206];v205=(1030 -558) -((993 -(198 + 475)) + (413 -262));end if ((v205==(1818 -(1551 + 266))) or (722>(5486 -1624))) then v208=v156[v206 + ((146 + 1220) -(1123 + 241))];if ((((2373 -(653 + 348)) + (2134 -1387))<=(148 + (3393 -(373 + 252)))) and (v208>((1882 -(719 + 1163)) + 0))) then if ((((6825 -(239 + 773)) -((2526 -(601 + 1071)) + 449))==(8254 -(2873 + 871))) and (v207>v156[v206 + ((65 + 59) -((151 -43) + 15))])) then v135=v158[509 -(434 + 72)];else v156[v206 + (6 -4) + (1 -0)]=v207;end elseif ((v207<v156[v206 + ((451 + 142) -(219 + 244 + 48 + 81))]) or (((254 -(36 + 82)) + 1939)>4561)) then v135=v158[7 -4];else v156[v206 + ((6 -1) -2)]=v207;end break;end end break;end end break;end if (v203==(2 -1)) then v206=nil;v207=nil;v203=1958 -(1164 + 792);end if ((0 -0)==v203) then v204=0 + 0 + 0 + 0;v205=nil;v203=4 -3;end end else local v209=(2713 -(113 + 1056)) -(899 + 311 + 9 + 325);local v210;local v211;local v212;while true do if ((((2510 -(80 + 530)) + 129 + 390)==((9211 -(894 + 630)) -(6893 -(27 + 1598)))) and ((1 -0)==v209)) then v212=nil;while true do if ((v210==(3 -(2 + 0))) or ((804 + 3077)==((2692 -(10 + 59)) + 462 + 1344))) then v156[v211 + ((276 + 201) -(120 + 14 + (1520 -(679 + 575)) + 76))]=v212;v156[v211]=v212[v158[(2700 -2126) -(((2320 -1601) -(267 + 185 + 18 + 186)) + (764 -257))]];break;end if ((0==v210) or ((143 + 703 + 62)>=(3506 + (2027 -(408 + 1566))))) then local v298=(1174 -(127 + 1047)) + 0;while true do if (((13510 -9081)>((2678 -(1182 + 121)) -((253 -160) + (1678 -1238)))) and (v298==(((0 -0) -0) -(0 -0)))) then v211=v158[(854 -(661 + 191)) + 0 + 0];v212=v156[v158[8 -5]];v298=1325 -((428 -192) + ((1295 + 1632) -((880 -488) + 16 + 1431)));end if ((((16609 -13085) -((4041 -2675) + ((62 + 60) -(68 + 5))))<(11863 -6979)) and (((3 -2) + 0)==v298)) then v210=1 + 0;break;end end end end break;end if ((v209==(0 + 0)) or (((1285 -666) + 258)>=1225)) then local v276=1155 -(688 + 467);while true do if (v276==(3 -2)) then v209=((3725 -1941) -(172 + 323 + 405 + 882)) -(3 -(2 + 0));break;end if (v276==(0 + 0)) then v210=(0 -0) -0;v211=nil;v276=1 + 0;end end end end end elseif (((1209 + 776 + 1959)>=((5135 -((505 -288) + (402 -159))) -(3417 -(74 + 3)))) and (v159>(1803 -(333 + 249 + (2034 -815))))) then local v213=(559 -350) -((160 -101) + (927 -(510 + 267)));local v214;local v215;local v216;while true do if (((320 -((1122 -814) + 12))==v213) or (((18020 -10039) -4490)>=(13493 -(16919 -8297)))) then local v277=0 + 0;while true do if (v277==(0 + 0)) then v214=(0 -0) -(0 + 0);v215=nil;v277=1;end if ((1 + 0)==v277) then v213=1806 -(1616 + 189);break;end end end if ((v213==((1 -0) -(0 + 0))) or (((7289 -(415 + 1402)) -(252 + (1948 -(309 + 59))))>((1624 -(369 + 389)) + 3694))) then v216=nil;while true do if ((((2 -1) + 0 + 0)==v214) or (((247 + 2592) -(412 + 539 + (2263 -1325)))>=(4045 -(13 + 944)))) then while true do if ((v215==((1513 -(898 + 615)) -0)) or (2462==(1078 + 377 + (333 -(111 + 87))))) then v216=v158[1507 -(1362 + (539 -(66 + 330)))];do return v156[v216](v23(v156,v216 + ((1608 -(308 + 759)) -(20 + 46 + (1419 -945))),v158[3 + 0 + 0]));end break;end end break;end if ((((6063 -(623 + 747)) -((103 -72) + 1135 + 474))>((6793 -4214) + (637 -482))) and (v214==(1692 -((1669 -(400 + 551)) + 974)))) then local v299=0 + 0;local v300;while true do if (v299==(1659 -(348 + 1311))) then v300=0 -0;while true do if ((v300==(((3247 -(5 + 110)) -((2929 -(986 + 103)) + 21 + 17)) -((1384 -(112 + 678)) + 391 + 268))) or (((107 + 154 + (714 -231)) -(399 + (1015 -(224 + 546))))>((1379 -(197 + 578)) + 3211))) then v214=(2 + 0) -(1 + 0);break;end if ((v300==((2958 -2363) -(173 + 383 + 16 + 23))) or (((7250 -3636) -(3477 -(23 + 1003)))<=112)) then v215=0 + 0;v216=nil;v300=1 + 0 + 0;end end break;end end end end break;end end elseif (((1118 + 86 + ((1752 -(156 + 41)) -(1871 -702)))>((1584 -(370 + 994)) -(412 -257))) and (v158[(3 -2) + (1629 -(1438 + 190))]==v156[v158[521 -(427 + 90)]])) then v135=v135 + 1;else v135=v158[(9 + 201) -(42 + (329 -164))];end elseif ((v159<=((15 + 1) -(30 -19))) or (((4171 -1544) -(371 + 481))<=(((1102 + 3315) -(768 + (917 -318))) -1720))) then if (((3179 + 45 + 307)==3531) and (v159==4)) then local v217=((173 + 1091) -((1701 -(303 + 1160)) + (631 -(30 + 334)))) -((1361 -(807 + 466)) + (1095 -(355 + 69)));local v218;local v219;local v220;local v221;local v222;while true do if (((412 + (7739 -(6396 -(613 + 734))))<(6764 -2266)) and (v217==((2343 -(537 + 1338)) -(32 + 434)))) then v222=nil;while true do if ((((9618 -4631) -(((2784 -(767 + 296)) -(1541 + 7 + 165)) + (6 -3)))>=((2602 -(436 + 144)) -((1740 -1212) + 632))) and (v218==((764 -573) -(134 + 56)))) then local v301=(0 + 0) -0;while true do if (((0 + 0)==v301) or ((333 + 792 + (4284 -(1093 + 728)))<(305 + 487))) then v136=(v221 + v219) -(1 + 0);v222=(0 + 0) -((745 -(313 + 432)) + (1679 -(863 + 816)));v301=4 -3;end if ((((417 -(210 + 104)) + 96)<=(1927 -(155 + 259))) and (v301==((510 -(84 + 379)) -(19 + 6 + 21)))) then v218=(1006 -(1050 -(202 + 425))) -((168 -(86 + 48)) + 547);break;end end end if ((((1172 + 1354) -(5 + (144 -92) + (2736 -1766)))>=(((11095 -6914) -(3794 -(534 + 797))) -((1034 -433) + 158 + 388))) and (v218==((3491 -(134 + 1700)) -((2601 -(1146 + 241)) + 441)))) then for Idx=v219,v136 do local v315=0;local v316;local v317;while true do if (v315==(2 -1)) then while true do if (((986 -(251 + 735))==v316) or ((111 + 1 + 1)>((2352 + 849) -(119 + 99)))) then v317=0 -(0 -(0 + 0));while true do if ((((12456 -7138) -(684 + 167 + 636))>=((2625 -(568 + 1330)) + (1628 -1025))) and (v317==((1543 -654) -((1804 -(286 + 730)) + 101)))) then v222=v222 + (1 -(1281 -(36 + 1245)));v156[Idx]=v220[v222];break;end end break;end end break;end if (v315==0) then v316=(0 -0) + (1072 -(710 + 362));v317=nil;v315=2 -1;end end end break;end if ((v218==(0 + (0 -0))) or (((199 -61) + (907 -(798 + 84)))==(4762 -(647 + 543)))) then local v302=0 + 0;local v303;while true do if (v302==(1685 -(1276 + 409))) then v303=((5648 -3827) -(308 + 857 + 656)) -(176 -(170 + 6));while true do if (((4704 -2717)<=(1910 + 26 + 264)) and (v303==1)) then v218=1 -0;break;end if ((v303==(1561 -(1171 + 390))) or ((66 + (224 -120))==((1666 -(442 + 572)) -(1625 -(898 + 254))))) then local v355=365 -(131 + 234);while true do if (v355==(1190 -(908 + 282))) then v219=v158[(1776 -(559 + 213)) -((1076 -(197 + 276)) + (512 -(14 + 99)))];v220,v221=v45(v156[v219](v23(v156,v219 + 1,v158[2 + (1 -0)])));v355=1 + 0;end if (v355==(4 -3)) then v303=1;break;end end end end break;end end end end break;end if (((814 + 406 + (2240 -1666))==((3811 + 1181) -3198)) and ((2 -(1013 -(838 + 174)))==v217)) then local v278=0;while true do if (v278==0) then v220=nil;v221=nil;v278=1 + 0;end if (v278==(1 + 0)) then v217=623 -((1132 -626) + (457 -342));break;end end end if ((((0 + 0) -(54 -(34 + 20)))==v217) or (((1417 -(172 + 708)) + (2525 -1678))==1582)) then local v279=646 -(603 + 43);local v280;while true do if (0==v279) then v280=180 -(52 + 128);while true do if ((377 -(152 + 224))==v280) then v217=1 + (0 -0);break;end if (v280==(0 -0)) then local v327=0;while true do if (v327==(0 + 0)) then v218=0 -0;v219=nil;v327=1738 -(1266 + 471);end if (v327==(1826 -(364 + 1461))) then v280=1;break;end end end end break;end end end end else do return;end end elseif ((v159>(((70 + 12) -(19 + 15)) -((598 -(50 + 537)) + 5 + 26))) or (((943 + 19) -582)==(2011 + 1169 + (1991 -(319 + 318))))) then local v223=(2882 -2301) -((1724 -(279 + 1017)) + 49 + 104);local v224;local v225;local v226;local v227;while true do if ((v223==0) or (((4524 -2793) + 439 + 19)==(2913 + 776 + 601))) then local v281=0;while true do if (v281==(0 + 0)) then v224=(0 + 0) -(0 -0);v225=nil;v281=3 -2;end if (v281==1) then v223=1 + 0;break;end end end if (((3056 + 1804)>=((2315 -(15 + 1297)) -(1020 -(261 + 426)))) and (v223==(6 -4))) then while true do if (((843 + 1481 + 2137)>(8041 -((24672 -17319) -(1338 + 99 + (840 -(94 + 414)))))) and (((2410 -1483) -(60 + 151 + ((3423 -2301) -(359 + 47))))==v224)) then local v304=0;while true do if (v304==0) then v225=(0 -0) + ((2339 -(796 + 522)) -(942 + (1501 -(144 + 1278))));v226=nil;v304=1;end if (v304==(2 -1)) then v224=1 + (0 -0);break;end end end if (((3819 -((1703 -931) + 888 + 112))<((4791 -(1233 + 699)) + 176 + 44)) and (v224==(2 -1))) then v227=nil;while true do if ((((4534 -2142) -((65 -46) + 14 + 549))>=((22971 -18043) -3728)) and (v225==(1 + 0))) then for Idx=1 -(0 -0), #v155 do local v344=747 -(38 + 709);local v345;local v346;local v347;local v348;while true do if (v344==(0 -0)) then v345=0 + 0;v346=nil;v344=706 -(351 + 354);end if (v344==(416 -(408 + 6))) then while true do if (v345==(1022 -(309 + 713))) then v346=(278 + 248) -((54 -40) + (2467 -(25 + 1930)));v347=nil;v345=828 -(532 + 295);end if (v345==1) then v348=nil;while true do if ((v346==(0 + 0)) or ((395 + (2888 -1258))>(8569 -4626))) then local v415=0 -0;while true do if ((1 -0)==v415) then v346=1;break;end if (v415==(0 -0)) then local v426=0;while true do if (v426==(0 + 0)) then v347=0 + 0;v348=nil;v426=1 + 0;end if (v426==(1 -0)) then v415=1;break;end end end end end if ((v346==((672 -(147 + 524)) -(0 + 0))) or ((10974 -(10345 -(1577 + 11)))<((2077 + 2452) -2825))) then while true do if (((0 -(0 -0))==v347) or (((12499 -8214) -(1195 + 1717))>((7271 -5357) + 4 + 6))) then v348=v155[Idx];for v431=(0 + 0 + 0) -0, #v348 do local v432=0 + 0 + (542 -(409 + 133));local v433;local v434;local v435;local v436;local v36;while true do if (((1492 + 243 + (2303 -(488 + 264)))==(2780 + 361 + 145)) and ((1 + 0 + (1513 -(506 + 1007)))==v432)) then v435=nil;v436=nil;v432=7 -5;end if ((v432==(2 + 0 + ((1022 -441) -((901 -572) + 252)))) or ((2372 + 576 + 152 + 196)>=(5973 -(1042 + 791)))) then v36=nil;while true do if ((((6619 -(786 + 726)) -((1708 -(481 + 1075)) + 241))==((57771 -42161) -(27405 -16509))) and (v433==((3008 -(836 + 515)) -(((4796 -3526) -(950 -(340 + 305))) + (1376 -(333 + 351)))))) then local v448=1912 -(1812 + 100);local v449;while true do if (v448==(0 + 0)) then v449=0 -(0 -0);while true do if ((v449==(4 -3)) or (((1003 -351) + 997 + 277)<((891 + 662) -(109 + 325 + (2814 -(508 + 1486)))))) then v433=(284 + 732) -(287 + 253 + (1413 -(499 + 439)));break;end if ((((409 + 2818) -1775)<=(2079 + (3160 -(938 + 235)))) and (v449==(0 -0))) then local v466=0 -0;while true do if (v466==(2 -1)) then v449=(915 -(371 + 543)) + (1716 -(31 + 1685));break;end if (v466==(0 -0)) then v434=1665 -((1518 -(1222 + 264)) + 1633);v435=nil;v466=1;end end end end break;end end end if ((((1921 + 1740) -(2566 -(79 + 258)))<((7397 -(1119 + 393)) -(341 + (1125 -(478 + 30))))) and (v433==((4016 -2222) -(108 + 1138 + (627 -(47 + 34)))))) then while true do if ((v434==(396 -((1291 -1001) + (1196 -(688 + 402))))) or ((12815 -9405)>((5063 + 7880) -(5613 + 3873)))) then local v457=0 + 0;local v458;local v459;while true do if (v457==(1 + 0)) then while true do if (((2233 + (583 -379))<=((2737 + 2366) -((1325 -(418 + 594)) + 280))) and (v458==0)) then v459=(810 -(286 + 524)) -(0 + 0 + (102 -(15 + 87)));while true do if ((v459==((0 -0) + 0 + 0)) or ((6304 -(1170 + 164))<((10572 -7078) -(59 + 47 + (219 -(113 + 56)))))) then v435=v348[v431];v436=v435[(907 -(268 + 638)) + (0 -0)];v459=(132 + 424) -(251 + 122 + 182);end if ((((77102 -61360) -(11920 -(385 + 100)))==(3507 + 800)) and (v459==((4 -2) -1))) then v434=((1717 -(74 + 144)) -(675 + 823)) -(0 -0);break;end end break;end end break;end if (v457==0) then v458=0 + (366 -(135 + 231));v459=nil;v457=3 -2;end end end if (((5809 -(8449 -4736))==((12785 -9257) -(153 + 394 + 415 + 470))) and (v434==(1 + 0))) then v36=v435[(3 -2) + 0 + 1];if (((v436==v156) and (v36>=v226)) or ((690 + 579 + 2949)<(3046 -(1036 + 341)))) then local v460=0 -0;local v461;local v462;local v463;local v464;while true do if (v460==(1280 -(1229 + 49))) then while true do if (v461==(0 + 0)) then v462=829 -(381 + 448);v463=nil;v461=1;end if (v461==(1 + 0)) then v464=nil;while true do if ((((5734 -2788) + 561)>(120 + (371 -127))) and (v462==(1 -0))) then while true do if ((v463==0) or (4539<=((8292 -4823) -(232 + 455 + 982)))) then v464=(0 + 0) -0;while true do if (((729 + 2800)>=(1361 + 981)) and (v464==((968 -(895 + 73)) + (0 -0)))) then v227[v36]=v436[v36];v435[578 -(72 + 23 + ((2188 -(556 + 280)) -(259 + (1394 -(776 + 7)))))]=v227;break;end end break;end end break;end if ((v462==(0 + 0 + 0)) or ((16 + 372)>=1506)) then local v472=688 -(430 + 258);local v473;while true do if (v472==0) then v473=654 -(427 + 227);while true do if (v473==0) then local v474=0;while true do if (v474==(4 -3)) then v473=1218 -(846 + 371);break;end if (v474==(1239 -(810 + 429))) then v463=500 -(371 + 129);v464=nil;v474=1;end end end if (v473==(1 + 0)) then v462=1 + 0 + (764 -(360 + 404));break;end end break;end end end end break;end end break;end if (v460==(0 -0)) then v461=0 -0;v462=nil;v460=703 -(672 + 30);end if (v460==(1867 -(1464 + 402))) then v463=nil;v464=nil;v460=1232 -(263 + 967);end end end break;end end break;end if ((v433==(1445 -(207 + 1237))) or ((1050 + (1863 -(97 + 390)))<(1861 -987))) then local v450=30 -(19 + 11);while true do if ((v450==(1067 -(358 + 708))) or ((((8473 -(980 + 909)) -(1737 + 364)) -((2114 -(287 + 307)) + (1962 -(1265 + 643))))>(2910 + 701))) then v433=(9 -6) -1;break;end if ((v450==((0 -0) + (1485 -(362 + 1123)))) or (1923<=((3827 -(606 + 271)) -(192 + 496 + (1574 -(216 + 451)))))) then v436=nil;v36=nil;v450=288 -((1964 -(732 + 1204)) + 84 + 175);end end end end break;end if ((v432==(((842 -(263 + 579)) -0) -(0 -0))) or ((2730 -(987 + 48))>((3118 -(327 + 203)) + 350 + 424))) then local v443=0 + 0;while true do if ((1080 -(731 + 348))==v443) then v432=1 -0;break;end if ((1633 -(447 + 1186))==v443) then v433=1166 -(1085 + (1602 -(1097 + 424)));v434=nil;v443=1 + 0;end end end end end break;end end break;end end break;end end break;end if (v344==(1 + 0)) then v347=nil;v348=nil;v344=2;end end end break;end if ((3244>=((3371 -967) -777)) and (v225==((0 + 0) -(0 + 0)))) then local v328=1547 -(686 + 861);local v329;local v330;while true do if (v328==1) then while true do if ((v329==((0 -0) -(0 + 0))) or (((23724 -10998) -7809)==((708 + 280) -(243 + 251)))) then v330=(911 -(230 + 434)) -((1651 -(273 + 1340)) + 209);while true do if (((5 + 13 + (3 -2))<=((3260 + 1234) -(212 + 1866))) and (v330==((1471 -(1025 + 446)) + 0))) then local v412=0 + 0;local v413;while true do if (v412==0) then v413=459 -(25 + 434);while true do if ((v413==((0 -0) + 0 + 0)) or (1957==((1533 + 1553) -(391 + 630 + 187 + 153)))) then local v440=0;local v441;while true do if (v440==(462 -(362 + 100))) then v441=0 -0;while true do if (v441==(1323 -(832 + 490))) then v413=(1453 -(55 + 278)) -((15 -10) + (2382 -(981 + 287)));break;end if (v441==(0 + 0)) then v226=v158[(4 + 1) -(83 -(52 + 28))];v227={};v441=1 + 0;end end break;end end end if ((v413==((1454 -(312 + 1140)) -1)) or ((((1266 + 1361) -(1093 + 479)) -(2063 -(3887 -2612)))>((11351 -6668) -(306 + (1209 -564))))) then v330=1 + 0;break;end end break;end end end if ((((17677 -(433 + 822)) -(14612 -(898 + 920)))==((4095 -(241 + 41)) -(63 + (403 -281)))) and ((((453 -289) + 1438) -((77 -36) + 152 + 1408))==v330)) then v225=1;break;end end break;end end break;end if (v328==(0 -0)) then v329=(1025 -(216 + 809)) + 0 + 0;v330=nil;v328=518 -(323 + 194);end end end end break;end end break;end if (((615 + 704 + (1955 -(640 + 979)))<((5781 -(1200 + 412)) -(1001 + 1252))) and (v223==((1615 -(1480 + 134)) -0))) then local v282=0 -0;while true do if (1==v282) then v223=1 + 0 + ((1 + 1) -1);break;end if ((0 -0)==v282) then v226=nil;v227=nil;v282=1;end end end end else local v228=0;local v229;local v230;local v231;local v232;local v233;while true do if (0==v228) then v229=0 + 0 + (0 -0);v230=nil;v228=2 -1;end if ((2 + 0)==v228) then v233=nil;while true do if (((3069 -1677)>(2328 -1524)) and (v229==((46 + 1697) -((2060 -(118 + 1533)) + 17 + 1316)))) then local v305=0 + 0;while true do if (v305==0) then local v331=0;while true do if (v331==(3 -2)) then v305=1468 -(320 + 1147);break;end if (v331==0) then v232=nil;v233=nil;v331=2 -1;end end end if (v305==(1 + 0)) then v229=(5 -3) + (64 -(49 + 15));break;end end end if ((((1745 -(77 + 464)) -((1339 -(76 + 843)) + 418))<(1246 -((2146 -1677) + 192))) and (v229==((0 + 0) -(1720 -(1104 + 616))))) then local v306=0 + 0;local v307;while true do if ((0 -0)==v306) then v307=0 + 0;while true do if (v307==1) then v229=(3259 -(93 + 1384)) -(612 + 429 + 740);break;end if (v307==(1414 -(289 + 1125))) then v230=(2377 -(707 + 327)) -((810 -(285 + 83)) + (1827 -(39 + 887)));v231=nil;v307=1 + 0;end end break;end end end if ((((408 + 8936) -(24799 -17368))<(((19795 -(289 + 36)) -(11464 -(1074 + 157))) -(552 + (7841 -(605 + 1000))))) and (v229==((4 -2) + 0 + 0))) then while true do if (((10270 -(644 + 629 + (7566 -(1077 + 257))))<=((550 -161) + (4298 -(1173 + 390)))) and (v230==((2 -1) -((381 -(132 + 111)) -((74 -58) + (190 -(13 + 55))))))) then local v332=(0 + 0) -(1486 -(195 + 1291));while true do if (((4637 -((2018 -(1172 + 795)) + 15 + 5 + 422 + 170 + (826 -627)))>=((4516 -2469) -((1199 -(52 + 860)) + (2297 -(869 + 1107))))) and (((0 -0) + (0 -0))==v332)) then local v356=0 -0;while true do if (v356==(184 -(163 + 20))) then v332=(1363 -(999 + 363)) + (1076 -(118 + 958));break;end if (v356==(1255 -(599 + 656))) then local v391=0 + 0;while true do if (v391==(3 -2)) then v356=3 -2;break;end if (v391==0) then v233=v156[v231] + v232;v156[v231]=v233;v391=1;end end end end end if ((3117<(618 + 334 + 2201)) and (v332==1)) then v230=1255 -(271 + (2143 -(711 + 450)));break;end end end if ((v230==((0 + 0) -(0 + 0))) or ((538 + (816 -580))<(11 + 19 + (65 -28)))) then local v333=0;local v334;while true do if (0==v333) then v334=(2253 -1418) -(39 + 450 + 346);while true do if ((v334==(1 + 0)) or (((1326 + 2720) -(221 + (1761 -600)))<((2105 -((1366 -1067) + 1 + 0)) -(512 + (1269 -(151 + 50)))))) then v230=4 -3;break;end if ((v334==((0 + 0) -(223 -(189 + 34)))) or ((338 + 3912)>=(1175 + (11990 -8717)))) then v231=v158[2];v232=v156[v231 + (14 -(6 + 3 + 3))];v334=1 + 0 + 0;end end break;end end end if (((5111 -((1548 -(943 + 432)) + 184))==(2856 + 962 + (1801 -865))) and (v230==(560 -(401 + 157)))) then if ((v232>(((2168 -(1160 + 762)) + 135 + 18) -((524 -(144 + 15)) + ((791 -(121 + 235)) -((1861 -(1508 + 2)) + (99 -49)))))) or ((233 + 918 + (1634 -(86 + 209)))>=((16644 -(46 + 186)) -(24444 -12160)))) then if (((598 + 2482)>=((312 + 111) -(99 + 66))) and (v233<=v156[v231 + ((1009 + 557) -(1331 + ((1348 + 758) -(603 + 443 + 154 + 672))))])) then local v371=0 -0;local v372;while true do if ((v371==(1718 -(1191 + 527))) or ((5108 -(195 + 557 + 285 + 49))<=((6918 -(714 + 694)) -(595 + 1083)))) then v372=((5740 -4209) -((2143 -(333 + 512)) + (1769 -(1439 + 97)))) -0;while true do if ((((2557 -1831) + 2780 + 417)>=(9124 -5757)) and (v372==0)) then v135=v158[3];v156[v231 + 3 + (606 -(257 + 349))]=v233;break;end end break;end end end elseif ((v233>=v156[v231 + ((2420 -(252 + 843)) -((1412 -(510 + 126)) + 317 + 231))]) or ((9514 -5590)>(14722 -(11700 -(25 + 1207))))) then local v373=650 -(208 + 442);local v374;local v375;while true do if (v373==(1262 -(1215 + 47))) then v374=0 + 0 + 0 + (1467 -(229 + 1238));v375=nil;v373=1;end if (v373==1) then while true do if ((v374==((2182 -(558 + 1042)) -(228 + ((6974 -4997) -(780 + 622 + 23 + 198))))) or ((2186 -(298 + 388))>((9100 -(587 + 1336)) -(3261 -(62 + 671))))) then v375=0 -((7184 -5217) -((2883 -(417 + 1223)) + (2665 -1941)));while true do if ((v375==((4147 -3173) -((362 -217) + 829))) or (((1873 -(732 + 618)) -(296 + 50))<((65 -30) + (1875 -(914 + 954))))) then v135=v158[7 -(9 -5)];v156[v231 + ((658 -(346 + 298)) -(29 -18))]=v233;break;end end break;end end break;end end end break;end end break;end end break;end if (v228==(3 -2)) then v231=nil;v232=nil;v228=2;end end end elseif ((((4730 -(4197 -(1536 + 6))) + (1089 -(96 + 447)))==2621) and (v159<=((42 + 4) -35))) then if ((((4879 -(343 + 579)) -((1342 -(61 + 1010)) + 1248 + 228))>=((5632 -1948) -1836)) and (v159<=((13 + 3) -7))) then if ((v159==((1162 -(330 + 389)) -((83 -53) + (1323 -918)))) or (((26 -12) + 46 + 17)>=(5228 -3635))) then v156[v158[1 + 1]]=v156[v158[3]]%v156[v158[(482 + 323) -(249 + 154 + (845 -(273 + 174)))]];else v135=v158[2 + 1];end elseif ((v159>(397 -(8 + 3 + ((1071 + 900) -((2133 -760) + 45 + 177))))) or ((1189 + 69 + 1247)==((5295 + 2990) -6424))) then v156[v158[2]]=v158[(215 + 195) -(16 + (1804 -(1389 + 24)))] + v156[v158[(1164 -(589 + 566)) -5]];else local v234=0;local v235;local v236;while true do if ((((4148 -(1571 + 204)) -(4968 -3323))<((20062 -11894) -3882)) and (v234==(((632 -(26 + 95)) -(266 + 131 + 111 + 2)) -((0 + 0) -(0 -0))))) then while true do if ((v235==((1162 -(142 + 768)) -((705 -(221 + 406)) + 174))) or (((4740 -(728 + 535)) -((1130 -325) + (2751 -(931 + (1726 -(377 + 665))))))>4868)) then v236=v158[(665 -(367 + 293)) -(1964 -(67 + 1894))];v156[v236](v23(v156,v236 + (3 -2),v136));break;end end break;end if (((9191 -(211 + 5656))<=((10403 -(270 + 192)) -4949)) and (v234==((0 -0) -(718 -(137 + 581))))) then local v283=0;local v284;while true do if (v283==(1473 -(1164 + 309))) then v284=0 -0;while true do if ((((2836 -(216 + 905)) -(158 + 1109))==((164 + 674) -(139 + (2176 -(646 + 1306)) + (640 -(595 + 18))))) and (v284==1)) then v234=(2 + 0) -(1448 -(1033 + 414));break;end if (((5482 -(((3892 -(1821 + 85)) -(156 + 638 + 649)) + (1183 -785)))>((18 -9) + 638)) and (v284==(0 + 0 + (1494 -(1074 + 420))))) then local v335=0;while true do if (v335==(0 + 0)) then v235=0 + (171 -(163 + 8));v236=nil;v335=2 -1;end if (v335==(3 -2)) then v284=((1393 -(236 + 1148)) -(13 -6)) -(1 -0);break;end end end end break;end end end end end elseif ((v159<=((4096 -2241) -((678 -(217 + 269)) + ((1778 + 755) -(442 + 441))))) or (((4755 -(396 + 872)) -((2289 -1059) -428))==(13653 -(8137 + 1836)))) then if ((v159>(12 + (1365 -(1239 + 126)))) or ((9777 -(287 + 5394 + 607 + 464))<((3775 -(1286 + 92)) + 548))) then if ((((2805 + 93) -((2888 -(1205 + 553)) + 622))>((1477 -954) + (1275 -(176 + 353 + 517)))) and (v156[v158[(1 + 1 + 1) -((2 + 1) -(4 -2))]]==v158[(1933 -(205 + 856)) -(395 + 182 + 240 + 51)])) then v135=v135 + (3 -(260 -(253 + 5)));else v135=v158[(1 -0) + (3 -1)];end else local v237=0 + 0;local v238;local v239;local v240;while true do if (v237==(1 -0)) then v240=nil;while true do if ((v238==(0 + 0 + 0 + 0)) or (4094==(299 + 327))) then local v308=0 -0;local v309;while true do if (v308==(0 + 0)) then v309=0 -0;while true do if (v309==0) then v239=0 + 0;v240=nil;v309=1 + 0;end if (v309==1) then v238=(2 -1) + 0 + 0;break;end end break;end end end if (((5107 -(630 + 550))==((7449 -4292) + 770)) and (v238==((1326 -(1006 + 318)) -(1017 -(226 + 790))))) then while true do if (((712 + 50)<((14995 -11094) + 627)) and (v239==(0 + 0))) then v240=v158[(382 -(60 + 318)) -2];do return v23(v156,v240,v136);end break;end end break;end end break;end if (v237==(0 -0)) then local v285=0 -0;while true do if (v285==(1 + 0)) then v237=3 -2;break;end if (v285==(1313 -(978 + 335))) then v238=0 -0;v239=nil;v285=1 + 0;end end end end end elseif ((v159>(1148 -(260 + 53 + 821))) or (((3988 -(151 + 103)) + 492)<=((1263 -(702 + 314)) + 1))) then local v241=0 -0;local v242;local v243;local v244;local v245;local v246;local v247;while true do if (v241==0) then v242=((10 -3) + (1422 -(927 + 229))) -(53 + 109 + (377 -(67 + 199)));v243=nil;v241=1;end if (v241==3) then while true do if ((v242==((1778 -(1486 + (871 -579))) + 0 + 0)) or (((638 -341) + (2400 -(1581 + 54)))==(3270 -(382 + 237)))) then v243=0;v244=nil;v242=1793 -((1604 -(128 + 646)) + (2093 -(65 + 486 + (1170 -590))));end if ((v242==((1534 -(790 + 742)) + 0 + 0)) or (((3542 + (6121 -4314)) -(5853 -3066))>((5267 + 2302) -(8982 -4305)))) then v247=nil;while true do if (((4937 -(332 + 215))>=(2203 + 819)) and (v243==((128 + 1004 + 166 + 204) -(45 + 801 + 567 + 88)))) then local v336=0;local v337;while true do if (v336==(1811 -(935 + 876))) then v337=(1151 -(940 + 211)) -0;while true do if ((((4355 + 706) -3246)<=((2178 + 2779) -2922)) and ((0 -0)==v337)) then v136=(v246 + v244) -((1 + 243) -((634 -(450 + 177)) + (788 -552)));v247=(0 -0) + 0;v337=(3 + 0) -(2 + (0 -0));end if ((v337==((1 + 0) -(0 -0))) or ((36 + 18 + 25 + 35)==((8873 -(25 + 685)) -(5908 -(502 + 490))))) then v243=(2250 -(561 + 871)) -(499 + 317);break;end end break;end end end if ((v243==(0 + 0)) or (((2979 -(854 + 441 + 2 + 10)) -((1361 -(601 + 630)) + 826))==(3809 -(3573 -(527 + 631))))) then v244=v158[2];v245,v246=v45(v156[v244](v23(v156,v244 + 1 + 0 + (0 -0),v136)));v243=2 -(1 -0);end if ((v243==(2 + 0 + 0)) or (((1172 -752) -(((62 + 224) -161) + 67 + 4))==((5753 -2935) -(135 + (651 -422) + 433)))) then for Idx=v244,v136 do local v349=0 + 0;local v350;local v351;local v352;local v353;while true do if (v349==(1 -0)) then v352=nil;v353=nil;v349=2;end if (v349==(0 + 0)) then local v376=0;while true do if (1==v376) then v349=879 -(372 + 506);break;end if (v376==(823 -(174 + 649))) then v350=1317 -(755 + 562);v351=nil;v376=1 + 0;end end end if ((359 -(251 + 106))==v349) then while true do if (v350==0) then v351=(0 -0) -0;v352=nil;v350=1613 -(718 + 894);end if (v350==1) then v353=nil;while true do if ((v351==(0 -(1960 -(951 + 1009)))) or ((3198 -((1400 -1073) + 242))<=(519 + 178 + 1852))) then local v416=1249 -(769 + 480);local v417;local v418;while true do if (v416==(1 + 0)) then while true do if ((0 + 0)==v417) then v418=348 -(178 + 170);while true do if (v418==(0 + 0)) then v352=(1404 -(236 + 1168)) + 0;v353=nil;v418=1109 -(125 + 983);end if (v418==(1168 -(1026 + 141))) then v351=1 + (1493 -(44 + 1449));break;end end break;end end break;end if (v416==0) then v417=0 -0;v418=nil;v416=1 + 0;end end end if ((v351==(((651 + 2434) -((2639 -(201 + 1319)) + 595)) -(51 + 155 + (1664 -(444 + 56))))) or (((7749 -(76 + 1714)) -(14224 -10529))<=(2503 -(301 + (2522 -(422 + 924)))))) then while true do if ((((2785 -((665 -(20 + 30)) + 88)) -(276 + 622 + 278))>=(22 -(1197 -(610 + 576)))) and (v352==((2514 -(765 + 27)) -(1361 + (2078 -(1462 + 255)))))) then v353=(0 -0) -(0 + 0);while true do if (((11079 -7197)>1446) and (v353==(971 -(539 + 31 + (621 -(18 + 371)) + 20 + 149)))) then v247=v247 + 1;v156[Idx]=v245[v247];break;end end break;end end break;end end break;end end break;end end end break;end end break;end if ((v242==(832 -(774 + 57))) or (((7814 -4718) -((3067 -(729 + 1115)) + 393))==(5386 -3380))) then local v310=823 -(420 + 403);while true do if (v310==0) then v245=nil;v246=nil;v310=1;end if ((1 -0)==v310) then v242=(6 -4) + 0 + 0;break;end end end end break;end if (v241==(1 -0)) then v244=nil;v245=nil;v241=2;end if (v241==(1 + 1)) then v246=nil;v247=nil;v241=4 -1;end end else local v248=0 + 0;local v249;local v250;local v251;while true do if (v248==(576 -(235 + 341))) then v249=1408 -(364 + 1044);v250=nil;v248=1 + 0;end if (v248==(1415 -(216 + 1198))) then v251=nil;while true do if (v249==1) then while true do if (((0 + 0 + (1411 -(498 + 913)))==v250) or ((5001 -(3 + 6 + (30 -11)))==((109 + 3916) -(193 + 3 + 49)))) then v251=v158[2 + 0 + (1811 -(382 + 1429))];v156[v251]=v156[v251](v23(v156,v251 + 1 + (53 -(47 + 6)),v158[(1914 -(207 + 1705)) + 1]));break;end end break;end if (v249==0) then v250=(883 -(757 + 126)) + (0 -0);v251=nil;v249=1;end end break;end end end elseif (((((23009 -(1142 + 89)) -(16408 -(299 + 237))) -4254)<=((20401 -(130 + 7)) -15607)) and (v159<=(((7495 -(512 + 382)) -(9177 -4259)) -(118 + 28 + 1168 + 346)))) then if ((v159<=(46 -((153 -54) -(2045 -(471 + 1502))))) or (((6229 + 2719) -6255)<=((3743 -(1529 + 225)) -(451 + (1623 -(892 + 303)))))) then if (((9985 -(4591 + 659))==(714 + 4021)) and (v159<=((19 + 36) -(181 -143)))) then if ((1858>((2908 -(107 + 102)) -((1721 -746) + (1160 -(135 + 336))))) and (v159>((2116 -(171 + 18)) -(1497 + 49 + ((685 + 509) -(829 + 0)))))) then v156[v158[1577 -(1156 + 419)]]=v54[v158[(35 -22) -(1919 -(1309 + 600))]];else v156[v158[1 + 0 + 1 + 0]]={};end elseif ((((332 -147) + 4316)>=(2535 -((394 -(23 + 189)) + 1217))) and (v159==(12 + 0 + 5 + 1))) then for Idx=v158[1466 -(361 + 748 + (652 -297))],v158[(4 -3) + 2 + 0] do v156[Idx]=nil;end else v156[v158[(1625 -(357 + 311)) -((1378 -879) + 456)]]=v156[v158[(236 -(116 + 117)) + 0]] -v158[(26 -19) -((1197 -621) -((197 -132) + (2004 -(328 + 1168))))];end elseif ((((3577 -2039) -((938 -393) + 81))<((2975 + 3073) -(1006 + 220))) and (v159<=(1322 -(964 + 337)))) then if ((v159==((23 -7) + 4)) or (((13194 -7727) -((1130 -(355 + 171)) + (748 -402) + (1078 -(492 + 89))))<(9483 -((4647 -1736) + 1522 + 1609)))) then v156[v158[(13 -8) -((605 + 53) -(652 + 3))]]=v156[v158[(229 -(191 + 36)) + 1]];else v156[v158[2 + 0]]=v156[v158[3 -0]]%v158[((2346 -1722) -(136 + 487)) + 3];end elseif ((((2320 + 7426) -(5944 -(257 + 307)))>((22092 -(17806 -(72 + 66))) -(127 + 160 + (1037 -648)))) and (v159==(1073 -((1916 -(888 + 831)) + 854)))) then v156[v158[(7348 -5509) -((2689 -(1157 + 478)) + 783)]]= #v156[v158[(466 -(166 + 299)) + (871 -(260 + 609))]];else v156[v158[(1944 -(1690 + 253)) + 1 + 0]]=v156[v158[4 -(1 + 0)]] + v158[(4171 -2979) -(6 + 4 + (2902 -(734 + 990)))];end elseif ((((5117 -(716 + 60)) -((751 -(123 + 600)) + 50 + 21))==(2526 + 1040 + (668 -423) + (1359 -928))) and (v159<=((120 -93) + 0 + 0))) then if (((1444 -608)<=(3016 -((2119 -(730 + 344)) + 108 + 603 + 117))) and (v159<=(1654 -(416 + 1213)))) then if (((3896 -2047)<=((3844 -(178 + 25)) -(380 + 87 + (3190 -((1385 -(476 + 841)) + 1859))))) and (v159>((2686 -(537 + 862)) -(4 + 13 + 1246)))) then v156[v158[760 -((2187 -1466) + 20 + 17)]]();else v156[v158[(8 -(2 + 4)) + 0]]=v156[v158[502 -(436 + 63)]][v158[4 + 0]];end elseif ((v159==(2 + 24)) or ((2576 + 1396)>(((50990 -38399) -5765) -2428))) then local v252=0 + 0;local v253;local v254;local v255;local v256;local v257;local v258;local v259;while true do if (v252==0) then v253=0 + 0;v254=nil;v252=578 -(464 + 113);end if (v252==3) then v259=nil;while true do if (v253==2) then v258=nil;v259=nil;v253=1128 -(699 + 426);end if (v253==(8 -5)) then while true do if (((84 + 3 + 50 + 78)<=(998 + 1265)) and (v254==(1 + 0 + (0 -0)))) then local v338=((329 + 1232) -((2521 -(191 + 895)) + 1 + 125)) + (215 -(26 + 189));while true do if ((((581 -332) + (3373 -(2315 -(116 + 14))))==((4878 -2567) -((3070 -2211) + 15))) and (v338==(1 + (0 -0)))) then v254=(1781 -(148 + 353)) -((1595 -(770 + 275)) + 559 + 169);break;end if ((((463 -201) -((491 + 158) -(76 + (1910 -(822 + 657)))))<(2049 -(5733 -4240))) and (v338==(0 -(174 -((326 -(197 + 42)) + (1072 -(379 + 606))))))) then local v357=0;while true do if (1==v357) then v338=(1851 -(847 + 368)) -(559 + (307 -231));break;end if (v357==0) then local v392=1811 -(1248 + 563);while true do if (1==v392) then v357=1 + 0;break;end if (v392==0) then local v414=1778 -(1673 + 105);while true do if (v414==(1 + 0)) then v392=1 + 0;break;end if (v414==(0 + 0)) then v257=nil;v258=nil;v414=2 -1;end end end end end end end end end if ((v254==(((1 + 7) -(11 -6)) -(1 + 0))) or (((7376 -2115) -(1963 + 631))>(9097 -(10103 -4924)))) then v259=nil;while true do if ((v255==(1 + 0)) or ((9516 -5090)==((934 + 4033) -((3434 + 2072) -3694)))) then local v358=0 + 0;local v359;local v360;while true do if ((0 + 0)==v358) then v359=(4525 -2839) -((1397 -699) + 577 + 411);v360=nil;v358=1504 -(68 + 1435);end if (v358==(1 + 0)) then while true do if ((v359==(0 -0)) or ((7495 -(4645 -(998 + 952)))<(4716 -(3416 -(149 + 297))))) then v360=(653 + 337) -((1663 -(1455 + 195)) + 180 + 129 + 668);while true do if ((((8861 -(500 + 119)) -(5783 -(219 + 1178)))>(3547 -(12 + 68 + 263 + 11))) and (v360==((2932 -1728) -((2264 -(640 + 504)) + (329 -246))))) then v255=1 + 1 + (182 -(156 + 26));break;end if (((544 -(402 + 142))==v360) or (((3224 -1295) -(37 + 31 + 167))>((3678 -(240 + 1051)) -((379 -(1811 -(691 + 889))) + 52)))) then local v423=0 -0;while true do if (v423==(2 -1)) then v360=(1 -0) -(470 -(47 + 423));break;end if (v423==(0 -0)) then v136=(v258 + v256) -(1 + 0);v259=1148 -(720 + (1239 -811));v423=1 + 0;end end end end break;end end break;end end end if (((5317 -2590)>=((20876 -14829) -(1401 + 2594))) and (v255==(1638 -((2917 -(670 + 1135)) + 318 + 206)))) then for Idx=v256,v136 do local v377=0 + 0;local v378;local v379;local v380;while true do if (v377==1) then v380=nil;while true do if ((v378==(0 + 0)) or ((((29958 -14486) -(6779 + 5015)) -(2965 -(14 + 167)))>=(12782 -10084))) then v379=(0 -0) + 0 + (0 -0);v380=nil;v378=1 + 0 + (1303 -(742 + 561));end if ((v378==((1722 -(611 + 1109)) -1)) or (((7202 + 4570) -8419)==((2008 -(816 + 196)) -(128 + 444)))) then while true do if (((0 + 0)==v379) or (((2565 + 1927) -((2071 -(609 + 940)) + 1197))>((1020 + 1821 + 1871 + 154) -(2 + 0 + 6 + 0 + 279)))) then v380=(1722 + 205) -(189 + 1102 + 636);while true do if ((v380==((598 -(589 + 9)) + (1112 -(10 + 1102)))) or ((1946 -640)<(1381 -860))) then v259=v259 + 1;v156[Idx]=v257[v259];break;end end break;end end break;end end break;end if (0==v377) then v378=(662 -(540 + 122)) + 0 + 0;v379=nil;v377=1;end end end break;end if ((((18279 -10284) -(27478 -21750))<=(2499 + 290)) and (v255==(((0 -0) -(0 + 0)) + (0 -0)))) then local v361=0 + 0;local v362;local v363;while true do if (v361==(1363 -(388 + 975))) then v362=0 + 0;v363=nil;v361=599 -(329 + 269);end if ((1 -0)==v361) then while true do if ((((15 + 194) -(69 + 99 + (66 -25)))==v362) or (((11262 -5205) -3724)>=4621)) then v363=1779 -((3042 -(105 + 1803)) + (2300 -1655));while true do if ((v363==(3 -2)) or ((6282 -4666)>((3231 + 816) -1395))) then v255=1 + 0;break;end if ((((3875 -2503) + 3101)==(5357 -(42 + 842))) and (v363==(0 + (602 -(89 + 513))))) then local v424=0;local v425;while true do if (v424==(0 + 0)) then v425=0 -0;while true do if ((((2664 -((1045 -(222 + 236)) + 194 + 59)) + (1451 -(272 + 1129)))<(1286 + 682 + 253 + 2645)) and (v425==(1 + 0))) then v363=1;break;end if ((v425==(1955 -(1318 + 29 + 604 + (970 -(74 + 892))))) or ((2593 -1518)>((3977 -(127 + 1586)) -(((2665 -1519) -(64 + 7 + 864)) + 684)))) then local v447=0;while true do if (v447==0) then local v451=207 -(133 + 74);while true do if (v451==0) then v256=v158[(942 -(938 + 3)) + 1];v257,v258=v45(v156[v256](v156[v256 + 1 + 0 + (668 -(82 + 586))]));v451=1;end if (v451==(2 -1)) then v447=1 -0;break;end end end if (1==v447) then v425=(589 -(60 + 528)) + (1956 -(1238 + 718));break;end end end end break;end end end end break;end end break;end end end end break;end if ((v254==((2151 -(788 + 552)) -((2006 -1580) + 385))) or (((2894 -(188 + 298)) + (184 -76))>(17436 -12838))) then local v339=(1416 -((2747 -(665 + 768)) + 5 + 97)) -(0 -0);while true do if ((v339==(0 + 0)) or ((110 + 37 + (768 -(146 + 612)))>=((8457 -5823) -(346 + 78 + 8 + 9 + 30)))) then local v364=0;while true do if (v364==(1614 -(614 + 999))) then v339=2 -1;break;end if (v364==(0 + 0)) then v255=0;v256=nil;v364=1 + 0;end end end if (((((3967 -(399 + 518)) -(255 + 796)) -(93 + 847))<=((9005 -5841) -(369 + 247 + 755))) and (v339==(2 -(1 + 0)))) then v254=1 + 0 + 0;break;end end end end break;end if (v253==1) then v256=nil;v257=nil;v253=960 -(688 + 270);end if (0==v253) then local v311=0 + 0;while true do if (v311==(2 -1)) then v253=1 + 0;break;end if (v311==(293 -(128 + 165))) then v254=0 + 0 + (834 -(465 + 369));v255=nil;v311=4 -3;end end end end break;end if (v252==(2 -0)) then v257=nil;v258=nil;v252=606 -(274 + 329);end if (v252==1) then v255=nil;v256=nil;v252=9 -7;end end else local v260=496 -(357 + 139);local v261;local v262;local v263;local v264;local v265;local v266;while true do if ((5 -3)==v260) then local v286=0;while true do if ((0 + 0)==v286) then v265=nil;v266=nil;v286=1 + 0;end if (v286==(1868 -(400 + 1467))) then v260=8 -5;break;end end end if (v260==0) then v261=0 + 0;v262=nil;v260=1;end if (v260==1) then local v287=0;while true do if (v287==(715 -(478 + 236))) then v260=3 -1;break;end if (v287==(876 -(212 + 664))) then v263=nil;v264=nil;v287=1;end end end if (v260==(1 + 2)) then while true do if (v261==1) then local v312=0;while true do if (v312==(1 + 0)) then v261=2;break;end if (v312==(0 -0)) then v264=nil;v265=nil;v312=1;end end end if (v261==2) then v266=nil;while true do if ((v262==((5 -1) -(1 + 1))) or ((1483 + 778)==4907)) then while true do if ((((2588 -(202 + 1143)) -(51 + 147))==((1473 + 540) -((1250 -792) + 510))) and (v263==((1 + 3) -(1 + 1)))) then for Idx=1 + 0 + 0 + 0,v158[(2133 -1016) -((2443 -(981 + 893)) + 260 + 284)] do local v381=0 + 0 + 0;local v382;local v383;local v384;while true do if (((693 + 830)==(63 + 3 + 1457)) and (v381==(((1907 -(881 + 1026)) -(0 + 0)) -(0 + 0)))) then local v394=1460 -(327 + 1133);local v395;while true do if (0==v394) then v395=0;while true do if (v395==(1 + 0)) then v381=(869 -(400 + 468)) -((860 -435) -((326 -257) + 356));break;end if (v395==0) then v382=(1941 -(202 + 28)) -(137 + 592 + 319 + 663);v383=nil;v395=1 + 0;end end break;end end end if (((6626 -4990)<((783 -(304 + 198)) + ((5252 -(308 + 356)) -(1227 + 702)))) and (v381==((1 + 1 + (2 -1)) -(4 -2)))) then v384=nil;while true do if ((((628 + 829) -((685 -(373 + 229)) + 35 + 46))<(32 + 140 + 2584)) and ((2 -(1291 -(154 + 1136)))==v382)) then while true do if ((v383==(((3953 -(931 + 546)) -(283 + (1016 -288))) -(231 + 180 + 1053))) or (((3418 -1773) -((1132 -(90 + 598)) + 180))==(1855 + 921))) then if ((((1404 + 3190) -((182 -(46 + 3)) + (886 -556)))>=((3829 -2526) -((205 -120) + 72))) and (v384[(2 -1) + 0]==((275 + (3021 -(718 + 779))) -((1412 -(72 + 285 + (1301 -1011))) + (1755 -741))))) then v266[Idx-((1 -0) + (0 -0))]={v156,v384[759 -(189 + 13 + 554)]};else v266[Idx-(2 -(1 + 0))]={v53,v384[5 -2]};end v155[ #v155 + 1 + 0 + 0]=v266;break;end if ((v383==((287 -(202 + 85)) -(0 + 0))) or ((((3639 -(466 + 732)) + (1824 -(423 + 72))) -(1 + 36 + 150))==(3338 + (2384 -981)))) then local v427=667 -(467 + 200);local v428;local v429;while true do if (v427==(3 -2)) then while true do if (((301 + 141 + 2158)<=((6859 -2832) + 790)) and (v428==((0 -0) + 0))) then v429=(296 + 786) -((111 -78) + (1637 -1006) + ((5100 -3059) -((2383 -1694) + 934)));while true do if ((((1203 + 2750) -((539 -(438 + 76)) + (803 -519)))==(3693 -(29 + 1 + 19))) and (v429==((1355 + 52) -(154 + (467 -(33 + 78)) + (1830 -(156 + 777)))))) then local v452=0;local v453;while true do if (v452==(0 + 0)) then v453=(0 + 0) -(1421 -(425 + 996));while true do if (((1061 + 847)==(3064 -(483 + 534 + (1761 -(584 + 1038))))) and (v453==(((2473 -826) -(326 + 841 + (2122 -(1497 + 145)))) + ((0 + 0) -0)))) then local v468=0 -0;while true do if (v468==(1 -0)) then v453=1 + ((1736 -(35 + 299)) -((1079 -(455 + 563)) + 1341));break;end if ((0 + 0)==v468) then v135=v135 + ((1543 -708) -(((4240 -2260) -((581 -(120 + 81)) + 1288)) + (1561 -(633 + 406))));v384=v83[v135];v468=1;end end end if (((23 + 2213)<(3852 -(963 + 233))) and (v453==((3 -2) + (0 -0)))) then v429=3 -2;break;end end break;end end end if ((((2 + 2) -3)==v429) or ((3976 -(657 + (1869 -(742 + 5))))>=((4202 -(130 + 139)) -(729 + 190)))) then v383=(9 -5) -(2 + 1);break;end end break;end end break;end if (0==v427) then local v442=0 -0;while true do if ((0 + 0)==v442) then v428=0;v429=nil;v442=1;end if (v442==(1 + 0)) then v427=1 + 0;break;end end end end end end break;end if ((((197 -124) + 16 + 15)<=((18927 -12627) -((1768 -(310 + 1042)) + 1221))) and (v382==(666 -(439 + 227)))) then local v419=834 -(152 + 682);while true do if (((2664 -((644 -(442 + 137)) + (2528 -((44 -18) + 653))))<=((6364 -(155 + 475)) -((19576 -15650) -((890 -570) + 55)))) and (((5 -3) -(666 -(278 + 387)))==v419)) then v382=(269 + 1695) -(217 + 345 + (3264 -(1831 + 32)));break;end if (((383 + 30)>((8 + 20) -((1030 -(901 + 119)) -3))) and (v419==(752 -((382 -171) + 541)))) then local v430=0 -0;while true do if (v430==1) then v419=(2 + 1) -(1610 -(303 + 129 + 1176));break;end if (v430==(0 -0)) then v383=0 + 0 + (1517 -(1484 + 33));v384=nil;v430=2 -1;end end end end end end break;end end end v156[v158[2 + 0 + 0 + 0]]=v47(v264,v265,v54);break;end if (((870 -(20 + 850))==v263) or (((5774 -(1157 + 630)) -(4039 -1603))>((5483 -2579) -(137 + (1649 -(1230 + 376)))))) then local v365=0;local v366;local v367;while true do if (v365==1) then while true do if (v366==(1716 -(632 + 1084))) then v367=(0 + 0) -0;while true do if ((((7113 -2081) -(152 + 389 + (152 -97)))>=(1548 -1123)) and (v367==((2024 -(257 + 393)) -((2230 -(1752 + 202)) + (2559 -(325 + 1136)))))) then v264=v84[v158[1320 -(792 + 525)]];v265=nil;v367=(1136 + 711) -((3523 -2791) + 1114);end if (((1718 + (234 -114))==(2262 -(344 + 80))) and (v367==(486 -(17 + 468)))) then v263=(449 -(327 + 121)) + (0 -0) + (989 -(347 + 642));break;end end break;end end break;end if (v365==(238 -(134 + 104))) then v366=0 + 0;v367=nil;v365=1;end end end if (((2578 + 179 + 81)<(4061 -(23 + 250))) and (v263==(1 + 0 + 0))) then local v368=(1141 + 34 + 67) -(519 + (2123 -(2547 -(967 + 180))));while true do if (((1 -0)==v368) or ((925 -554)==(816 -534))) then v263=((1321 -541) -(369 + 258 + (254 -167))) -(9 + 4 + (77 -26));break;end if (((831 -451)<=((8363 -4048) -(293 + 1384))) and (v368==0)) then v266={};v265=v20({},{[v7("\231\74\35\67\165\221\109","\184\21\74\45\193")]=function(_,v396)local v399=0 + 0;local v400;local v401;local v402;while true do if ((v399==((0 -0) -(0 -0))) or ((2823 -(337 + 235))>=((10338 -(188 + 13)) -(9569 -(4357 -(6 + 148)))))) then local v420=0 -0;while true do if ((0 -0)==v420) then v400=0 + 0;v401=nil;v420=1 + 0;end if (v420==(2 -1)) then v399=(659 + 99) -(((1579 -757) -(70 + 40 + 54)) + 99);break;end end end if ((v399==((1499 -(1210 + 288)) + 0 + 0)) or ((458 + 10)>(4597 -(1070 + (496 -(156 + 62)))))) then v402=nil;while true do if ((v400==(3 -2)) or ((11793 -7822)>=(9985 -5786))) then while true do if ((((4186 -2649) + ((177 + 179) -245))>((2781 -1915) + (1983 -(724 + 1171)))) and (((658 -(510 + 148)) + 0 + 0 + ((1325 -(209 + 1116)) -(122 -(89 + 33))))==v401)) then local v444=0 -0;local v445;local v446;while true do if (v444==1) then while true do if ((v445==0) or ((6101 -(1440 + 330))<(13954 -10654))) then v446=(2117 -(116 + 1397)) -((478 -194) + (1090 -(582 + 188)));while true do if ((((2020 + 439) -1412)>=((3249 -(381 + 287)) -(((10673 -7767) -(2702 -(299 + 439))) + 874 + 7))) and (v446==(0 + 0 + 0))) then local v467=1773 -(1019 + 754);while true do if (((15953 -(45691 -33657))>=(1030 + 1004)) and (v467==((1943 -(101 + 1082)) -((2527 -(1653 + 168)) + (1547 -(853 + 640)))))) then local v471=0;while true do if (v471==0) then v402=v266[v396];return v402[(11 -8) -((5 -3) + 0)][v402[2]];end end end end end end break;end end break;end if (v444==(0 -0)) then v445=((0 -0) -(0 -0)) -(0 + 0);v446=nil;v444=2 -1;end end end end break;end if (((128 + 255 + 105)==(118 + 370)) and (v400==(0 -0))) then local v437=111 -(49 + 62);local v438;while true do if (v437==0) then v438=0 -0;while true do if ((((3011 + 1210) -(1008 + (820 -162)))<(5814 -(257 + 1101))) and (v438==1)) then v400=1 + 0;break;end if ((v438==((2823 -(1054 + 518)) -(599 + 233 + (1250 -(134 + 697))))) or (((16490 -12697) -((63 -10) + (1862 -(715 + 1139)) + 86 + 18))==(9027 -5721))) then v401=0;v402=nil;v438=(3 -0) -(4 -2);end end break;end end end end break;end end end,[v7("\184\3\201\218\217\176\12\131\57\223","\231\92\167\191\174\217\98")]=function(_,v397,v398)local v403=0 -0;local v404;local v405;local v406;while true do if (v403==(0 -0)) then v404=0 -0;v405=nil;v403=1;end if (1==v403) then v406=nil;while true do if (v404==(1 + 0)) then while true do if ((v405==((1530 -(578 + 952)) + 0)) or ((216 + 616 + 234 + 507)==(4729 -(80 + (2973 -1820))))) then v406=v266[v397];v406[1 + 0][v406[1376 -((3052 -(1009 + 905)) + (2015 -(242 + 1537)))]]=v398;break;end end break;end if (v404==(0 + 0)) then v405=(284 + 899) -(((1739 -(878 + 184)) -((63 -30) + (328 -102))) + (2452 -(666 + 1021)));v406=nil;v404=3 -2;end end break;end end end});v368=(2855 -(280 + 606)) -(1157 + 811);end end end end break;end if (((3240 -(491 + (1936 -777)))>1289) and (v262==(2 -1))) then local v340=0;while true do if (v340==1) then v262=6 -(4 + 0);break;end if (v340==(1238 -(272 + 966))) then local v369=0;while true do if (v369==(3 -2)) then v340=1;break;end if (0==v369) then v265=nil;v266=nil;v369=1;end end end end end if ((v262==((1410 -(563 + 847)) -(0 -0))) or (((1914 -(226 + 1303)) + 487)>((4185 -(846 + 1128)) -(28 + 107 + 2)))) then local v341=0;while true do if (v341==1) then v262=(2732 -(810 + 105)) -(((4986 -(866 + 64)) -(416 + 2070)) + 105 + (1568 -(1096 + 331)));break;end if (v341==0) then local v370=0;while true do if (v370==(1 + 0)) then v341=1820 -(1597 + 222);break;end if (v370==0) then local v393=1957 -(1415 + 542);while true do if (v393==(1 + 0)) then v370=1;break;end if (v393==(0 -0)) then v263=(0 -0) -(0 -0);v264=nil;v393=1 + 0;end end end end end end end end break;end if (v261==(0 -0)) then v262=0 -0;v263=nil;v261=1;end end break;end end end elseif ((v159<=((2777 -1228) -(145 + (1724 -349)))) or ((9971 -5966)<((2698 -(232 + 434)) -(3053 -(1813 + 135))))) then if ((v159>((2401 -1528) -((2449 -1623) + 19))) or (3918<(1041 -(2891 -2062)))) then local v267=0 -0;local v268;local v269;local v270;while true do if ((((4403 -(10858 -8426)) + 768)>(2355 + 344)) and (v267==(0 + 0 + 0 + 0))) then local v288=0 -0;while true do if (v288==(1 + 0)) then v267=(2 -1) + 0 + 0;break;end if (v288==(0 + 0)) then v268=0 + (1249 -(727 + 522));v269=nil;v288=1 -0;end end end if ((((1174 + 797) -(687 + 157))<(3345 -((70 -(7 + 23)) + (218 -109) + 1204 + 236))) and (v267==(1 + 0))) then v270=nil;while true do if ((v268==((1809 -(1246 + 103 + 459)) + (0 -0))) or ((1870 + 1401)<=(5544 -3180))) then while true do if (((2010 -(258 + 0 + 193))<((7090 -(319 + 396)) -(265 + 1661))) and (v269==((0 -0) -(0 + 0)))) then v270=v158[(12 -9) -(4 -3)];v156[v270]=v156[v270](v23(v156,v270 + 1 + 0,v136));break;end end break;end if ((((2294 -(432 + 447)) + 1133 + 396)>(143 + 1921)) and (v268==((240 -99) -(22 + (706 -(353 + 234)))))) then local v313=0 + 0;local v314;while true do if (v313==(651 -(393 + 258))) then v314=0 + 0;while true do if (v314==(402 -(152 + 249))) then v268=(412 + 742) -((1274 -872) + 481 + 270);break;end if (v314==(0 + 0)) then v269=(5346 -4115) -((1165 -852) + 918);v270=nil;v314=113 -(15 + 97);end end break;end end end end break;end end else v156[v158[((2594 -(1160 + 5)) -((1505 -(60 + 1060)) + 823 + 220)) + 1]]=v158[783 -(619 + 121 + (155 -115))];end elseif ((v159>((70 -52) + 4 + 8)) or (((5328 -2211) -(462 + 1058 + (1334 -(655 + 403))))==(3826 + 1041))) then local v271=0;local v272;local v273;local v274;local v275;while true do if (v271==(1797 -(383 + 1414))) then local v289=786 -(96 + 690);while true do if (v289==(1599 -(139 + 1459))) then v271=582 -(123 + 458);break;end if (v289==0) then v272=0 + 0;v273=nil;v289=1;end end end if (v271==(4 -2)) then while true do if (v272==(1317 -(1213 + 103))) then v275=nil;while true do if ((v273==(0 + (1327 -((2197 -(1138 + 342)) + (1520 -(668 + 242)))))) or ((4447 -3303)<=((228 -149) + (225 -(172 + 34))))) then local v342=0;local v343;while true do if (v342==0) then v343=210 -(29 + 181);while true do if (v343==(1 -0)) then v273=127 -(6 + 5 + (176 -61));break;end if ((0 + 0)==v343) then v274=1552 -(159 + 1393);v275=nil;v343=1 + 0;end end break;end end end if ((v273==(796 -((1167 -634) + 115 + 147))) or (((5581 -(95 + 73)) -(1052 + 1820))<(528 + 152 + (2584 -(301 + 675))))) then while true do if ((((1741 -(902 + 38 + 231)) -(36 + (1827 -(1032 + 261))))==v274) or (2380>4259)) then v275=v156[v158[15 -(25 -14)]];if (((284 + 582 + 57 + 1127 + (1680 -(820 + 599)))>(4382 -3273)) and  not v275) then v135=v135 + ((242 + 0) -((452 -335) + 124));else local v385=0;local v386;local v387;local v388;while true do if (0==v385) then v386=0 + (1802 -(1605 + 197));v387=nil;v385=1075 -(659 + 415);end if (1==v385) then v388=nil;while true do if ((((5553 + 490) -3648)>1712) and (((4 -3) + (1501 -(31 + 1470)))==v386)) then while true do if ((((2321 -1820) + (159 -90))<(6241 -4177)) and (v387==(0 -(0 + 0)))) then v388=0;while true do if ((v388==(0 -((0 -0) + (657 -(94 + 563))))) or (((426 + 753) -762)==(18939 -14817))) then v156[v158[(1220 -(199 + 1019)) + 0]]=v275;v135=v158[53 -((1011 -(431 + 533)) + (4 -1))];break;end end break;end end break;end if (((6592 -(14853 -10400))<(13809 -10462)) and (v386==((1584 -(303 + 1281)) + (1546 -(391 + 1155))))) then local v421=0 -0;while true do if ((1 + 0)==v421) then v386=(1645 -(999 + 643)) -2;break;end if (v421==(0 + 0)) then v387=(0 -0) + (695 -(80 + 615));v388=nil;v421=1 -0;end end end end break;end end end break;end end break;end end break;end if (v272==0) then v273=(0 -(0 -0)) -0;v274=nil;v272=2 -1;end end break;end if (v271==(2 -1)) then v274=nil;v275=nil;v271=1 + 1;end end else v156[v158[(961 + 753) -(252 + 836 + 624)]]=v53[v158[3 + 0]];end v135=v135 + (1 -0);break;end end break;end end break;end end end end;v134=509 -(463 + 43);end if ((1399 -(260 + 1139))==v134) then v135=1;v136= -1;v134=1;end if (v134==(7 -4)) then A,B=v45(v21(v139));if  not A[1] then local v160=0 -0;local v161;local v162;while true do if (v160==1) then while true do if (v161==0) then v162=v52[13 -9][v135] or v7("\216","\231\57\74\81\226\157\208\85");error(v7("\248\198\58\121\214\33\144\206\215\58\127\212\117\209\223\133\19","\171\165\72\16\166\85\176")   .. v162   .. v7("\23\77","\74\119\225\182\186\96\153")   .. A[2]);break;end end break;end if (v160==(0 + 0)) then v161=1801 -(820 + 981);v162=nil;v160=1;end end else return v23(A,556 -(305 + 249),B);end break;end end end;end if (v82==0) then local v130=737 -(545 + 192);while true do if (1==v130) then v82=1 -0;break;end if (v130==0) then local v142=0 -0;while true do if (v142==(1213 -(458 + 754))) then v130=1 + 0;break;end if (v142==(0 + 0)) then v83=v52[3 -2];v84=v52[1530 -(921 + 607)];v142=1 + 0;end end end end end break;end end end break;end if (v81==(0 -0)) then v82=259 -(106 + 153);v83=nil;v81=1 + 0;end if (v81==(1 -0)) then v84=nil;v85=nil;v81=2;end end break;end end end;return v47(v46(),{},v34)(...);end if (v35==1) then local v49=0 + 0;while true do if (v49==(53 -(34 + 19))) then v38=function(v90,v91,v92)if v92 then local v102=0 + 0 + (0 -0) + 0;local v103;while true do if (v102==(((3088 -(849 + 462)) -(992 + 406)) -((881 -587) + (161 -76)))) then v103=(v90/(((188 -(44 + 143)) + 1 + (0 -0))^(v91-(451 -(257 + 193)))))%(((2649 -(799 + 157)) -((2181 -1275) + ((1797 + 235) -(571 + (1507 -831)))))^(((v92-((2688 -(536 + 229)) -(230 + 1035 + 253 + 404))) -(v91-(1 + (0 -0)))) + ((243 -88) -((104 -59) + (650 -(360 + 181))))));return v103-(v103%(((1195 -(1018 + 175)) -(734 -(555 + 178))) + 0));end end else local v104=1698 -(1598 + 100);local v105;local v106;while true do if (v104==1) then while true do if (v105==((7 + 954) -(706 + (1073 -818)))) then local v125=774 -(607 + 167);local v126;while true do if (v125==(0 -0)) then v126=0;while true do if (v126==0) then v106=(((4 -2) + 1) -(1 -0))^(v91-(1 + 0 + 0 + 0));return (((v90%(v106 + v106))>=v106) and ((2394 -1409) -(373 + 407 + 204))) or ((0 -0) -(0 -0));end end break;end end end end break;end if (v104==(1802 -(1293 + 509))) then v105=(0 -0) -0;v106=nil;v104=1 -0;end end end end;v39=nil;v49=4 -3;end if (v49==1) then v39=function()local v98=0 -0;local v99;local a;while true do if (v98==0) then v99=(0 + 0) -(0 -0);a=nil;v98=1 + 0;end if (1==v98) then while true do if ((0 -(0 -(0 + 0)))==v99) then local v123=0 + 0;local v124;while true do if (v123==(932 -(482 + 450))) then v124=0 -0;while true do if (v124==(1 + 0)) then v99=990 -(207 + (1456 -(423 + 251)));break;end if (v124==(1322 -(258 + 1064))) then a=v12(v33,v36,v36);v36=v36 + (2 -1);v124=1 + 0;end end break;end end end if (v99==(2 -(1 + 0))) then return a;end end break;end end end;v40=nil;v49=2;end if (v49==(4 -2)) then v35=6 -4;break;end end end end end;v25(v7("\239\118\172\122\126\149\10\175\107\127\147\11\216\20\127\147\9\210\109\0\147\9\209\107\123\147\9\211\107\14\144\118\208\107\121\224\15\166\109\126\149\13\215\104\120\151\14\210\109\118\149\124\214\108\127\144\9\212\104\0\147\9\214\108\121\146\15\164\109\122\147\10\208\108\124\236\9\208\111\119\145\118\215\111\120\147\13\215\109\122\148\13\208\104\123\148\9\209\105\0\147\9\209\98\10\144\124\163\29\125\231\8\161\30\14\229\123\165\106\118\230\9\165\25\9\149\125\209\26\11\226\0\164\105\120\144\124\215\99\121\229\14\162\31\14\151\122\215\25\12\148\14\165\110\119\149\127\215\25\14\226\125\163\108\13\224\14\212\30\127\155\15\166\111\13\151\122\208\26\11\225\14\209\98\10\144\124\216\29\121\231\8\161\31\14\224\123\166\106\118\230\9\165\98\9\146\125\209\26\10\226\120\162\30\126\154\124\208\30\14\154\120\162\26\14\231\122\215\25\13\148\14\216\30\10\225\127\165\25\119\224\9\161\98\13\226\14\210\99\10\230\123\166\29\13\155\122\208\26\14\225\120\209\98\10\226\124\162\98\14\225\1\161\25\12\148\123\166\108\124\230\9\216\109\9\151\123\217\26\12\224\14\162\29\120\224\124\215\99\121\229\14\162\110\12\147\120\163\25\10\146\0\165\104\10\155\127\214\31\126\226\125\161\24\13\225\8\217\30\127\230\0\166\104\11\146\120\165\26\13\225\125\209\98\10\226\124\217\98\14\225\122\161\31\14\155\125\210\108\124\230\9\216\109\9\148\123\161\26\9\224\14\162\24\120\146\124\210\99\121\229\13\162\29\14\151\122\215\25\13\146\0\165\111\10\224\0\161\25\119\226\0\163\108\13\229\14\163\30\124\155\15\166\111\13\154\120\162\24\120\225\127\215\109\10\150\1\214\29\125\225\120\163\107\14\144\123\166\106\118\230\8\165\24\118\226\123\163\26\14\226\124\164\105\120\148\124\214\30\10\154\120\162\29\14\231\120\162\31\125\148\13\165\108\119\149\127\212\25\123\224\9\161\30\13\148\8\217\30\124\230\125\166\110\11\146\120\165\26\119\225\0\209\98\10\147\124\161\29\121\231\8\161\111\14\155\125\210\108\123\230\10\165\99\118\226\123\216\26\13\224\14\162\29\120\144\124\210\99\121\229\13\162\98\14\224\122\215\25\12\148\13\165\106\119\149\127\166\25\9\224\9\161\26\13\224\14\215\99\10\230\0\166\104\11\146\120\164\26\12\225\120\209\98\10\144\124\163\29\125\231\8\161\30\14\229\123\165\106\118\230\12\165\30\118\226\123\163\26\123\224\14\162\99\126\154\11\175\30\124\229\15\164\106\14\230\120\216\25\118\146\0\165\107\10\226\127\165\31\126\226\124\161\105\11\145\14\210\30\125\155\15\166\104\13\224\122\208\26\118\225\125\215\104\119\230\124\162\29\126\225\127\163\107\14\154\123\163\108\12\155\124\165\25\9\145\125\209\26\123\226\1\164\105\120\147\124\209\99\121\229\14\162\25\14\225\122\215\25\12\148\14\165\108\119\149\127\215\25\123\226\1\163\108\13\149\14\208\99\10\230\1\166\30\11\146\120\217\26\124\231\11\215\111\10\226\124\166\98\14\225\127\161\30\14\145\9\211\107\119\144\118\208\107\123\150\125\210\31\14\224\15\216\31\118\224\0\162\99\10\147\10\209\109\124\236\9\208\25\120\226\9\212\108\11\149\123\215\26\124\151\13\164\107\13\148\120\211\111\126\231\13\162\108\14\144\13\213\31\121\225\14\161\108\123\148\123\165\31\124\226\13\208\104\127\151\10\175\107\127\230\123\217\105\120\148\124\210\107\125\148\118\208\107\123\147\9\210\109\0\147\9\166\107\124\229\9\211\107\121\144\118\208\107\120\144\14\212\108\125\149\0\214\30\121\148\11\175\107\124\144\118\208\107\120\144\14\213\109\125\147\10\208\110\124\236\9\208\109\125\149\0\215\111\124\144\10\210\105\0\147\10\211\20\127\147\15\210\109\118\148\13\208\104\127\151\10\175\107\127\149\10\214\99\121\146\14\210\107\124\147\13\211\20\127\147\15\210\108\118\148\13\214\110\127\144\9\212\104\0\147\9\214\105\120\155\15\166\108\125\147\10\208\110\124\236\9\208\108\123\149\8\214\105\121\224\15\213\107\124\147\15\211\20\127\147\15\211\109\9\149\124\214\104\121\146\14\212\107\124\147\15\211\20\127\147\15\217\109\10\148\10\214\110\120\145\14\212\107\125\149\118\208\107\127\155\13\208\107\127\148\124\211\20\127\147\8\210\106\12\144\118\208\107\127\146\13\175\107\127\146\11\208\107\127\146\9\208\106\127\144\118\208\107\125\149\9\164\104\0\147\9\209\31\127\147\9\209\107\127\147\11\208\107\127\151\9\217\104\0\147\9\209\31\127\147\9\209\105\0\147\9\209\105\127\147\8\208\107\127\146\9\211\20\127\147\9\214\106\13\147\9\209\107\124\236\9\208\107\126\147\9\208\109\125\236\9\208\106\123\144\118\208\107\127\230\13\175\107\127\146\13\211\20\127\147\9\166\111\0\147\9\209\111\124\236\9\208\107\118\151\118\208\107\126\151\10\175\107\127\147\125\212\20\127\147\8\212\104\0\147\9\208\26\123\236\9\208\106\123\144\118\208\107\127\225\10\175\107\127\146\11\209\106\127\147\8\209\107\127\147\10\211\20\127\147\8\210\106\126\147\9\209\105\127\147\9\212\104\0\147\9\210\107\127\146\9\208\106\125\147\9\209\105\127\147\9\213\105\0\147\9\209\111\127\147\8\212\107\127\146\9\212\20\127\147\8\212\107\127\146\12\208\107\127\155\10\175\107\127\146\11\209\24\127\147\8\214\107\127\147\15\211\20\127\147\8\210\106\12\147\9\209\108\127\147\9\215\111\0\147\9\208\30\127\147\8\213\107\127\146\14\208\107\127\145\11\175\107\127\146\13\208\107\126\149\9\208\107\119\144\118\208\107\126\145\8\163\107\127\146\14\208\107\127\155\10\175\107\127\146\11\209\24\127\147\8\216\107\127\147\0\212\20\127\147\9\212\107\127\146\15\208\107\126\155\13\175\107\127\147\127\208\107\126\151\15\175\107\127\147\127\208\107\126\145\15\175\107\127\146\125\208\107\126\146\10\175\107\127\147\11\210\20\127\147\8\217\107\127\146\8\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\148\122\208\107\127\146\9\208\105\121\147\125\211\20\127\147\10\213\107\127\147\8\208\107\127\146\9\208\107\123\147\0\211\20\127\147\10\213\107\127\147\8\208\107\126\145\8\163\107\127\146\8\208\107\127\146\10\175\107\127\145\15\208\31\127\147\8\209\107\127\145\13\208\107\127\146\9\208\107\14\147\9\208\111\127\154\10\175\107\127\145\13\208\107\127\146\9\208\106\125\146\122\211\20\127\147\9\162\104\0\147\9\208\111\127\154\10\175\107\127\144\12\208\107\127\146\9\208\105\121\147\125\208\107\126\146\9\208\105\11\147\9\208\106\127\147\9\162\107\127\147\13\208\98\124\236\9\208\105\11\147\9\208\106\127\147\8\210\106\126\147\9\209\105\127\147\9\163\104\0\147\9\210\107\126\155\9\208\107\124\147\9\209\105\127\147\9\164\107\127\146\11\209\106\127\147\8\210\107\127\147\124\211\20\127\147\9\214\106\9\147\9\208\111\127\147\11\163\107\127\147\8\208\107\126\145\9\208\107\123\147\0\211\20\127\147\11\163\107\127\147\8\208\107\126\145\8\209\107\127\147\13\208\107\127\229\10\175\107\127\146\11\209\24\127\147\8\209\107\127\147\120\211\20\127\147\11\214\107\11\147\9\209\106\127\147\11\208\107\127\147\8\208\107\127\146\9\208\107\123\147\0\211\20\127\147\11\208\107\127\147\8\208\107\126\145\8\209\107\127\146\11\208\107\127\224\10\175\107\127\145\9\209\99\127\147\9\209\107\127\146\11\208\107\126\147\9\208\106\125\146\8\208\107\126\145\9\208\107\12\144\118\208\107\125\147\8\216\107\127\147\11\208\107\126\145\9\208\106\126\147\9\209\105\126\224\9\208\106\126\147\9\208\25\124\236\9\208\107\123\147\0\211\20\127\147\11\208\107\127\147\8\208\107\125\149\9\164\104\0\147\9\212\98\127\147\9\209\107\127\147\123\208\107\127\151\9\217\104\0\147\9\212\98\127\147\9\209\107\127\146\11\209\24\127\147\8\209\107\127\147\8\211\20\127\147\11\214\107\11\147\9\209\106\127\147\10\163\107\127\147\8\208\107\127\226\9\208\107\123\147\0\211\20\127\147\10\163\107\127\147\8\208\107\126\145\8\163\104\0\147\9\208\26\124\236\9\208\107\123\147\0\211\20\127\147\13\217\107\127\147\8\208\107\125\149\9\164\107\127\146\8\208\107\123\145\9\208\107\126\147\9\208\106\127\147\9\212\107\118\144\118\208\107\123\145\9\208\107\126\147\9\210\107\126\155\9\208\107\122\147\9\208\111\127\147\8\210\107\127\146\11\209\106\127\147\8\210\107\127\146\10\211\20\127\147\11\208\106\119\147\9\208\109\127\147\8\210\107\127\146\13\208\107\126\145\8\163\107\127\146\8\208\107\127\225\10\175\107\127\145\15\208\31\127\147\8\209\107\127\144\1\208\107\127\146\9\208\107\13\147\9\208\111\127\154\10\175\107\127\144\1\208\107\127\146\9\208\106\125\146\8\208\107\126\145\9\208\106\124\144\118\208\107\125\147\8\216\107\127\147\14\208\107\126\145\9\208\106\122\145\118\208\107\126\145\9\208\107\119\147\9\208\99\124\236\9\208\106\125\146\122\208\107\126\146\9\208\107\14\144\118\208\107\127\151\9\217\104\0\147\9\211\99\127\147\9\209\107\127\145\15\208\31\124\236\9\208\109\123\147\9\208\106\127\147\9\161\107\127\147\13\208\98\124\236\9\208\109\123\147\9\208\106\127\147\8\210\106\12\147\9\209\106\127\147\9\209\104\0\147\9\208\30\127\145\9\208\107\14\147\9\213\107\127\147\9\209\107\127\146\8\208\107\127\151\9\217\104\0\147\9\213\107\127\147\9\209\107\127\146\11\209\24\124\236\9\208\106\121\144\118\208\107\127\151\9\217\104\0\147\9\214\111\127\147\9\209\107\127\145\15\208\31\127\147\8\209\107\127\150\122\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\150\122\208\107\127\146\9\208\107\121\146\123\208\107\127\155\9\208\107\126\147\9\208\106\127\147\9\214\105\0\147\9\209\111\124\236\9\208\107\121\151\118\208\107\126\151\10\175\107\127\147\14\212\20\127\147\8\212\104\0\147\9\208\106\123\236\9\208\106\123\144\118\208\107\127\150\13\175\107\127\146\13\211\20\127\147\9\210\111\0\147\9\209\111\124\236\9\208\107\124\144\118\208\107\126\145\8\209\107\127\146\11\208\107\127\224\10\175\107\127\145\9\209\99\127\147\9\217\107\127\146\11\208\107\126\147\9\208\106\125\146\122\208\107\126\146\9\208\107\13\144\118\208\107\125\149\9\164\107\127\146\8\208\107\123\224\9\208\107\126\147\9\208\25\127\147\9\212\107\118\144\118\208\107\123\224\9\208\107\126\147\9\209\105\126\146\9\208\106\125\147\9\208\24\124\236\9\208\105\127\146\1\208\107\127\226\9\208\106\125\147\9\209\106\127\147\8\210\106\126\147\9\209\105\127\147\9\163\104\0\147\9\210\107\126\155\9\208\107\13\147\9\209\105\127\147\9\164\107\127\146\11\209\24\127\147\8\209\107\127\147\120\211\20\127\147\9\212\107\118\144\118\208\107\123\224\9\208\107\126\147\9\208\30\127\145\9\208\106\121\147\9\208\105\127\147\9\209\104\0\147\9\208\111\127\154\10\175\107\127\147\11\208\107\127\146\9\208\106\125\146\122\208\107\126\146\9\208\107\126\144\118\208\107\125\149\9\164\107\127\146\8\208\107\121\225\9\208\107\126\147\9\208\26\127\147\9\212\107\118\144\118\208\107\121\225\9\208\107\126\147\9\209\105\126\224\10\175\107\127\147\11\211\20\127\147\9\212\107\118\144\118\208\107\127\145\9\208\107\126\147\9\210\109\127\231\9\208\106\126\147\9\215\104\127\147\9\209\107\127\147\8\208\107\127\151\9\217\104\0\147\9\215\104\127\147\9\209\107\127\146\11\209\106\127\147\8\210\107\127\147\124\211\20\127\147\9\214\106\9\147\9\208\24\127\147\14\209\107\127\147\8\208\107\126\145\9\208\107\123\147\0\211\20\127\147\14\209\107\127\147\8\208\107\126\145\8\209\107\127\147\122\208\107\127\229\10\175\107\127\145\9\209\99\127\147\9\164\107\127\147\122\208\107\126\145\9\208\106\125\146\122\208\107\126\146\9\208\107\13\144\118\208\107\127\230\9\210\107\127\147\123\208\107\121\148\9\208\107\126\147\9\209\106\127\147\9\212\107\118\144\118\208\107\121\148\9\208\107\126\147\9\209\105\126\146\9\208\106\125\147\9\209\104\124\236\9\208\105\127\146\1\208\107\127\230\9\208\106\125\147\9\209\111\127\147\8\210\106\126\147\9\209\105\127\147\8\211\104\0\147\9\210\107\126\155\9\208\107\9\147\9\209\105\127\147\8\213\107\127\146\11\209\24\127\147\8\209\107\127\147\120\211\20\127\147\9\212\107\118\144\118\208\107\121\148\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\11\208\107\127\146\11\175\107\127\147\14\216\20\127\147\9\213\104\0\147\9\208\106\124\236\9\208\107\125\144\118\208\107\127\144\10\175\107\127\147\11\216\20\127\147\9\210\109\0\147\9\166\107\124\229\9\210\109\0\147\9\215\107\123\147\9\210\110\119\144\118\208\107\126\145\8\163\107\127\147\11\208\107\127\146\13\175\107\127\146\11\208\107\127\144\9\208\107\122\144\118\208\107\125\149\9\164\107\127\147\11\208\107\127\148\9\208\107\126\147\9\208\106\127\147\9\212\107\118\144\118\208\107\127\148\9\208\107\126\147\9\209\105\126\224\9\208\107\124\147\9\208\106\123\236\9\208\106\125\147\9\208\111\127\147\9\212\104\0\147\9\209\105\126\224\9\208\107\125\147\9\208\105\124\236\9\208\105\121\147\125\208\107\127\145\9\208\107\125\147\9\208\106\127\147\9\210\107\127\147\13\208\98\124\236\9\208\107\125\147\9\208\106\125\236\9\208\106\125\147\9\208\110\127\147\9\213\104\0\147\9\210\109\127\231\9\208\107\124\147\9\212\108\127\147\9\209\107\127\147\11\208\107\127\151\9\217\104\0\147\9\212\108\127\147\9\209\107\127\146\11\209\24\127\147\9\214\107\127\147\8\212\20\127\147\8\210\107\127\147\14\208\107\127\148\10\175\107\127\145\15\208\31\127\147\9\214\107\127\147\124\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\124\208\107\127\146\9\208\106\125\146\122\208\107\127\148\9\208\107\126\144\118\208\107\125\149\9\164\107\127\147\14\208\107\126\146\9\208\107\126\147\9\208\106\127\147\9\212\107\118\144\118\208\107\126\146\9\208\107\126\147\9\210\109\127\231\9\208\107\123\147\9\209\98\127\147\9\209\107\127\147\11\208\107\127\151\9\217\104\0\147\9\209\98\127\147\9\209\105\0\147\9\209\30\127\147\9\216\109\0\147\9\209\111\127\147\9\217\107\127\147\12\212\20\127\147\9\211\107\127\147\1\208\107\127\154\13\175\107\127\147\122\208\107\127\155\12\175\107\127\145\15\208\31\127\147\9\212\107\127\147\122\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\122\208\107\127\146\11\175\107\127\146\9\208\107\127\155\15\175\107\127\146\13\208\107\127\150\9\208\107\119\144\118\208\107\126\145\8\163\107\127\147\1\208\107\127\145\13\175\107\127\146\15\208\107\127\154\12\175\107\127\146\11\209\24\127\147\9\161\107\127\147\11\211\20\127\147\9\212\105\0\147\9\208\99\127\147\13\208\107\127\147\8\210\20\127\147\8\165\107\127\147\122\208\107\127\146\13\175\107\127\146\13\208\107\127\231\9\208\107\122\151\118\208\107\126\230\9\208\107\10\147\9\208\105\123\236\9\208\106\10\147\9\208\29\127\147\9\211\111\0\147\9\209\30\127\147\8\208\107\127\147\13\212\20\127\147\8\165\107\127\146\8\208\107\127\150\13\175\107\127\146\13\208\107\126\145\15\175\107\127\146\13\208\107\126\144\9\208\107\13\144\118\208\107\125\147\8\215\107\127\146\13\208\107\127\225\9\208\107\125\147\9\210\107\126\148\9\208\106\123\147\9\209\111\127\147\9\209\105\0\147\9\208\111\127\147\8\209\107\127\146\13\212\20\127\147\8\164\107\127\146\9\211\20\127\147\9\210\105\0\147\9\209\30\127\147\8\209\107\127\147\13\212\20\127\147\8\165\107\127\146\11\208\107\127\150\13\175\107\127\146\13\208\107\126\144\9\208\107\126\144\118\208\107\125\147\8\211\107\127\146\13\208\107\127\225\9\208\107\125\145\118\208\107\126\149\9\208\106\122\147\9\208\106\123\236\9\208\107\119\147\9\209\111\127\147\8\212\107\127\146\12\208\107\126\147\9\162\107\127\146\13\208\107\127\145\9\208\106\123\147\9\210\107\126\144\9\208\106\122\147\9\208\25\127\147\9\210\105\0\147\9\209\109\127\147\8\214\107\127\147\8\212\20\127\147\9\216\107\127\146\12\208\107\126\150\9\208\106\121\147\9\209\107\127\225\9\208\106\122\147\9\208\105\127\147\8\213\107\127\145\9\209\108\127\147\8\213\107\127\146\12\208\107\127\145\11\175\107\127\147\13\208\107\126\145\9\208\106\122\151\118\208\107\127\229\9\208\106\126\149\118\208\107\126\231\9\208\107\9\144\118\208\107\127\145\9\208\105\127\146\12\208\107\127\229\9\208\107\9\147\9\208\104\125\236\9\208\106\14\147\9\208\30\127\147\9\166\111\0\147\9\208\26\127\147\9\163\104\0\147\9\208\106\127\147\9\212\107\121\147\9\208\99\127\147\11\209\107\127\147\8\208\107\126\145\8\163\107\127\147\13\208\107\127\145\10\175\107\127\147\13\208\98\124\236\9\208\107\12\147\9\208\106\127\147\9\212\107\118\144\118\208\107\126\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\122\208\107\127\146\9\208\107\123\147\0\211\20\127\147\9\165\107\127\147\8\208\107\127\151\9\217\104\0\147\9\208\24\127\147\9\209\107\127\147\13\208\98\124\236\9\208\110\120\147\9\208\106\127\147\11\214\107\11\147\9\208\104\127\147\9\161\107\127\147\8\208\107\127\146\9\208\107\123\147\0\211\20\127\147\9\161\107\127\147\8\208\107\126\145\8\163\107\127\147\15\208\107\127\146\10\175\107\127\145\15\208\31\127\147\9\214\107\127\151\127\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\151\127\208\107\127\146\9\208\106\125\146\122\208\107\127\151\9\208\107\126\151\118\208\107\126\145\9\208\107\122\147\9\208\110\124\236\9\208\106\125\146\122\208\107\127\149\9\208\107\125\144\118\208\107\125\149\9\164\107\127\147\15\208\107\123\226\9\208\107\126\147\9\208\105\127\147\9\212\107\118\144\118\208\107\123\226\9\208\107\126\147\9\209\105\126\224\9\208\107\124\147\9\208\105\124\236\9\208\107\123\147\0\211\20\127\147\9\161\107\127\147\8\208\107\127\151\9\217\104\0\147\9\212\26\127\147\9\209\107\127\147\13\208\98\124\236\9\208\107\14\147\9\208\106\127\147\9\212\107\118\144\118\208\107\122\148\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\11\208\107\127\146\11\175\107\127\147\12\211\20\127\147\9\209\108\0\147\9\213\99\124\236\9\208\106\120\144\118\208\107\126\155\10\175\107\127\146\122\211\20\127\147\8\163\104\0\147\9\209\31\124\236\9\208\106\10\144\118\208\107\126\229\10\175\107\127\145\8\211\20\127\147\11\209\104\0\147\9\210\105\124\236\9\208\105\123\144\118\208\107\125\151\10\175\107\127\145\15\211\20\127\147\11\215\104\0\147\9\210\98\124\236\9\208\105\118\144\118\208\107\125\226\10\175\107\127\145\122\211\20\127\147\11\163\104\0\147\9\210\31\124\236\9\208\105\11\144\118\208\107\125\230\10\175\107\127\145\124\211\20\127\147\11\165\104\0\147\9\210\30\124\236\9\208\104\127\144\118\208\107\124\147\10\175\107\127\144\8\211\20\127\147\10\209\104\0\147\9\211\105\124\236\9\208\104\125\144\118\208\107\124\145\10\175\107\127\144\11\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\211\104\0\147\9\211\104\124\236\9\208\104\124\144\118\208\107\124\144\10\175\107\127\144\10\211\20\127\147\10\210\104\0\147\9\211\110\124\236\9\208\104\120\144\118\208\107\124\155\10\175\107\127\144\120\211\20\127\147\10\162\104\0\147\9\211\24\124\236\9\208\104\10\144\118\208\107\123\147\10\175\107\127\151\9\211\20\127\147\13\209\104\0\147\9\212\104\124\236\9\208\111\124\144\118\208\107\123\151\10\175\107\127\151\12\211\20\127\147\13\214\104\0\147\9\212\99\124\236\9\208\111\119\144\118\208\107\123\154\10\175\107\127\151\120\211\20\127\147\13\162\104\0\147\9\212\31\124\236\9\208\111\9\144\118\208\107\122\147\10\175\107\127\150\11\211\20\127\147\9\211\104\0\147\9\208\105\119\236\9\208\107\125\149\118\208\107\9\147\10\166\107\125\149\118\208\107\120\147\13\208\107\125\151\14\211\20\127\147\8\210\106\12\147\9\208\105\127\147\9\209\111\0\147\9\209\105\127\147\9\211\107\127\147\13\211\20\127\147\11\214\107\11\147\9\208\105\127\147\9\215\107\127\147\8\208\107\127\146\9\208\107\123\147\0\211\20\127\147\9\215\107\127\147\8\208\107\126\145\8\163\107\127\147\10\208\107\127\146\13\175\107\127\146\11\208\107\127\151\9\208\107\123\144\118\208\107\126\145\8\163\107\127\147\11\208\107\127\145\10\175\107\127\145\15\208\31\127\147\9\210\107\127\147\11\208\107\127\146\9\208\107\125\147\9\208\111\127\154\10\175\107\127\147\11\208\107\127\146\9\208\106\125\146\122\208\107\127\150\9\208\107\126\144\118\208\107\125\149\9\164\107\127\147\12\208\107\127\226\9\208\107\126\147\9\208\106\127\147\9\212\107\118\144\118\208\107\127\226\9\208\107\126\147\9\210\109\127\231\9\208\107\124\147\9\209\105\127\147\9\209\107\127\147\11\208\107\127\151\9\217\104\0\147\9\209\105\127\147\9\209\105\0\147\9\209\30\127\147\9\214\109\0\147\9\209\111\127\147\9\215\107\127\147\13\212\20\127\147\9\211\107\127\147\15\208\107\127\148\13\175\107\127\147\122\208\107\127\149\12\175\107\127\145\15\208\31\127\147\9\211\107\127\147\0\208\107\127\146\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\0\208\107\127\146\9\208\106\125\146\122\208\107\127\149\9\208\107\126\144\118\208\107\125\149\9\164\107\127\147\15\208\107\126\154\9\208\107\126\147\9\208\105\127\147\9\212\107\118\144\118\208\107\126\154\9\208\107\126\147\9\209\105\126\224\9\208\107\124\147\9\208\105\124\236\9\208\107\123\147\0\211\20\127\147\9\217\107\127\147\8\208\107\125\149\9\164\107\127\147\15\208\107\126\150\9\208\107\126\147\9\208\106\127\147\9\212\107\118\144\118\208\107\126\150\9\208\107\126\145\118\208\107\126\147\9\208\107\120\149\118\208\107\126\151\9\208\107\123\147\9\208\108\124\236\9\208\106\125\146\122\208\107\127\148\9\208\107\125\151\118\208\107\126\149\9\208\107\119\150\118\208\107\126\145\8\163\107\127\147\0\208\107\127\145\10\175\107\127\147\13\210\20\127\147\9\215\107\127\144\127\208\107\127\146\11\175\107\127\146\124\208\107\127\225\9\208\107\126\151\118\208\107\126\151\9\208\107\12\147\9\208\111\123\236\9\208\106\10\147\9\208\31\127\147\9\210\111\0\147\9\209\30\127\147\9\165\107\127\147\10\212\20\127\147\8\165\107\127\147\127\208\107\127\151\13\175\107\127\146\124\208\107\126\147\9\208\107\122\151\118\208\107\126\151\9\208\106\126\149\118\208\107\126\151\9\208\106\125\147\9\208\26\124\236\9\208\105\127\146\14\208\107\126\144\9\208\107\14\147\9\208\105\125\236\9\208\107\123\147\9\209\107\127\147\8\211\111\0\147\9\209\31\127\147\9\166\104\0\147\9\208\105\125\236\9\208\106\10\147\9\209\107\127\147\9\212\111\0\147\9\209\30\127\147\8\209\107\127\147\12\212\20\127\147\8\212\107\127\146\11\208\107\127\146\10\175\107\127\145\9\209\104\127\147\8\211\107\127\147\120\208\107\127\145\11\175\107\127\146\15\208\107\126\151\9\208\107\126\151\118\208\107\127\155\9\208\106\124\147\9\209\104\127\147\8\212\107\127\146\9\208\25\127\147\8\211\107\127\147\11\208\107\126\144\9\208\105\127\146\10\208\107\126\151\9\208\107\14\147\9\208\105\125\236\9\208\106\121\147\9\209\110\127\147\9\209\111\0\147\9\208\99\127\147\8\212\107\127\146\13\208\107\126\150\9\208\106\127\147\123\208\107\126\151\9\208\107\125\147\9\209\111\127\147\11\208\106\120\147\9\209\111\127\147\8\212\107\127\147\11\210\20\127\147\9\212\107\127\146\8\208\107\126\151\13\175\107\127\147\127\208\107\126\147\15\175\107\127\146\125\208\107\127\230\10\175\107\127\147\11\208\107\125\147\8\213\107\127\147\124\208\107\127\230\9\208\107\124\145\118\208\107\126\226\9\208\107\11\147\9\208\30\123\236\9\208\107\14\147\9\208\25\124\236\9\208\107\126\147\9\208\111\127\149\9\208\107\120\147\9\210\106\127\147\9\209\107\127\146\11\209\24\127\147\9\214\107\127\147\11\211\20\127\147\9\212\107\118\144\118\208\107\126\150\9\208\107\126\147\9\208\111\127\154\10\175\107\127\147\0\208\107\127\146\9\208\107\123\147\0\211\20\127\147\9\161\107\127\147\8\208\107\127\151\9\217\104\0\147\9\208\98\127\147\9\209\107\127\147\13\208\98\124\236\9\208\111\121\147\9\208\106\127\147\9\212\107\118\144\118\208\107\127\145\9\208\107\126\145\118\208\107\127\150\10\175\107\127\147\8\215\20\127\147\13\215\104\0\147\9\216\110\124\236\9\208\99\121\144\118\208\107\119\154\10\175\107\127\155\0\211\20\127\147\1\161\104\0\147\9\216\25\124\236\9\208\99\12\144\118\208\107\119\230\10\175\107\127\155\124\211\20\127\147\0\208\104\0\147\9\217\105\124\236\9\208\98\125\144\118\208\107\118\144\10\175\107\127\154\10\211\20\127\147\0\212\104\0\147\9\217\111\124\236\9\208\98\123\144\118\208\107\118\151\10\175\107\127\154\15\211\20\127\147\0\214\104\0\147\9\217\108\124\236\9\208\98\118\144\118\208\107\118\154\10\175\107\127\154\120\211\20\127\147\0\162\104\0\147\9\217\31\124\236\9\208\98\11\144\118\208\107\118\230\10\175\107\127\154\124\211\20\127\147\0\166\104\0\147\9\217\29\124\236\9\208\98\9\144\118\208\107\118\229\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\14\147\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\14\147\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\14\147\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\14\147\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\14\147\10\175\107\127\226\9\211\20\127\147\120\208\104\0\147\9\161\107\124\236\9\208\26\127\144\118\208\107\118\229\10\175\107\127\226\11\211\20\127\147\120\211\104\0\147\9\161\109\124\236\9\208\26\120\144\118\208\107\14\155\10\175\107\127\226\120\211\20\127\147\120\162\104\0\147\9\161\31\124\236\9\208\108\10\144\118\208\107\127\145\10\175\107\127\147\10\211\20\127\147\8\212\104\0\147\9\209\111\124\236\9\208\106\122\144\118\208\107\122\145\10\175\107\127\150\11\211\20\127\147\12\210\104\0\147\9\213\105\124\236\9\208\110\125\144\118\208\107\122\145\10\175\107\127\150\11\211\20\127\147\12\211\104\0\147\9\213\104\124\236\9\208\110\124\144\118\208\107\122\144\10\175\107\127\150\10\211\20\127\147\12\211\104\0\147\9\213\104\124\236\9\208\110\124\144\118\208\107\122\144\10\175\107\127\150\10\211\20\127\147\12\211\104\0\147\9\213\104\124\236\9\208\110\124\144\118\208\107\122\144\10\175\107\127\150\10\211\20\127\147\12\211\104\0\147\9\213\111\124\236\9\208\110\121\144\118\208\107\122\149\10\175\107\127\150\14\211\20\127\147\12\217\104\0\147\9\213\98\124\236\9\208\110\14\144\118\208\107\122\225\10\175\107\127\150\125\211\20\127\147\12\164\104\0\147\9\213\30\124\236\9\208\110\10\144\118\208\107\122\229\10\175\107\127\150\127\211\20\127\147\12\166\104\0\147\9\213\29\124\236\9\208\109\127\144\118\208\107\121\145\10\175\107\127\149\11\211\20\127\147\15\211\104\0\147\9\214\104\124\236\9\208\109\123\144\118\208\107\121\151\10\175\107\127\149\12\211\20\127\147\15\214\104\0\147\9\214\98\124\236\9\208\109\118\144\118\208\107\121\226\10\175\107\127\149\122\211\20\127\147\15\163\104\0\147\9\214\31\124\236\9\208\109\10\144\118\208\107\120\147\10\175\107\127\148\9\211\20\127\147\14\209\104\0\147\9\215\105\124\236\9\208\108\125\144\118\208\107\120\144\10\175\107\127\148\12\211\20\127\147\14\213\104\0\147\9\215\109\124\236\9\208\108\121\144\118\208\107\120\148\10\175\107\127\148\1\211\20\127\147\14\217\104\0\147\9\215\24\124\236\9\208\108\12\144\118\208\107\120\231\10\175\107\127\148\127\211\20\127\147\14\166\104\0\147\9\216\107\124\236\9\208\99\126\144\118\208\107\119\144\10\175\107\127\155\10\211\20\127\147\120\164\104\0\147\9\161\31\124\236\9\208\26\11\144\118\208\107\14\231\10\175\107\127\226\125\211\20\127\147\120\164\104\0\147\9\161\31\124\236\9\208\26\10\144\118\208\107\14\230\10\175\107\127\226\127\211\20\127\147\123\209\104\0\147\9\162\106\124\236\9\208\25\125\144\118\208\107\13\145\10\175\107\127\225\10\211\20\127\147\123\211\104\0\147\9\162\111\124\236\9\208\25\122\144\118\208\107\13\155\10\175\107\127\225\1\211\20\127\147\123\217\104\0\147\9\162\25\124\236\9\208\25\13\144\118\208\107\13\224\10\175\107\127\225\125\211\20\127\147\123\166\104\0\147\9\162\29\124\236\9\208\24\127\144\118\208\107\12\147\10\175\107\127\224\9\211\20\127\147\122\208\104\0\147\9\163\106\124\236\9\208\24\125\144\118\208\107\12\151\10\175\107\127\224\13\211\20\127\147\122\213\104\0\147\9\163\110\124\236\9\208\24\121\144\118\208\107\12\149\10\175\107\127\224\14\211\20\127\147\122\216\104\0\147\9\163\26\124\236\9\208\24\13\144\118\208\107\12\224\10\175\107\127","\163\57\224\91\79"),v19(),...);break;end end end
+Luazifier = {} 
+setmetatable(Luazifier, {__metatable = "Don' t touch my table P-Pervert!"})
+
+Client = {
+	Modules = {
+		ClientEnvoirment,
+		ClientMain,
+		CreateProj,
+		CretTrail,
+		ModsShit
+	},
+	Toggles = {
+		BHop = false,
+		Infammo = false,
+		Automtatic = false,
+		FireRate = false,
+		NoRecoil = false,
+		NoSpread = false,
+		WallBang = false,
+		InstantRespawn = false,
+		AntiAim = false,
+		AutoAmmo = false,
+		AutoHealth = false,
+		Trac = false,
+		Sight = false,
+		FOV = false,
+		Golden = true,
+		Visiblecheck = false,
+		SilentAim = false,
+
+	},
+	Values = {
+		JumpPower = 50,
+		LookMeth = 'Look Up',                                                                                                                                                                                                                                                 
+		Test = '',
+		FOV = 150,
+		ChatMsg = 'Bolts Hub v6 Winning',
+		AimPart = 'Head'
+
+
+	}
+}
+
+
+
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+
+local s = VLib:Window("Bolts Hub v6 Private", "😎", "B")
+
+local Combat = s:Tab("Combat")
+local Gunmods = s:Tab("Gun Mods")
+local Player = s:Tab("Local Player")
+local ESP = s:Tab("Visuals")
+local FE = s:Tab("FE/Trolling/Funny")
+local NFE = s:Tab("Not FE")
+local CombatW = s:Tab("Frame Youtubers")
+local Credits = s:Tab("Credits & Info")
+
+local CurrentCamera = workspace.CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Mouse = LocalPlayer:GetMouse()
+function ClosestPlayer()
+	local MaxDist, Closest = math.huge
+	for i,v in pairs(Players.GetPlayers(Players)) do
+		local Head = v.Character.FindFirstChild(v.Character, "Head")
+		if Head then 
+			local Pos, Vis = CurrentCamera.WorldToScreenPoint(CurrentCamera, Head.Position)
+			if Vis then
+				local MousePos, TheirPos = Vector2.new(Mouse.X, Mouse.Y), Vector2.new(Pos.X, Pos.Y)
+				local Dist = (TheirPos - MousePos).Magnitude
+				if Dist < MaxDist and Dist <= Client.Values.FOV then
+					MaxDist = Dist
+					Closest = v
+				end
+			end
+		end
+
+	end
+	return Closest
+end
+
+function GetAimPart()
+	if Client.Values.AimPart == 'Head' then
+		return 'Head'
+	end
+	if Client.Values.AimPart == 'LowerTorso' then
+		return 'LowerTorso'
+	end
+	if Client.Values.AimPart == 'Random' then
+		if math.random(1,4) == 1 then
+			return 'Head'
+		else
+			return 'LowerTorso'
+		end
+	end
+end
+
+local mt = getrawmetatable(game)
+local namecallold = mt.__namecall
+local index = mt.__index
+setreadonly(mt, false)
+mt.__namecall = newcclosure(function(self, ...)
+	local Args = {...}
+	NamecallMethod = getnamecallmethod()
+	if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" and Client.Toggles.WallBang then
+		table.insert(Args[2], workspace.Map)
+	end
+	if NamecallMethod == "FindPartOnRayWithIgnoreList" and not checkcaller() and Client.Toggles.SilentAim then
+		local CP = ClosestPlayer()
+		if CP and CP.Character and CP.Character.FindFirstChild(CP.Character, GetAimPart()) then
+			Args[1] = Ray.new(CurrentCamera.CFrame.Position, (CP.Character[GetAimPart()].Position - CurrentCamera.CFrame.Position).Unit * 1000)
+			return namecallold(self, unpack(Args))
+		end
+	end
+	if tostring(NamecallMethod) == "FireServer" and tostring(self) == "ControlTurn" then
+		if Client.Toggles.AntiAim == true then
+			if Client.Values.LookMeth == "Look Up" then
+				Args[1] = 1.3962564026167
+			end
+			if Client.Values.LookMeth == "Look Down" then
+				Args[1] = -1.5962564026167
+			end
+			if Client.Values.LookMeth == "Smell Your Butt" then
+				Args[1] = -8.1
+			end
+			if Client.Values.LookMeth == "Give Your Self Top" then
+				Args[1] = -3.1 --3.1
+			end
+			if Client.Values.LookMeth == "Torso In Legs" then
+				Args[1] = -6.1;
+			end
+			return namecallold(self, unpack(Args))
+		end
+	end
+	return namecallold(self, ...)
+end)
+setreadonly(mt, true)
+local FOVCircle = Drawing.new("Circle")
+FOVCircle.Thickness = 2
+FOVCircle.NumSides = 460
+FOVCircle.Filled = false
+FOVCircle.Transparency = 0.6
+FOVCircle.Radius = Client.Values.FOV
+FOVCircle.Color = Color3.new(255,0,0)
+game:GetService("RunService").Stepped:Connect(function()
+	if Client.Toggles.FireRate == true then
+		Client.Modules.ClientEnvoirment.DISABLED = false
+		Client.Modules.ClientEnvoirment.DISABLED2 = false
+	end
+	if Client.Toggles.NoRecoil == true then
+		Client.Modules.ClientEnvoirment.recoil = 0
+	end
+	if Client.Toggles.NoSpread == true then
+		Client.Modules.ClientEnvoirment.currentspread = 0
+		Client.Modules.ClientEnvoirment.spreadmodifier = 0
+	end
+	if Client.Toggles.AlwaysAuto == true then
+		Client.Modules.ClientEnvoirment.mode = 'automatic'
+	end
+	if Client.Toggles.InfAmmo == true then
+		debug.setupvalue(Client.Modules.ModsShit, 3, 70)
+	end
+	FOVCircle.Radius = Client.Values.FOV
+	if Client.Toggles.FOV == true then
+		FOVCircle.Visible = true
+	else
+		FOVCircle.Visible = false
+	end
+	FOVCircle.Position = game:GetService('UserInputService'):GetMouseLocation()
+end)
+
+spawn(function()
+	while true do
+		wait()
+		if Client.Toggles.BHop == true then
+			game.Players.LocalPlayer.Character.Humanoid.Jump = true
+		end
+		if Client.Toggles.JumpPower == true then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = Client.Values.JumpPower
+		end
+		if Client.Toggles.InstantRespawn == true then
+			if not game.Players.LocalPlayer.Character:FindFirstChild('Spawned') and game:GetService("Players").LocalPlayer.Character:FindFirstChild("Cam") then
+				if game.Players.LocalPlayer.PlayerGui.Menew.Enabled == false then
+					game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
+					wait()
+				end
+			end
+		end
+	end
+end)
+
+function RandomPlr()
+	tempPlrs = {}
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v and v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Head") and v.Team ~= game.Players.LocalPlayer.Team and v.Character:FindFirstChild("Spawned") then
+			table.insert(tempPlrs,v)
+		end
+	end
+	return tempPlrs[math.random(1,#tempPlrs)]    
+end
+function SwitchToKnife()
+	local N = game:GetService("VirtualInputManager")
+	N:SendKeyEvent(true, 51, false, game)
+	N:SendKeyEvent(false, 51, false, game)	
+end
+function KnifeKill()
+
+	OldPos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	local Crit = math.random() > .6 and true or false;
+	Target = RandomPlr()
+	game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(Target.Character.Head.CFrame * CFrame.new(0,0,0))
+end
+
+Combat:Button('Kill All v1 (Less Risky)',function()
+
+
+	local Farming = false
+	local Hopped = false
+	local TimeLeft = 30
+	local TurnBack = 4
+	local CheckTick = tick()
+	local PlayerLocked
+	local Back = true
+
+	function DetectPlayer()
+		local Blacklist = {workspace.CurrentCamera}
+		if game:GetService("Players").LocalPlayer.Character then
+			table.insert(Blacklist, game:GetService("Players").LocalPlayer.Character)
+		end
+		if workspace:FindFirstChild("Map") then
+			table.insert(Blacklist, workspace.Map)
+		end
+
+		local RaycastParam = RaycastParams.new()
+		RaycastParam.FilterType = Enum.RaycastFilterType.Blacklist
+		RaycastParam.FilterDescendantsInstances = Blacklist
+
+		local NewRay = Ray.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0, 1.5, 0), workspace.CurrentCamera.CFrame.LookVector * 50000, RaycastParam)
+		local PlayerGot
+
+		if NewRay.Instance then
+			if NewRay.Instance:IsDescendantOf(workspace) then
+				if NewRay.Instance.Parent:IsA("Model") then
+					if game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent) then
+						PlayerGot = game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent)
+					end
+				elseif NewRay.Instance.Parent:IsA("Accessory") then
+					if game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent.Parent) then
+						PlayerGot = game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent.Parent)
+					end
+				end
+			end
+
+			if PlayerGot and PlayerGot.Status.Team.Value ~= game:GetService("Players").LocalPlayer.Status.Team.Value and PlayerGot.NRPBS.Health.Value > 0 then
+				return true
+			end
+		end
+
+		return false
+	end
+
+
+	function StartAutofarm()
+		repeat wait() until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == false
+		if game:GetService("ReplicatedStorage").wkspc.Status.LastGamemode.Value:lower():find("hackula") then ServerHop() return end
+
+		Farming = true
+		for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Infinite Ammo" end end
+		-- lol infinite ammo, didn't feel like making my own script to modify the client's local variables, so I figure why not just use hackula's built in infinite ammo?
+
+
+
+		spawn(function()
+			repeat
+				if game:GetService("Players").LocalPlayer.Status.Team.Value ~= "Spectator" then
+					for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+						if v ~= game:GetService("Players").LocalPlayer then
+							if v.Character then
+								if v.NRPBS.Health.Value > 0 then
+									if v.Status.Team.Value ~= "Spectator" then
+										if v.Character:FindFirstChild("Spawned") and v.Status.Team.Value ~= game:GetService("Players").LocalPlayer.Status.Team.Value then
+											TimeLeft = 25
+											TurnBack = 4
+											Back = true
+											repeat
+												PlayerLocked = v
+												wait(.1)
+												TurnBack = TurnBack - 0.1
+												if TurnBack <= 0 then
+													Back = false
+												elseif TurnBack <= -4 then
+													break
+												end
+											until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value or not v or not v.Character or not v.Character:FindFirstChild("Spawned") or v.NRPBS.Health.Value <= 0 or v.Status.Team.Value == "Spectator" or v.Status.Alive.Value == false or game:GetService("Players").LocalPlayer.Status.Team.Value == v.Status.Team.Value
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+				wait(1)
+			until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == true
+
+			wait(5)
+			print("f")
+		end)
+	end
+
+	spawn(function()
+		while wait(3) do
+			game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+			wait(1)
+			game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+		end
+	end)
+
+	spawn(function()
+		while wait(1) do
+			if game:GetService("Players").LocalPlayer.NRPBS.Health.Value <= 0 and game:GetService("Players").LocalPlayer.Status.Team.Value ~= "Spectator" then
+				game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
+			end
+		end
+	end)
+	spawn(function()
+		while wait(1) do
+
+			if game:GetService("ReplicatedStorage").wkspc.Status.LastGamemode.Value:lower():find("hackula") then 
+				print("f")
+				break 
+			end
+		end
+	end)
+	local num = 6
+	local up = 0
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Farming then
+			if workspace:FindFirstChild("Map") and PlayerLocked and PlayerLocked.Character and PlayerLocked.NRPBS.Health.Value > 0 and PlayerLocked.Character:FindFirstChild("HeadHB") then
+				workspace.CurrentCamera.CFrame = CFrame.new(workspace.CurrentCamera.CFrame.Position, PlayerLocked.Character.HeadHB.Position)
+				if Back then num = 2 up = 0 else num = -2 up = 2 end
+				game:GetService("Players").LocalPlayer.Character:SetPrimaryPartCFrame(
+				PlayerLocked.Character.HumanoidRootPart.CFrame * CFrame.new(-1.0, up, num)
+				)
+
+				local RayParams = RaycastParams.new()
+				RayParams.FilterType = Enum.RaycastFilterType.Blacklist
+				RayParams.FilterDescendantsInstances = {workspace.CurrentCamera, game:GetService("Players").LocalPlayer.Character, workspace.Map.Ignore, workspace.Map.Clips}
+
+				local Result = workspace:Raycast(workspace.CurrentCamera.CFrame.Position, workspace.CurrentCamera.CFrame.LookVector * 10000, RayParams)
+				local Player
+
+				if Result and Result.Instance then
+					if Result.Instance:IsDescendantOf(PlayerLocked.Character) then
+						game:GetService("VirtualUser"):Button1Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+					end
+				end
+			end
+		end
+
+		if game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == true then PlayerLocked = nil end
+		if not game:GetService("Players").LocalPlayer.Character then PlayerLocked = nil end
+		if game:GetService("Players").LocalPlayer.NRPBS.Health.Value <= 0 then PlayerLocked = nil end
+	end)
+	for i,v in next, game.ReplicatedStorage.Weapons:GetChildren() do
+		for i,c in next, v:GetChildren() do -- for some reason, using GetDescendants dsent let you modify weapon ammo, so I do this instead
+			for i,x in next, getconnections(c.Changed) do
+				x:Disable() -- probably not needed
+			end
+			if c.Name == "Ammo" or c.Name == "StoredAmmo" then
+				c.Value = 300 -- don't set this above 300 or else your guns wont work
+			elseif c.Name == "AReload" or c.Name == "RecoilControl" or c.Name == "EReload" or c.Name == "SReload" or c.Name == "ReloadTime" or c.Name == "EquipTime" or c.Name == "Spread" or c.Name == "MaxSpread" then
+				c.Value = 0
+			elseif c.Name == "Range" then
+				c.Value = 9e9
+			elseif c.Name == "Auto" then
+				c.Value = true
+			elseif c.Name == "FireRate" or c.Name == "BFireRate" then
+				c.Value = 0.02 -- don't set this lower than 0.02 or else your game will crash
+			end
+		end
+	end
+	game:GetService('RunService').Stepped:connect(function() -- Infinite Ammo by Frontman#9917
+		game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount.Value = 999 -- dont do it higher then 999
+		game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount2.Value = 999
+	end)
+	StartAutofarm()
+
+end)
+Combat:Button('Kill All v2 (Take Out Knife For Fasted Kill All Ever)',function()
+
+	local Farming = false
+	local Hopped = false
+	local TimeLeft = 30
+	local TurnBack = 4
+	local CheckTick = tick()
+	local PlayerLocked
+	local Back = true
+
+	function DetectPlayer()
+		local Blacklist = {workspace.CurrentCamera}
+		if game:GetService("Players").LocalPlayer.Character then
+			table.insert(Blacklist, game:GetService("Players").LocalPlayer.Character)
+		end
+		if workspace:FindFirstChild("Map") then
+			table.insert(Blacklist, workspace.Map)
+		end
+
+		local RaycastParam = RaycastParams.new()
+		RaycastParam.FilterType = Enum.RaycastFilterType.Blacklist
+		RaycastParam.FilterDescendantsInstances = Blacklist
+
+		local NewRay = Ray.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0, 1.5, 0), workspace.CurrentCamera.CFrame.LookVector * 50000, RaycastParam)
+		local PlayerGot
+
+		if NewRay.Instance then
+			if NewRay.Instance:IsDescendantOf(workspace) then
+				if NewRay.Instance.Parent:IsA("Model") then
+					if game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent) then
+						PlayerGot = game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent)
+					end
+				elseif NewRay.Instance.Parent:IsA("Accessory") then
+					if game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent.Parent) then
+						PlayerGot = game:GetService("Players"):GetPlayerFromCharacter(NewRay.Instance.Parent.Parent)
+					end
+				end
+			end
+
+			if PlayerGot and PlayerGot.Status.Team.Value ~= game:GetService("Players").LocalPlayer.Status.Team.Value and PlayerGot.NRPBS.Health.Value > 0 then
+				return true
+			end
+		end
+
+		return false
+	end
+
+
+	function StartAutofarm()
+		repeat wait() until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == false
+		if game:GetService("ReplicatedStorage").wkspc.Status.LastGamemode.Value:lower():find("hackula") then ServerHop() return end
+
+		Farming = true
+		for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Infinite Ammo" end end
+		-- lol infinite ammo, didn't feel like making my own script to modify the client's local variables, so I figure why not just use hackula's built in infinite ammo?
+
+
+
+		spawn(function()
+			repeat
+				if game:GetService("Players").LocalPlayer.Status.Team.Value ~= "Spectator" then
+					for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+						if v ~= game:GetService("Players").LocalPlayer then
+							if v.Character then
+								if v.NRPBS.Health.Value > 0 then
+									if v.Status.Team.Value ~= "Spectator" then
+										if v.Character:FindFirstChild("Spawned") and v.Status.Team.Value ~= game:GetService("Players").LocalPlayer.Status.Team.Value then
+											TimeLeft = 25
+											TurnBack = 4
+											Back = true
+											repeat
+												PlayerLocked = v
+												wait(.1)
+												TurnBack = TurnBack - 0.1
+												if TurnBack <= 0 then
+													Back = false
+												elseif TurnBack <= -4 then
+													break
+												end
+											until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value or not v or not v.Character or not v.Character:FindFirstChild("Spawned") or v.NRPBS.Health.Value <= 0 or v.Status.Team.Value == "Spectator" or v.Status.Alive.Value == false or game:GetService("Players").LocalPlayer.Status.Team.Value == v.Status.Team.Value
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+				wait(0.1)
+			until game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == true
+
+			wait(0.1)
+			print("f")
+		end)
+	end
+
+
+
+	spawn(function()
+		while wait(0.1) do
+			if game:GetService("Players").LocalPlayer.NRPBS.Health.Value <= 0 and game:GetService("Players").LocalPlayer.Status.Team.Value ~= "Spectator" then
+				game:GetService("ReplicatedStorage").Events.LoadCharacter:FireServer()
+			end
+		end
+	end)
+	spawn(function()
+		while wait(0.1) do
+
+			if game:GetService("ReplicatedStorage").wkspc.Status.LastGamemode.Value:lower():find("hackula") then 
+				print("f")
+				break 
+			end
+		end
+	end)
+	local num = 6
+	local up = 0
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Farming then
+			if workspace:FindFirstChild("Map") and PlayerLocked and PlayerLocked.Character and PlayerLocked.NRPBS.Health.Value > 0 and PlayerLocked.Character:FindFirstChild("HeadHB") then
+				workspace.CurrentCamera.CFrame = CFrame.new(workspace.CurrentCamera.CFrame.Position, PlayerLocked.Character.HeadHB.Position)
+				if Back then num = 2 up = 0 else num = -2 up = 2 end
+				game:GetService("Players").LocalPlayer.Character:SetPrimaryPartCFrame(
+				PlayerLocked.Character.HumanoidRootPart.CFrame * CFrame.new(-1.0, up, num)
+				)
+
+				local RayParams = RaycastParams.new()
+				RayParams.FilterType = Enum.RaycastFilterType.Blacklist
+				RayParams.FilterDescendantsInstances = {workspace.CurrentCamera, game:GetService("Players").LocalPlayer.Character, workspace.Map.Ignore, workspace.Map.Clips}
+
+				local Result = workspace:Raycast(workspace.CurrentCamera.CFrame.Position, workspace.CurrentCamera.CFrame.LookVector * 10000, RayParams)
+				local Player
+
+				if Result and Result.Instance then
+					if Result.Instance:IsDescendantOf(PlayerLocked.Character) then
+						game:GetService("VirtualUser"):Button1Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+					end
+				end
+			end
+		end
+
+		if game:GetService("ReplicatedStorage").wkspc.Status.RoundOver.Value == true then PlayerLocked = nil end
+		if not game:GetService("Players").LocalPlayer.Character then PlayerLocked = nil end
+		if game:GetService("Players").LocalPlayer.NRPBS.Health.Value <= 0 then PlayerLocked = nil end
+	end)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/testgoaway"))()
+
+	StartAutofarm()
+end)
+Combat:Button("TP To Random Person", function()
+	KnifeKill()
+end
+
+)
+
+
+
+Combat:Button('Aimlock',function()
+	local ScreenGui = Instance.new("ScreenGui")
+	local Aimbot = Instance.new("Frame")
+	local Title = Instance.new("TextLabel")
+	local Toggle = Instance.new("TextButton")
+
+	--Properties:
+
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Aimbot.Name = "Aimbot"
+	Aimbot.Parent = ScreenGui
+	Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Aimbot.Position = UDim2.new(0.0599842146, 0, 0.358722359, 0)
+	Aimbot.Size = UDim2.new(0, 126, 0, 152)
+
+	Title.Name = "Title"
+	Title.Parent = Aimbot
+	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title.Size = UDim2.new(0, 126, 0, 50)
+	Title.Font = Enum.Font.SourceSans
+	Title.Text = "Aimlock"
+	Title.TextColor3 = Color3.fromRGB(20, 30, 69)
+	Title.TextSize = 20.000
+
+	Toggle.Name = "Toggle"
+	Toggle.Parent = Aimbot
+	Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Toggle.BorderSizePixel = 0
+	Toggle.Position = UDim2.new(0, 0, 0.473684222, 0)
+	Toggle.Size = UDim2.new(0, 126, 0, 50)
+	Toggle.Font = Enum.Font.SourceSans
+	Toggle.Text = "Off"
+	Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
+	Toggle.TextSize = 40.000
+
+	-- Scripts:
+
+	local function PNHLOYF_fake_script() -- Toggle.LocalScript 
+		local script = Instance.new('LocalScript', Toggle)
+
+		_G.aimbot = false
+		local camera = game.Workspace.CurrentCamera
+		local localplayer = game:GetService("Players").LocalPlayer
+
+		script.Parent.MouseButton1Click:Connect(function()
+			if _G.aimbot == false then
+				_G.aimbot = true
+				script.Parent.TextColor3 = Color3.fromRGB(0,170,0)
+				script.Parent.Text = "On"
+				function closestplayer()
+					local dist = math.huge -- math.huge means a really large number, 1M+.
+					local target = nil --- nil means no value
+					for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+						if v ~= localplayer then
+							if v.Character and v.Character:FindFirstChild("Head") and v.TeamColor ~= localplayer.TeamColor and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
+								local magnitude = (v.Character.Head.Position - localplayer.Character.Head.Position).magnitude
+								if magnitude < dist then
+									dist = magnitude
+									target = v
+								end
+
+							end
+						end
+					end
+					return target
+				end
+
+			else
+				_G.aimbot = false
+				script.Parent.TextColor3 = Color3.fromRGB(255,0,0)
+				script.Parent.Text = "Off"
+			end
+		end)
+
+		local settings = {
+			keybind = Enum.UserInputType.MouseButton2
+		}
+
+		local UIS = game:GetService("UserInputService")
+		local aiming = false --- this toggle will make it so we lock on to the person when we press our keybind
+
+		UIS.InputBegan:Connect(function(inp)
+			if inp.UserInputType == settings.keybind then
+				aiming = true
+			end
+		end)
+
+		UIS.InputEnded:Connect(function(inp)
+			if inp.UserInputType == settings.keybind then ---- when we stop pressing the keybind it would unlock off the player
+				aiming = false
+			end
+		end)
+
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if aiming then
+				camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) -- locks into the HEAD
+			end
+		end)
+	end
+	coroutine.wrap(PNHLOYF_fake_script)()
+end)
+
+Combat:Button('TriggerBot(Synapse X Only)',function()
+	local player = game:GetService("Players").LocalPlayer
+	local mouseGet = player:GetMouse()
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if mouseGet.Target.Parent:FindFirstChild("Humanoid") and mouseGet.Target.Parent:FindFirstChild("Head") and mouseGet.Target.Parent.Name ~= player.Name and game.Players:GetPlayerFromCharacter(mouseGet.Target.Parent).Team ~= player.Team then
+			mouse1press() wait() mouse1release()
+		end
+	end)
+end)
+
+Combat:Toggle('Silent Aim',function(state)
+	Client.Toggles.SilentAim = state
+end)
+Combat:Toggle('Semi-WallBang',function(state)
+	Client.Toggles.WallBang = state
+end)
+
+Combat:Dropdown('Aim Part',{'Head','LowerTorso','Random'},function(Selected)
+	Client.Values.AimPart = Selected
+end)
+
+Combat:Toggle('Draw FOV',function(state)
+	Client.Toggles.FOV = state
+end)
+Combat:Slider('FOV',1, 950, 690, function(num)
+	Client.Values.FOV = num
+end)
+Combat:Slider('FOV Num Sides',1, 50, 27, function(num)
+	FOVCircle.NumSides = num
+end)
+Combat:Slider('FOV Thickness',1, 1000, 69, function(num)
+	FOVCircle.Thickness = num
+end)
+Combat:Colorpicker("FOV Color",Color3.fromRGB(225, 0, 0), function(color)
+	FOVCircle.Color = color
+end)
+
+
+Config = {
+	Infammo = false,
+	Automtatic = false,
+	FireRate = false,
+	NoRecoil = false,
+	NoSpread = false
+}
+Gunmods:Button('Press For Best Gun Mods',function()
+	for i,v in next, game.ReplicatedStorage.Weapons:GetChildren() do
+		for i,c in next, v:GetChildren() do 
+			for i,x in next, getconnections(c.Changed) do
+				x:Disable() -- probably not needed
+			end
+			if c.Name == "Ammo" or c.Name == "StoredAmmo" then
+				c.Value = 300 -- don't set this above 300 or else your guns wont work
+			elseif c.Name == "AReload" or c.Name == "RecoilControl" or c.Name == "EReload" or c.Name == "SReload" or c.Name == "ReloadTime" or c.Name == "EquipTime" or c.Name == "Spread" or c.Name == "MaxSpread" then
+				c.Value = 0
+			elseif c.Name == "Range" then
+				c.Value = 9e9
+			elseif c.Name == "Auto" then
+				c.Value = true
+			elseif c.Name == "FireRate" or c.Name == "BFireRate" then
+				c.Value = 0.02 -- don't set this lower than 0.02 or else your game will crash
+			end
+		end
+	end
+	game:GetService('RunService').Stepped:connect(function() -- Infinite Ammo by Frontman#9917
+		game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount.Value = 999 -- dont do it higher then 999
+		game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Variables.ammocount2.Value = 999
+	end)
+end)
+
+Gunmods:Toggle('Infinite Ammo',function(state)
+	Config.Infammo = state
+	game:GetService("RunService").Stepped:connect(function()
+		task.spawn(function()
+			if Config.Infammo then
+				getsenv(game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).ammocount.Value = 25
+				getsenv(game:GetService("Players").LocalPlayer.PlayerGui.GUI.Client.Functions.Weapons).ammocount.Value = 26
+			end
+		end)
+	end)
+end)
+
+Gunmods:Toggle('Always Auto',function(state)
+	Config.Automtatic = state
+	for _, v in pairs(game.ReplicatedStorage.Weapons:GetDescendants()) do
+		if v.Name == "Auto" or v.Name == "AutoFire" or v.Name == "Automtatic" or v.Name == "AutoShoot" or v.Name == "AutoGun" then
+			if Config.Automtatic then
+				v.Value = true 
+			else
+				v.Value = false
+			end
+		end
+	end
+end)
+
+Gunmods:Toggle('FastFire Rate',function(state)
+	Config.FireRate = state
+	for _, v in pairs(game.ReplicatedStorage.Weapons:GetDescendants()) do
+		if v.Name == "FireRate" then
+			if Config.FireRate then
+				v.Value = 0.02 -- Fast Firerate
+			else
+				return -- v.Value = 0.8
+			end
+		end
+	end
+end)
+
+Gunmods:Toggle('No Recoil',function(state)
+	Config.NoRecoil = state
+	for i, v in pairs(game:GetService("ReplicatedStorage").Weapons:GetDescendants()) do
+		if v.Name == "RecoilControl" or v.Name == "Recoil" then
+			if Config.NoRecoil then
+				v.Value = 0 
+			else
+				v.Value = 1
+			end
+		end
+	end
+end)
+
+Gunmods:Toggle("No Spread",function(state)
+	Config.NoSpread = state
+	for i, v in pairs(game:GetService("ReplicatedStorage").Weapons:GetDescendants()) do
+		if v.Name == "MaxSpread" or v.Name == "Spread" or v.Name == "SpreadControl" then
+			if Config.NoSpread then
+				v.Value = 0 
+			else
+				v.Value = 1
+			end
+		end
+	end
+end)
+
+
+
+Player:Toggle('Walkspeed',function(state)
+	if state then 
+		local walkSpeed = 100
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldindex = gmt.__index
+		gmt.__index = newcclosure(function(self,b)
+			if b == "WalkSpeed" then
+				return 100
+			end
+			return oldindex(self,b)
+		end)
+	else
+		local walkSpeed = 125
+		local gmt = getrawmetatable(game)
+		setreadonly(gmt, false)
+		local oldindex = gmt.__index
+		gmt.__index = newcclosure(function(self,b)
+			if b == "WalkSpeed" then
+				return 25
+			end
+			return oldindex(self,b)
+		end)
+	end
+end)
+
+Player:Toggle('Fast Heal',function()
+	while game.RunService.RenderStepped:Wait()do
+		pcall(function()
+			if game.Players.LocalPlayer.Character then
+				if game.Players.LocalPlayer.NRPBS.Health.Value<=99 then
+					if game.Players.LocalPlayer.Character:FindFirstChild("Spawned")then
+						for _,v in pairs(game.Workspace.Debris:GetChildren())do
+							if v.Name=="DeadHP"then
+								v.CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+								v.Transparency=1
+							end
+						end
+						local args = {
+							[1] = game:GetService("ReplicatedStorage").Weapons["Stake Launcher"],
+							[2] = "Rolled!"
+						}
+
+						game:GetService("ReplicatedStorage").Events.ApplyGun:FireServer(unpack(args))
+
+						game.ReplicatedStorage.Events.HealBoy:FireServer(game.Players.LocalPlayer.Character.HumanoidRootPart)
+						local args = {
+							[1] = game.Players.LocalPlayer.PlayerGui.GUI.Client.Variables.gun.Value,
+							[2] = "Rolled!"
+						}
+
+						game:GetService("ReplicatedStorage").Events.ApplyGun:FireServer(unpack(args))
+
+						wait(0.1)
+					end
+				end
+			end
+		end)
+	end
+
+end)
+
+
+Player:Toggle('Auto Deploy(Buggy)', function()
+	if not game.ReplicatedStorage.wkspc.Status.Preparation.Value and not game.ReplicatedStorage.wkspc.Status.RoundOver.Value then
+		if game:GetService("Players").LocalPlayer.Status.Team.Value=="Spectator"then
+			local teamto="TRC"
+			local teamtable={}
+			if game:GetService("ReplicatedStorage").wkspc.TwoTeams.Value then
+				teamtable={
+					TRC=game:GetService("ReplicatedStorage").wkspc.Status.NumTRC.Value,
+					TBC=game:GetService("ReplicatedStorage").wkspc.Status.NumTBC.Value,
+				}
+			elseif game:GetService("ReplicatedStorage").wkspc.FFA.Value then
+				teamtable={
+					Random=0,
+				}
+			else
+				teamtable={
+					TRC=game:GetService("ReplicatedStorage").wkspc.Status.NumTRC.Value,
+					TBC=game:GetService("ReplicatedStorage").wkspc.Status.NumTBC.Value,
+					TGC=game:GetService("ReplicatedStorage").wkspc.Status.NumTGC.Value,
+					TYC=game:GetService("ReplicatedStorage").wkspc.Status.NumTYC.Value,
+				}
+			end
+			local num=math.huge
+			for i,v in pairs(teamtable)do
+				if v<num then
+					num=v
+					teamto=i
+				end
+			end
+			game:GetService("ReplicatedStorage").Events.JoinTeam:FireServer(teamto)
+		end
+		if game.Players.LocalPlayer.PlayerGui.Menew.Enabled then
+			game.Players.LocalPlayer.PlayerGui.Menew.Enabled=false
+		end
+		if not game.Players.LocalPlayer.PlayerGui.GUI.Enabled then
+			game.Players.LocalPlayer.PlayerGui.GUI.Enabled=true
+		end
+		if game.Players.LocalPlayer.PlayerGui.GUI.TeamSelection.Visible then
+			game.Players.LocalPlayer.PlayerGui.GUI.TeamSelection.Visible=false
+		end
+		if game.Players.LocalPlayer.PlayerGui.GUI.BottomFrame.Visible then
+			game.Players.LocalPlayer.PlayerGui.GUI.BottomFrame.Visible=false
+		end
+	end
+end)
+
+Player:Toggle('Fly (Press T To Toggle On And Off)',function(state)
+	repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+	local mouse = game.Players.LocalPlayer:GetMouse() 
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer 
+	local torso = plr.Character.Head 
+	local flying = false
+	local deb = true 
+	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local maxspeed = 100
+	local speed = 0 
+
+	function Fly() 
+		local bg = Instance.new("BodyGyro", torso) 
+		bg.P = 9e4 
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		bg.cframe = torso.CFrame 
+		local bv = Instance.new("BodyVelocity", torso) 
+		bv.velocity = Vector3.new(0,0.1,0) 
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+		repeat wait() 
+			plr.Character.Humanoid.PlatformStand = true 
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+				speed = speed+.5+(speed/maxspeed) 
+				if speed > maxspeed then 
+					speed = maxspeed 
+				end 
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+				speed = speed-1 
+				if speed < 0 then 
+					speed = 0 
+				end 
+			end 
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+			else 
+				bv.velocity = Vector3.new(0,0.1,0) 
+			end 
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+		until not flying 
+		ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		speed = 0 
+		bg:Destroy() 
+		bv:Destroy() 
+		plr.Character.Humanoid.PlatformStand = false 
+	end 
+	mouse.KeyDown:connect(function(key) 
+		if key:lower() == "t" then 
+			if flying then flying = false 
+			else 
+				flying = true 
+				Fly() 
+			end 
+		elseif key:lower() == "w" then 
+			ctrl.f = 1 
+		elseif key:lower() == "s" then 
+			ctrl.b = -1 
+		elseif key:lower() == "a" then 
+			ctrl.l = -1 
+		elseif key:lower() == "d" then 
+			ctrl.r = 1 
+		end 
+	end) 
+	mouse.KeyUp:connect(function(key) 
+		if key:lower() == "w" then 
+			ctrl.f = 0 
+		elseif key:lower() == "s" then 
+			ctrl.b = 0 
+		elseif key:lower() == "a" then 
+			ctrl.l = 0 
+		elseif key:lower() == "d" then 
+			ctrl.r = 0 
+		end 
+	end)
+	Fly()
+end)
+Player:Toggle('Infinite Jump', function(state)
+	Client.Toggles.InfJump = state
+end)
+Player:Toggle('Third Person',function(state)
+	if state then 
+		game:GetService("Players")["LocalPlayer"].PlayerGui.GUI.Client.Variables.thirdperson.Value = true
+	else
+		game:GetService("Players")["LocalPlayer"].PlayerGui.GUI.Client.Variables.thirdperson.Value = false
+	end
+end)
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if Client.Toggles.InfJump == true then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+
+Player:Toggle('Bunny Hop',function(state)
+	Client.Toggles.BHop = state
+end)
+Player:Toggle('Instant Respawn',function(state)
+	Client.Toggles.InstantRespawn = state
+end)
+
+Player:Toggle('Noclip',function()
+	local noclip = false
+	local Noclipping = nil
+	local Clip = false
+	local speaker = game.Players.LocalPlayer
+	wait(0.1)
+	local function NoclipLoop()
+		if Clip == false and speaker.Character ~= nil then
+			for _, child in pairs(speaker.Character:GetDescendants()) do
+				if child:IsA("BasePart") and child.CanCollide == true and child.Name ~= floatName then
+					child.CanCollide = false
+				end
+			end
+		end
+	end
+	Noclipping = game:GetService('RunService').Stepped:Connect(NoclipLoop)
+end)
+
+Player:Toggle('Chat Spam',function(state)
+	Client.Toggles.SpamChat = state
+end)
+spawn(function()
+	while true do
+		wait(.01)
+		if Client.Toggles.SpamChat == true then
+
+			local args = {
+				[1] = "Trolling42",
+				[2] = Client.Values.ChatMsg,
+				[3] = false,
+				[5] = false,
+				[6] = true
+			}
+
+			game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+
+			wait(0.1)
+		end
+	end
+end)
+Player:Textbox(
+	"Chat Message",
+	true,
+	function(Text)
+		Client.Values.ChatMsg = tostring(Text)
+	end
+)
+
+
+
+Player:Button('Rejoin',function()
+	local TeleportService = game:GetService("TeleportService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+
+	local Rejoin = coroutine.create(function()
+		local Success, ErrorMessage = pcall(function()
+			TeleportService:Teleport(game.PlaceId, LocalPlayer)
+		end)
+
+		if ErrorMessage and not Success then
+			warn(ErrorMessage)
+		end
+	end)
+
+	coroutine.resume(Rejoin)
+end)
+Player:Button('Server Hop (Level 7 Executers Only)',function()
+	local a={}
+	for _,v in pairs(game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/"..game.PlaceId.."/servers/Public?limit=100")).data)do
+		if v.playing<v.maxPlayers then
+			table.insert(a,v.id)
+		end
+	end
+	while wait(0.5)do
+		game.TeleportService:TeleportToPlaceInstance(game.PlaceId,a[math.random(1,#a)])
+	end
+end)
+Player:Slider('Arsenal FOV',10, 120, 90, function(num)
+	game:GetService("Players").LocalPlayer.Settings.FOV.Value = num
+end)
+
+
+Player:Slider('Gravity',1, 100, 45, function(value)
+	game:GetService("ReplicatedStorage").CurrentGrav.Value = value
+end)
+Player:Slider('TimeScale',1, 10, 1, function(TimeScaleFR)
+
+	game:GetService("ReplicatedStorage").wkspc.TimeScale.Value = TimeScaleFR
+end)    
+Player:Textbox(
+	"Kick Reason(Troll Your Friends)",
+	true,
+	function(Kick)
+		game.Players.LocalPlayer:Kick(Kick)
+	end)
+
+Player:Dropdown('Select Curse',{'None','Self Knockback','Fast Hands','Slowed Tap','Slowed','Speedy','Inf Ammo','Double Tap','Mystery','Hidden','Enraged','Quacks','No Jumps'}, function(curse)
+	if curse == 'None' then
+		None()
+	end
+
+	if curse == 'Self Knockback' then
+		SelfBack()
+	end
+
+	if curse == 'Fast Hands' then
+		Hands()
+	end
+
+	if curse == 'Slowed Tap' then
+		STap()
+	end
+
+	if curse == 'Slowed' then
+		Slowedd()
+	end
+
+	if curse == 'Speedy' then
+		Spedy()
+	end
+
+	if curse == 'Inf Ammo' then
+		InfAmm0()
+	end
+
+	if curse == 'Double Tap' then
+		DTap()
+	end
+
+	if curse == 'Mystery' then
+		Myst3ry()
+	end
+
+	if curse == 'Hidden' then
+		HideMe()
+	end
+
+	if curse == 'Enraged' then
+		BoltsRaged()
+	end
+
+	if curse == 'Quacks' then
+		Quacklol()
+	end
+
+	if curse == 'No Jumps' then
+		JumpingFalse()
+	end
+end)
+
+function None()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "None" end end
+end
+
+function SelfBack()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Self-Knockback" end end
+end
+
+function Hands()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Fast Hands" end end
+end
+
+function Slowedd()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Slowed" end end
+end
+
+function Spedy()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Speedy" end end
+end
+
+function InfAmm0()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Infinite Ammo" end end
+end
+
+function DTap()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Double Tap" end end
+end
+
+function Myst3ry()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Mystery" end end
+end
+
+function HideMe()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Hidden" end end
+end
+
+function BoltsRaged()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Enraged" end end
+end
+
+function Quacklol()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Quacks" end end
+end
+
+function JumpingFalse()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "No Jumps" end end
+end
+
+function STap()
+	for i,v in pairs(game:GetService("ReplicatedStorage").wkspc:GetDescendants()) do if v.Name:lower():find("curse") then v.Value = "Slowed Tap" end end
+end
+
+
+
+
+
+
+local Config = {
+	Visuals = {
+		BoxEsp = false,
+		TracerEsp = false,
+		TracersOrigin = "Bottom", 
+		NameEsp = false,
+		DistanceEsp = false,
+		SkeletonEsp = false,
+		EnemyColor = Color3.fromRGB(255, 0, 0),
+		TeamColor = Color3.fromRGB(0, 255, 0),
+		MurdererColor = Color3.fromRGB(255, 0, 0)
+	}
+}
+
+local Funcs = {}
+function Funcs:IsAlive(player)
+	if player and player.Character and player.Character:FindFirstChild("Head") and
+		workspace:FindFirstChild(player.Character.Name)
+	then
+		return true
+	end
+end
+
+function Funcs:Round(number)
+	return math.floor(tonumber(number) + 0.5)
+end
+
+function Funcs:DrawSquare()
+	local Box = Drawing.new("Square")
+	Box.Color = Color3.fromRGB(190, 190, 0)
+	Box.Thickness = 1.4
+	Box.Filled = false
+	Box.Transparency = 1
+	return Box
+end
+
+function Funcs:DrawLine()
+	local line = Drawing.new("Line")
+	line.Color = Color3.new(190, 190, 0)
+	line.Thickness = 1.5
+	return line
+end
+
+function Funcs:DrawText()
+	local text = Drawing.new("Text")
+	text.Color = Color3.fromRGB(190, 190, 0)
+	text.Size = 19
+	text.Outline = true
+	text.Center = true
+	return text
+end
+
+local Services =
+	setmetatable(
+		{
+			LocalPlayer = game:GetService("Players").LocalPlayer,
+			Camera = workspace.CurrentCamera
+		},
+		{
+			__index = function(self, idx)
+				return rawget(self, idx) or game:GetService(idx)
+			end
+		}
+	)
+
+function Funcs:AddEsp(player)
+	local Box = Funcs:DrawSquare()
+	local Tracer = Funcs:DrawLine()
+	local Name = Funcs:DrawText()
+	local Distance = Funcs:DrawText()
+	local SnapLines = Funcs:DrawLine()
+	local HeadLowerTorso = Funcs:DrawLine()
+	local NeckLeftUpper = Funcs:DrawLine()
+	local LeftUpperLeftLower = Funcs:DrawLine()
+	local NeckRightUpper = Funcs:DrawLine()
+	local RightUpperLeftLower = Funcs:DrawLine()
+	local LowerTorsoLeftUpper = Funcs:DrawLine()
+	local LeftLowerLeftUpper = Funcs:DrawLine()
+	local LowerTorsoRightUpper = Funcs:DrawLine()
+	local RightLowerRightUpper = Funcs:DrawLine()
+	Services.RunService.Stepped:Connect(
+		function()
+			if Funcs:IsAlive(player) and player.Character:FindFirstChild("HumanoidRootPart") then
+				local RootPosition, OnScreen =
+					Services.Camera:WorldToViewportPoint(player.Character.HumanoidRootPart.Position)
+				local HeadPosition =
+					Services.Camera:WorldToViewportPoint(player.Character.Head.Position + Vector3.new(0, 0.5, 0))
+				local LegPosition =
+					Services.Camera:WorldToViewportPoint(
+						player.Character.HumanoidRootPart.Position - Vector3.new(0, 4, 0)
+					)
+				if Config.Visuals.BoxEsp then
+					Box.Visible = OnScreen
+					Box.Size = Vector2.new((2350 / RootPosition.Z) + 2.5, HeadPosition.Y - LegPosition.Y)
+					Box.Position = Vector2.new((RootPosition.X - Box.Size.X / 2) - 1, RootPosition.Y - Box.Size.Y / 2)
+				else
+					Box.Visible = false
+				end
+				if Config.Visuals.TracerEsp then
+					Tracer.Visible = OnScreen
+					if Config.Visuals.TracersOrigin == "Top" then
+						Tracer.To = Vector2.new(Services.Camera.ViewportSize.X / 2, 0)
+						Tracer.From =
+							Vector2.new(
+								Services.Camera:WorldToViewportPoint(player.Character.HumanoidRootPart.Position).X - 1,
+								RootPosition.Y + (HeadPosition.Y - LegPosition.Y) / 2
+							)
+					elseif Config.Visuals.TracersOrigin == "Middle" then
+						Tracer.To = Vector2.new(Services.Camera.ViewportSize.X / 2, Services.Camera.ViewportSize.Y / 2)
+						Tracer.From =
+							Vector2.new(
+								Services.Camera:WorldToViewportPoint(player.Character.HumanoidRootPart.Position).X - 1,
+								(RootPosition.Y + (HeadPosition.Y - LegPosition.Y) / 2) -
+								((HeadPosition.Y - LegPosition.Y) / 2)
+							)
+					elseif Config.Visuals.TracersOrigin == "Bottom" then
+						Tracer.To = Vector2.new(Services.Camera.ViewportSize.X / 2, 1000)
+						Tracer.From =
+							Vector2.new(
+								Services.Camera:WorldToViewportPoint(player.Character.HumanoidRootPart.Position).X - 1,
+								RootPosition.Y - (HeadPosition.Y - LegPosition.Y) / 2
+							)
+					elseif Config.Visuals.TracersOrigin == "Mouse" then
+						Tracer.To = game:GetService("UserInputService"):GetMouseLocation()
+						Tracer.From =
+							Vector2.new(
+								Services.Camera:WorldToViewportPoint(player.Character.HumanoidRootPart.Position).X - 1,
+								(RootPosition.Y + (HeadPosition.Y - LegPosition.Y) / 2) -
+								((HeadPosition.Y - LegPosition.Y) / 2)
+							)
+					end
+				else
+					Tracer.Visible = false
+				end
+				if Config.Visuals.NameEsp then
+					Name.Visible = OnScreen
+					Name.Position =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y - 40
+						)
+					Name.Text = "[ " .. player.Name .. " ]"
+				else
+					Name.Visible = false
+				end
+				if Config.Visuals.DistanceEsp and player.Character:FindFirstChild("Head") then
+					Distance.Visible = OnScreen
+					Distance.Position =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y - 25
+						)
+					Distance.Text =
+						"[ " ..
+						Funcs:Round(
+							(game:GetService("Players").LocalPlayer.Character.Head.Position -
+								player.Character.Head.Position).Magnitude
+						) ..
+						" Studs ]"
+				else
+					Distance.Visible = false
+				end
+				if Config.Visuals.SkeletonEsp then
+					HeadLowerTorso.Visible = OnScreen
+					HeadLowerTorso.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y
+						)
+					HeadLowerTorso.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).Y
+						)
+					NeckLeftUpper.Visible = OnScreen
+					NeckLeftUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y +
+							((Services.Camera:WorldToViewportPoint(player.Character.UpperTorso.Position).Y -
+								Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y) /
+								3)
+						)
+					NeckLeftUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperArm.Position).Y
+						)
+					LeftUpperLeftLower.Visible = OnScreen
+					LeftUpperLeftLower.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftLowerArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftLowerArm.Position).Y
+						)
+					LeftUpperLeftLower.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperArm.Position).Y
+						)
+					NeckRightUpper.Visible = OnScreen
+					NeckRightUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y +
+							((Services.Camera:WorldToViewportPoint(player.Character.UpperTorso.Position).Y -
+								Services.Camera:WorldToViewportPoint(player.Character.Head.Position).Y) /
+								3)
+						)
+					NeckRightUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperArm.Position).Y
+						)
+					RightUpperLeftLower.Visible = OnScreen
+					RightUpperLeftLower.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightLowerArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightLowerArm.Position).Y
+						)
+					RightUpperLeftLower.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperArm.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperArm.Position).Y
+						)
+					LowerTorsoLeftUpper.Visible = OnScreen
+					LowerTorsoLeftUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).Y
+						)
+					LowerTorsoLeftUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperLeg.Position).Y
+						)
+					LeftLowerLeftUpper.Visible = OnScreen
+					LeftLowerLeftUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftLowerLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftLowerLeg.Position).Y
+						)
+					LeftLowerLeftUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LeftUpperLeg.Position).Y
+						)
+					LowerTorsoRightUpper.Visible = OnScreen
+					LowerTorsoRightUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightLowerLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightLowerLeg.Position).Y
+						)
+					LowerTorsoRightUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperLeg.Position).Y
+						)
+					RightLowerRightUpper.Visible = OnScreen
+					RightLowerRightUpper.From =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.LowerTorso.Position).Y
+						)
+					RightLowerRightUpper.To =
+						Vector2.new(
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperLeg.Position).X,
+							Services.Camera:WorldToViewportPoint(player.Character.RightUpperLeg.Position).Y
+						)
+				else
+					HeadLowerTorso.Visible = false
+					NeckLeftUpper.Visible = false
+					LeftUpperLeftLower.Visible = false
+					NeckRightUpper.Visible = false
+					RightUpperLeftLower.Visible = false
+					LowerTorsoLeftUpper.Visible = false
+					LeftLowerLeftUpper.Visible = false
+					LowerTorsoRightUpper.Visible = false
+					RightLowerRightUpper.Visible = false
+				end
+				if game.Players.LocalPlayer.TeamColor ~= player.TeamColor then
+					Box.Color = Config.Visuals.EnemyColor
+					Tracer.Color = Config.Visuals.EnemyColor
+					Name.Color = Config.Visuals.EnemyColor
+					Distance.Color = Config.Visuals.EnemyColor
+					HeadLowerTorso.Color = Config.Visuals.EnemyColor
+					NeckLeftUpper.Color = Config.Visuals.EnemyColor
+					LeftUpperLeftLower.Color = Config.Visuals.EnemyColor
+					NeckRightUpper.Color = Config.Visuals.EnemyColor
+					RightUpperLeftLower.Color = Config.Visuals.EnemyColor
+					LowerTorsoLeftUpper.Color = Config.Visuals.EnemyColor
+					LeftLowerLeftUpper.Color = Config.Visuals.EnemyColor
+					LowerTorsoRightUpper.Color = Config.Visuals.EnemyColor
+					RightLowerRightUpper.Color = Config.Visuals.EnemyColor
+				else
+					Box.Color = Config.Visuals.TeamColor
+					Tracer.Color = Config.Visuals.TeamColor
+					Name.Color = Config.Visuals.TeamColor
+					Distance.Color = Config.Visuals.TeamColor
+					HeadLowerTorso.Color = Config.Visuals.TeamColor
+					NeckLeftUpper.Color = Config.Visuals.TeamColor
+					LeftUpperLeftLower.Color = Config.Visuals.TeamColor
+					NeckRightUpper.Color = Config.Visuals.TeamColor
+					RightUpperLeftLower.Color = Config.Visuals.TeamColor
+					LowerTorsoLeftUpper.Color = Config.Visuals.TeamColor
+					LeftLowerLeftUpper.Color = Config.Visuals.TeamColor
+					LowerTorsoRightUpper.Color = Config.Visuals.TeamColor
+					RightLowerRightUpper.Color = Config.Visuals.TeamColor
+				end
+			else
+				Box.Visible = false
+				Tracer.Visible = false
+				Name.Visible = false
+				Distance.Visible = false
+				HeadLowerTorso.Visible = false
+				NeckLeftUpper.Visible = false
+				LeftUpperLeftLower.Visible = false
+				NeckRightUpper.Visible = false
+				RightUpperLeftLower.Visible = false
+				LowerTorsoLeftUpper.Visible = false
+				LeftLowerLeftUpper.Visible = false
+				LowerTorsoRightUpper.Visible = false
+				RightLowerRightUpper.Visible = false
+			end
+		end
+	)
+end
+
+for i, v in pairs(Services.Players:GetPlayers()) do
+	if v ~= Services.LocalPlayer then
+		Funcs:AddEsp(v)
+	end
+end
+
+Services.Players.PlayerAdded:Connect(
+	function(player)
+		if v ~= Services.LocalPlayer then
+			Funcs:AddEsp(player)
+		end
+	end
+)
+
+local bolts = "buifzuifiqzuifizfui"
+
+ESP:Toggle('Banana ESP (Monkey Business Mode)',function(boltss)
+	for i,v in pairs(game.Workspace:GetDescendants()) do -- grabs everything from workspace
+		if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'Banana' then -- checks if it has a handle and if its a touchtransmitter
+			if boltss then 
+				local BillboardGui = Instance.new('BillboardGui') -- Makes Billboardgui
+				local TextLabel = Instance.new('TextLabel') -- makes text label
+
+				BillboardGui.Parent = v.Parent -- what the billboardgui goes into
+				BillboardGui.AlwaysOnTop = true -- if its on top or not
+				BillboardGui.Size = UDim2.new(0, 50, 0, 50) -- size of it
+				BillboardGui.StudsOffset = Vector3.new(0,2,0)
+				BillboardGui.Name = bolts
+
+				TextLabel.Parent = BillboardGui -- putting textlabel into billboardgui
+				TextLabel.BackgroundColor3 = Color3.new(1,1,1) -- color
+				TextLabel.BackgroundTransparency = 1 -- transparency
+				TextLabel.Size = UDim2.new(1, 0, 1, 0) -- size
+				TextLabel.Text = "🍌" -- what the label says
+				TextLabel.TextColor3 = Color3.new(1, 0, 0) -- color
+				TextLabel.TextScaled = false -- if the text is scaled or not
+			else 
+				v.Parent:FindFirstChild(bolts):Destroy()
+			end
+		end
+	end
+end)
+
+local jsp = "czecqgzgzegzqgzeqgzg"
+
+ESP:Toggle('Ammo Box ESP',function(enabled)
+	for i,v in pairs(game.Workspace:GetDescendants()) do -- grabs everything from workspace
+		if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'DeadAmmo' then -- checks if it has a handle and if its a touchtransmitter
+			if enabled then
+				local BillboardGui = Instance.new('BillboardGui') -- Makes Billboardgui
+				local TextLabel = Instance.new('TextLabel') -- makes text label
+
+				BillboardGui.Parent = v.Parent -- what the billboardgui goes into
+				BillboardGui.AlwaysOnTop = true -- if its on top or not
+				BillboardGui.Size = UDim2.new(0, 50, 0, 50) -- size of it
+				BillboardGui.StudsOffset = Vector3.new(0,2,0)
+				BillboardGui.Name = jsp
+
+				TextLabel.Parent = BillboardGui -- putting textlabel into billboardgui
+				TextLabel.BackgroundColor3 = Color3.new(1,1,1) -- color
+				TextLabel.BackgroundTransparency = 1 -- transparency
+				TextLabel.Size = UDim2.new(1, 0, 1, 0) -- size
+				TextLabel.Text = "Ammo Box" -- what the label says
+				TextLabel.TextColor3 = Color3.new(1, 0, 0) -- color
+				TextLabel.TextScaled = false -- if the text is scaled or not
+			else 
+				v.Parent:FindFirstChild(jsp):Destroy()
+			end
+		end
+	end
+end)
+
+local espTilesName = 'espTiles-abcdefghijklmnopqrstuvwxyz'
+
+ESP:Toggle('HP Jug ESP', function(enable)
+	for i, v in pairs(game.Workspace:GetDescendants()) do
+		if v.ClassName == 'TouchTransmitter' and v.Parent.Name == 'DeadHP' then
+			if enable then
+				local BillboardGui = Instance.new('BillboardGui') -- Makes Billboardgui
+				local TextLabel = Instance.new('TextLabel') -- makes text label
+
+				BillboardGui.Parent = v.Parent -- what the billboardgui goes into
+				BillboardGui.AlwaysOnTop = true -- if its on top or not
+				BillboardGui.Size = UDim2.new(0, 50, 0, 50) -- size of it
+				BillboardGui.StudsOffset = Vector3.new(0, 2, 0)
+				BillboardGui.Name = espTilesName -- name of it
+
+				TextLabel.Parent = BillboardGui -- putting textlabel into billboardgui
+				TextLabel.BackgroundColor3 = Color3.new(1, 1, 1) -- color
+				TextLabel.BackgroundTransparency = 1 -- transparency
+				TextLabel.Size = UDim2.new(1, 0, 1, 0) -- size
+				TextLabel.Text = "HP Jar" -- what the label says
+				TextLabel.TextColor3 = Color3.new(1, 0, 0) -- color
+				TextLabel.TextScaled = false -- if the text is scaled or not
+			else
+				v.Parent:FindFirstChild(espTilesName):Destroy()
+			end
+		end
+	end
+end)
+
+ESP:Toggle('3D Box ESP (Cant Change Color)',function(state)
+	on = state
+	if on == true then 
+		--// Made by Blissful#4992
+		--// Locals:
+		local workspace = game:GetService("Workspace")
+		local player = game:GetService("Players").LocalPlayer
+		local camera = workspace.CurrentCamera
+
+		--// Settings:
+
+		local Box_Color = Color3.fromRGB(255, 0, 0)
+		local Box_Thickness = 2
+		local Box_Transparency = 1 -- 1 Visible, 0 Not Visible
+
+		local Tracers = false
+		local Tracer_Color = Color3.fromRGB(255, 0, 0)
+		local Tracer_Thickness = 2
+		local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
+
+		local Autothickness = false -- Makes screen less encumbered
+
+		local Team_Check = true
+		local red = Color3.fromRGB(227, 52, 52)
+		local green = Color3.fromRGB(88, 217, 24)
+
+		local function NewLine()
+			local line = Drawing.new("Line")
+			line.Visible = false
+			line.From = Vector2.new(0, 0)
+			line.To = Vector2.new(1, 1)
+			line.Color = Box_Color
+			line.Thickness = Box_Thickness
+			line.Transparency = Box_Transparency
+			return line
+		end
+
+		--// Main Function:
+		for i, v in pairs(game.Players:GetChildren()) do
+			--// Lines for 3D box (12)
+			local lines = {
+				line1 = NewLine(),
+				line2 = NewLine(),
+				line3 = NewLine(),
+				line4 = NewLine(),
+				line5 = NewLine(),
+				line6 = NewLine(),
+				line7 = NewLine(),
+				line8 = NewLine(),
+				line9 = NewLine(),
+				line10 = NewLine(),
+				line11 = NewLine(),
+				line12 = NewLine(),
+				Tracer = NewLine()
+			}
+
+			lines.Tracer.Color = Tracer_Color
+			lines.Tracer.Thickness = Tracer_Thickness
+			lines.Tracer.Transparency = Tracer_Transparency
+
+			--// Updates ESP (lines) in render loop
+			local function ESP()
+				local connection
+				connection = game:GetService("RunService").RenderStepped:Connect(function()
+					if on and v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v.Name ~= player.Name and v.Character.Humanoid.Health > 0 and v.Character:FindFirstChild("Head") ~= nil then
+						local pos, vis = camera:WorldToViewportPoint(v.Character.HumanoidRootPart.Position)
+						if vis then
+							local Scale = v.Character.Head.Size.Y/2
+							local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+
+							local Top1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+							local Top2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+							local Top3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+							local Top4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+
+							local Bottom1 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+							local Bottom2 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+							local Bottom3 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+							local Bottom4 = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+
+							--// Top:
+							lines.line1.From = Vector2.new(Top1.X, Top1.Y)
+							lines.line1.To = Vector2.new(Top2.X, Top2.Y)
+
+							lines.line2.From = Vector2.new(Top2.X, Top2.Y)
+							lines.line2.To = Vector2.new(Top3.X, Top3.Y)
+
+							lines.line3.From = Vector2.new(Top3.X, Top3.Y)
+							lines.line3.To = Vector2.new(Top4.X, Top4.Y)
+
+							lines.line4.From = Vector2.new(Top4.X, Top4.Y)
+							lines.line4.To = Vector2.new(Top1.X, Top1.Y)
+
+							--// Bottom:
+							lines.line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+							lines.line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+
+							lines.line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+							lines.line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+
+							lines.line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+							lines.line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+
+							lines.line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+							lines.line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+
+							--//S ides:
+							lines.line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+							lines.line9.To = Vector2.new(Top1.X, Top1.Y)
+
+							lines.line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+							lines.line10.To = Vector2.new(Top2.X, Top2.Y)
+
+							lines.line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+							lines.line11.To = Vector2.new(Top3.X, Top3.Y)
+
+							lines.line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+							lines.line12.To = Vector2.new(Top4.X, Top4.Y)
+
+							--// Tracer:
+							if Tracers then
+								local trace = camera:WorldToViewportPoint((v.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+
+								lines.Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+								lines.Tracer.To = Vector2.new(trace.X, trace.Y)
+							end
+
+							--// Teamcheck:
+							if Team_Check then
+								if v.TeamColor == player.TeamColor then
+									for u, x in pairs(lines) do
+										x.Color = green
+									end
+								else 
+									for u, x in pairs(lines) do
+										x.Color = red
+									end
+								end
+							end
+
+							--// Autothickness:
+							if Autothickness then
+								local distance = (player.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).magnitude
+								local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+								for u, x in pairs(lines) do
+									x.Thickness = value
+								end
+							else 
+								for u, x in pairs(lines) do
+									x.Thickness = Box_Thickness
+								end
+							end
+
+							for u, x in pairs(lines) do
+								if x ~= lines.Tracer then
+									x.Visible = true
+								end
+							end
+							if Tracers then
+								lines.Tracer.Visible = true
+							end
+						else 
+							for u, x in pairs(lines) do
+								x.Visible = false
+							end
+						end
+					else 
+						for u, x in pairs(lines) do
+							x.Visible = false
+						end
+						if game.Players:FindFirstChild(v.Name) == nil then
+							connection:Disconnect()
+						end
+					end
+				end)
+			end
+			coroutine.wrap(ESP)()
+		end
+
+		game.Players.PlayerAdded:Connect(function(newplr)
+			--// Lines for 3D box (12)
+			local lines = {
+				line1 = NewLine(),
+				line2 = NewLine(),
+				line3 = NewLine(),
+				line4 = NewLine(),
+				line5 = NewLine(),
+				line6 = NewLine(),
+				line7 = NewLine(),
+				line8 = NewLine(),
+				line9 = NewLine(),
+				line10 = NewLine(),
+				line11 = NewLine(),
+				line12 = NewLine(),
+				Tracer = NewLine()
+			}
+
+			lines.Tracer.Color = Tracer_Color
+			lines.Tracer.Thickness = Tracer_Thickness
+			lines.Tracer.Transparency = Tracer_Transparency
+
+			--// Updates ESP (lines) in render loop
+			local function ESP()
+				local connection
+				connection = game:GetService("RunService").RenderStepped:Connect(function()
+					if on and newplr.Character ~= nil and newplr.Character:FindFirstChild("Humanoid") ~= nil and newplr.Character:FindFirstChild("HumanoidRootPart") ~= nil and newplr.Name ~= player.Name and newplr.Character.Humanoid.Health > 0 and newplr.Character:FindFirstChild("Head") ~= nil then
+						local pos, vis = camera:WorldToViewportPoint(newplr.Character.HumanoidRootPart.Position)
+						if vis then
+							local Scale = newplr.Character.Head.Size.Y/2
+							local Size = Vector3.new(2, 3, 1.5) * (Scale * 2) -- Change this for different box size
+
+							local Top1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, -Size.Z)).p)
+							local Top2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, Size.Y, Size.Z)).p)
+							local Top3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, Size.Z)).p)
+							local Top4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, Size.Y, -Size.Z)).p)
+
+							local Bottom1 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, -Size.Z)).p)
+							local Bottom2 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(-Size.X, -Size.Y, Size.Z)).p)
+							local Bottom3 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, Size.Z)).p)
+							local Bottom4 = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(Size.X, -Size.Y, -Size.Z)).p)
+
+							--// Top:
+							lines.line1.From = Vector2.new(Top1.X, Top1.Y)
+							lines.line1.To = Vector2.new(Top2.X, Top2.Y)
+
+							lines.line2.From = Vector2.new(Top2.X, Top2.Y)
+							lines.line2.To = Vector2.new(Top3.X, Top3.Y)
+
+							lines.line3.From = Vector2.new(Top3.X, Top3.Y)
+							lines.line3.To = Vector2.new(Top4.X, Top4.Y)
+
+							lines.line4.From = Vector2.new(Top4.X, Top4.Y)
+							lines.line4.To = Vector2.new(Top1.X, Top1.Y)
+
+							--// Bottom:
+							lines.line5.From = Vector2.new(Bottom1.X, Bottom1.Y)
+							lines.line5.To = Vector2.new(Bottom2.X, Bottom2.Y)
+
+							lines.line6.From = Vector2.new(Bottom2.X, Bottom2.Y)
+							lines.line6.To = Vector2.new(Bottom3.X, Bottom3.Y)
+
+							lines.line7.From = Vector2.new(Bottom3.X, Bottom3.Y)
+							lines.line7.To = Vector2.new(Bottom4.X, Bottom4.Y)
+
+							lines.line8.From = Vector2.new(Bottom4.X, Bottom4.Y)
+							lines.line8.To = Vector2.new(Bottom1.X, Bottom1.Y)
+
+							--//S ides:
+							lines.line9.From = Vector2.new(Bottom1.X, Bottom1.Y)
+							lines.line9.To = Vector2.new(Top1.X, Top1.Y)
+
+							lines.line10.From = Vector2.new(Bottom2.X, Bottom2.Y)
+							lines.line10.To = Vector2.new(Top2.X, Top2.Y)
+
+							lines.line11.From = Vector2.new(Bottom3.X, Bottom3.Y)
+							lines.line11.To = Vector2.new(Top3.X, Top3.Y)
+
+							lines.line12.From = Vector2.new(Bottom4.X, Bottom4.Y)
+							lines.line12.To = Vector2.new(Top4.X, Top4.Y)
+
+							--// Tracer:
+							if Tracers then
+								local trace = camera:WorldToViewportPoint((newplr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -Size.Y, 0)).p)
+								lines.Tracer.From = Vector2.new(camera.ViewportSize.X/2, camera.ViewportSize.Y)
+								lines.Tracer.To = Vector2.new(trace.X, trace.Y)
+							end
+
+							--// Teamcheck:
+							if Team_Check then
+								if newplr.TeamColor == player.TeamColor then
+									for u, x in pairs(lines) do
+										x.Color = green
+									end
+								else 
+									for u, x in pairs(lines) do
+										x.Color = red
+									end
+								end
+							end
+
+							--// Autothickness:
+							if Autothickness then
+								local distance = (player.Character.HumanoidRootPart.Position - newplr.Character.HumanoidRootPart.Position).magnitude
+								local value = math.clamp(1/distance*100, 0.1, 4) --0.1 is min thickness, 6 is max
+								for u, x in pairs(lines) do
+									x.Thickness = value
+								end
+							else 
+								for u, x in pairs(lines) do
+									x.Thickness = Box_Thickness
+								end
+							end
+
+							for u, x in pairs(lines) do
+								if x ~= lines.Tracer then
+									x.Visible = true
+								end
+							end
+							if Tracers then
+								lines.Tracer.Visible = true
+							end
+						else 
+							for u, x in pairs(lines) do
+								x.Visible = false
+							end
+						end
+					else 
+						for u, x in pairs(lines) do
+							x.Visible = false
+						end
+						if game.Players:FindFirstChild(newplr.Name) == nil then
+							connection:Disconnect()
+						end
+					end
+				end)
+			end
+			coroutine.wrap(ESP)()
+		end)
+	end
+end)
+
+ESP:Toggle('Box ESP',function(state)
+	Config.Visuals.BoxEsp = state
+end)
+
+ESP:Toggle('Line ESP',function(state)
+	Config.Visuals.TracerEsp = state
+end)
+ESP:Dropdown(
+	"Lines Origin", {'Top','Middle','Bottom','Mouse'}, function(selected)
+		Config.Visuals.TracersOrigin = selected
+	end)
+ESP:Toggle('Name ESP',function(state)
+	Config.Visuals.NameEsp = state
+end)
+ESP:Toggle('Distance ESP',function(state)
+	Config.Visuals.DistanceEsp = state
+end)
+ESP:Toggle('Skeletons ESP',function(state)
+	Config.Visuals.SkeletonEsp = state
+end)
+ESP:Colorpicker(
+	"Team Color",
+	Color3.fromRGB(0, 255, 0),
+	function(Color)
+		Config.Visuals.TeamColor = Color
+	end
+)
+ESP:Colorpicker(
+	"Enemy Color",
+	Color3.fromRGB(255, 0, 0),
+	function(Color)
+		Config.Visuals.EnemyColor = Color
+	end
+)
+
+FE:Toggle('Bananas Autofarm',function(Enabled)
+	_G.BananaAutoFarm = Enabled
+	while _G.BananaAutoFarm do
+		wait(0.1)
+		if game.Workspace:FindFirstChild("Debris")then
+			if game.Workspace.Debris.Bananas then
+				for _,v in pairs(game.Workspace.Debris.Bananas:GetChildren())do
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=
+						(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame-
+							game.Players.LocalPlayer.Character.HumanoidRootPart.Position+v.Position)
+						+Vector3.new(0,.5,0)
+				end
+			end
+		end
+	end
+end)
+
+FE:Button('Join Hacker Only Lobby (Ar Sub V3)',function()
+	while true do 
+		wait(0.1)
+		game:GetService('TeleportService'):Teleport(9129340911)
+	end
+end)
+FE:Button('FE KillBrick',function()
+
+	local Core = getsenv(game.Players.LocalPlayer.PlayerGui.Menew.LocalScript);
+
+	local Loadout;
+	for i,v in pairs(getupvalues(Core.ViewItems)) do
+		if typeof(v) == "table" then
+			if v.Skins then
+				Loadout = v;
+			end
+		end
+	end
+
+	table.insert(Loadout.Skins, "KillBrick");
+	game.Players.LocalPlayer.Data.Skin.Value = "KillBrick"
+	game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
+	game.Players.LocalPlayer.Character.LeftUpperArm:Destroy()
+	game.Players.LocalPlayer.Character.RightLowerArm:Destroy()
+	game.Players.LocalPlayer.Character.RightUpperArm:Destroy()
+	game.Players.LocalPlayer.Character.LeftFoot:Destroy()
+	game.Players.LocalPlayer.Character.LeftLowerLeg:Destroy()
+	game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
+	game.Players.LocalPlayer.Character.RightFoot:Destroy()
+	game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+	game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+	game.Players.LocalPlayer.Character.FakeHead:Destroy()
+	local esc = game.Players.LocalPlayer.Character.UpperTorso:GetChildren()
+	for i, v in pairs(esc) do
+		v:Destroy()
+		wait()
+	end
+end)
+FE:Button('Sing Pushin’ Dingle In Roblox Chat',function()
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Goofy Ahh Uncle Productions",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Pushing Dingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Pushing Dingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	-- Script generated by SimpleSpy - credits to exx#9394
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Yeah Im Pushing Dingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	-- Script generated by SimpleSpy - credits to exx#9394
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Not Pushing P",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	-- Script generated by SimpleSpy - credits to exx#9394
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Might Push That Girl To The Street",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	-- Script generated by SimpleSpy - credits to exx#9394
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "If She Play With Me Im That One Person You Cant Be",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	-- Script generated by SimpleSpy - credits to exx#9394
+
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "She A Bad Person Capitol C",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "They Say That Im Not Getting Racks",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "That Stuff Aint Fax",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "That Lil Girl Back And Front On Meat Like A Park Swing",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im That Man Im Farting",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Sniffing On That Good Good And It Smells Like Somones Farting",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Fina Get A Ring Not Talking Engagement Im Talking Boxing",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Fina Up That Pistol Fina Reload It Get To Shooting",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Finna Stuff That Girl",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Call Me A Roster",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Doing Somthing Nasty She Caught Me",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Finna Do Her",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(2)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Finna Pull Out My Maneuvers",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(2.5)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Pull Out The Philps I Finna Screw her",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(2.4)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "She Gonna Ride My Meat Like A Uber",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Where the hell are your girls? Thats a Mystery Scooby Doo Scooby Doo Scooby Doo Hun?",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(2)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Calling Her Thanos Because Her Hand Is On My Gaunlet",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(2)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Yeah Im Pushing Dingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "I Finna Find Your Mom And Mingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+	wait(3)
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Gonna Make Her Tingle",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+
+	local args = {
+		[1] = "Trolling42",
+		[2] = "Im Pushing P",
+		[3] = false,
+		[5] = false,
+		[6] = true
+	}
+
+	game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(unpack(args))
+end)
+
+FE:Button('FE Sunglasses',function()
+	while true do wait(0.1) game:GetService("ReplicatedStorage").Events.Sunglasses:FireServer() end
+end)
+
+
+FE:Button('FE Headless',function()
+
+
+	if game.Players.LocalPlayer.Character:FindFirstChild("HeadHB")then
+		game.Players.LocalPlayer.Character:FindFirstChild("HeadHB"):Destroy()
+	end
+	if game.Players.LocalPlayer.Character:FindFirstChild("FakeHead")then
+		game.Players.LocalPlayer.Character:FindFirstChild("FakeHead"):Destroy()
+	end
+
+end)
+
+FE:Button('Free Badge',function()
+	game:GetService("ReplicatedStorage").Events.ReplicateGear2:FireServer("coffee");
+end) 
+
+FE:Button('Destory Arms And Legs', function()
+
+	game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftUpperArm:Destroy()
+
+	game.Players.LocalPlayer.Character.RightLowerArm:Destroy()
+
+	game.Players.LocalPlayer.Character.RightUpperArm:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftFoot:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftLowerLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.RightFoot:Destroy()
+
+	game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+end)
+
+
+FE:Button('NonExisty',function()
+	game.Players.LocalPlayer.Character.LeftLowerArm:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftUpperArm:Destroy()
+
+	game.Players.LocalPlayer.Character.RightLowerArm:Destroy()
+
+	game.Players.LocalPlayer.Character.RightUpperArm:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftFoot:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftLowerLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.LeftUpperLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.RightFoot:Destroy()
+
+	game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+
+	game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+
+	local esc = game.Players.LocalPlayer.Character.LowerTorso:GetChildren()
+
+	for i, v in pairs(esc) do
+
+		v:Destroy()
+
+		wait()
+
+	end
+
+	local vm = game:GetService("ReplicatedStorage").Viewmodels.Arms.Delinquent
+
+	vm.Name = "Holder"
+
+	local toName = game:GetService("ReplicatedStorage").Viewmodels.Arms["Nonexisty"]
+
+	toName.Name = "Delinquent"
+
+	local Core = getsenv(game.Players.LocalPlayer.PlayerGui.Menew.LocalScript);
+
+
+	local Loadout;
+
+	for i,v in pairs(getupvalues(Core.ViewItems)) do
+
+		if typeof(v) == "table" then
+
+			if v.Skins then
+
+				Loadout = v;
+
+			end
+
+		end
+
+	end
+
+
+	table.insert(Loadout.Skins, "Nonexisty")
+
+end)
+
+FE:Button('God Mode Cant Kill People :(',function()
+	if game.Players.LocalPlayer.Character:FindFirstChild("Spawned")then
+		game.Players.LocalPlayer.Character.Spawned:Destroy()--simple god mode
+	end
+	game.Players.LocalPlayer.Character.ChildAdded:Connect(function(x)--keep the player godded after respawn
+		if x.Name=="Spawned"then
+			wait(.1)
+			x:Destroy()
+		end
+	end)
+	game.RunService.RenderStepped:Connect(function()--remove damage effects that can damage godded players
+		if game.Players.LocalPlayer.Character then
+			if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart")then
+				if game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Engulfed")then
+					game.Players.LocalPlayer.Character.HumanoidRootPart.Engulfed:Destroy()
+				elseif game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Bleed")then
+					game.Players.LocalPlayer.Character.HumanoidRootPart.Bleed:Destroy()
+				end
+			end
+		end
+	end)
+	local hitparter=debug.getconstant(require(game:GetService("ReplicatedStorage").Modules.ClientFunctions).CreateProjectile,105)--arsenals shitty anti cheat
+	local damage={--projectile damage table
+		[20]={"Slingshot",0,0,0,0,0,2,0,0,1,0,0},
+		[25]={"Slingshot",1,0,0,0,0,2,0,0,1,0,0},
+		[30]={"Ice Stars",0,0,0,0,0,2,0,0,1,0,0},
+		[37]={"Ice Stars",1,0,0,0,0,2,0,0,1,0,0},
+		[40]={"Spellbook",0,0,0,0,0,2,0,0,1,0,0},
+		[45]={"Snowball",0,0,0,0,0,2,0,0,1,0,0},
+		[50]={"Cone Launcher",0,0,0,0,0,2,0,0,1,0,0},
+		[56]={"Snowball",1,0,0,0,0,2,0,0,1,0,0},
+		[60]={"Plasma Launcher",0,0,0,0,0,2,0,0,1,0,0},
+		[62]={"Cone Launcher",1,0,0,0,0,2,0,0,1,0,0},
+		[70]={"Lightning Cannon",0,0,0,0,0,2,0,0,1,0,0},
+		[75]={"Plasma Launcher",1,0,0,0,0,2,0,0,1,0,0},
+		[76]={"Firework Launcher",0,0,0,0,0,2,0,0,1,0,0},
+		[80]={"TP Launcher",0,0,0,0,0,2,0,0,1,0,0},
+		[82]={"EM249",0,0,0,0,0,2,0,0,1,0,0},
+		[87]={"Lightning Cannon",1,0,0,0,0,2,0,0,1,0,0},
+		[90]={"Ultraball",0,0,0,0,0,2,0,0,1,0,0},
+		[95]={"Firework Launcher",1,0,0,0,0,2,0,0,1,0,0},
+		[100]={"Bow",0,0,0,0,0,2,0,0,1,0,0},
+	}
+	local finddamage=function(a)--find damage from closest value
+		local damagetodo=a
+		local upperd={}
+		local uppern=math.huge
+		local lowerd={}
+		local lowern=0
+		for i,v in pairs(damage)do
+			if i>=damagetodo then
+				table.insert(upperd,i)
+			end
+			if i<=damagetodo then
+				table.insert(lowerd,i)
+			end
+		end
+		if #lowerd==0 then
+			return(damage[20])--if there are no lower values then do 20
+		end
+		for _,v in pairs(lowerd)do
+			if lowern<v then
+				lowern=v
+			end
+		end
+		for _,v in pairs(upperd)do
+			if uppern>v then
+				uppern=v
+			end
+		end
+		local truenums={
+			[lowern]=Vector3.new(lowern-damagetodo,0,0).Magnitude,
+			[uppern]=Vector3.new(uppern-damagetodo,0,0).Magnitude,
+		}
+		local final=math.huge
+		local truefinal
+		for i,v in pairs(truenums)do
+			if final>v then
+				final=v
+				truefinal=i
+			end
+		end
+		return(damage[truefinal])
+	end
+	local mt=getrawmetatable(game)
+	local oldNamecall=mt.__namecall
+	setreadonly(mt,false)
+	mt.__namecall=newcclosure(function(a,b,c,d,e,...)
+		local method=getnamecallmethod()
+		if tostring(method)=="FireServer"then
+			if tostring(a)=="HitPart"then
+				if game.Players.LocalPlayer.PlayerGui.GUI.Client.Variables.gun.Value then--if the player has a gun then do function
+					local Partpos=b.Position+Vector3.new(math.random(),math.random(),math.random())
+					local Packedstring=string.pack(
+						hitparter,
+						Partpos.X,
+						Partpos.Y,
+						Partpos.Z,
+						unpack(finddamage(game.Players.LocalPlayer.PlayerGui.GUI.Client.Variables.gun.Value.DMG.Value))--get gun damage
+					)
+					return oldNamecall(a,b,Packedstring)
+				end
+			end
+		end
+		return oldNamecall(a,b,c,d,e,...)
+	end)
+end)
+
+NFE:Toggle('Rainbow Gun',function()
+	local c = 1 function zigzag(X)  return math.acos(math.cos(X * math.pi)) / math.pi end game:GetService("RunService").RenderStepped:Connect(function()  if game.Workspace.Camera:FindFirstChild('Arms') then   for i,v in pairs(game.Workspace.Camera.Arms:GetDescendants()) do    if v.ClassName == 'MeshPart' then      v.Color = Color3.fromHSV(zigzag(c),1,1)     c = c + .0001    end   end  end end)
+end)
+
+NFE:Button('Unlock All Skins Works In Game(Brakes When Game Ends)',function()
+	function AddSkinDataForMissingSkins()
+		for i, v in pairs(game:GetService("ReplicatedStorage").StreamedAssets.ChrModels:GetChildren()) do
+			local Data = game:GetService("ReplicatedStorage").ItemData.Images.Skins:FindFirstChild(v.Name);
+			if not Data then
+				local Skin = Instance.new("StringValue");
+				Skin.Name = v.Name;
+				Skin.Value = "rbxassetid://0";
+				Skin.Parent = game:GetService("ReplicatedStorage").ItemData.Images.Skins;
+
+				local Quality = Instance.new("StringValue");
+				Quality.Name = "Quality";
+				Quality.Value = "Admin";
+				Quality.Parent = Skin;
+			end
+		end
+	end
+
+	AddSkinDataForMissingSkins();
+
+	function ApplyUnusual(player, unusual)
+		if player and player.Character and player.Character:FindFirstChild("Head") and unusual then
+			if player.Character.Head:FindFirstChild("Unusual") then
+				player.Character.Head.Unusual:Destroy();
+			end
+			if player.Character:FindFirstChild("UnusualAnimation") then
+				player.Character.UnusualAnimation:Destroy();
+			end
+			if game.ReplicatedStorage.Unusual:FindFirstChild(unusual) then
+				local v76 = game.ReplicatedStorage.Unusual[unusual];
+				if v76:FindFirstChild("Orbit") then
+					if v76.Orbit.Value then
+						local v77 = v76:Clone();
+						v77.UnusualAnimation.Part0 = player.Character.Head;
+						v77.UnusualAnimation.Part1 = v77;
+						v77.Name = "UnusualAnimation";
+						v77.Parent = player.Character;
+						player.Character.Humanoid:LoadAnimation(v77.Anim):Play();
+					else
+						local v78 = {};
+						local v79 = v76.Attachment:Clone();
+						v79.Name = "Unusual";
+						v79.Parent = player.Character.Head;
+						local v80, v81, v82 = pairs(v76:GetChildren());
+						while true do
+							local v83, v84 = v80(v81, v82);
+							if v83 then
+
+							else
+								break;
+							end;
+							v82 = v83;
+							if v84.Name ~= "Attachment" then
+								local v85 = v84:Clone();
+								v85.Parent = player.Character.Head;
+								table.insert(v78, v85);
+							end;						
+						end;
+						if player.Character.Head:FindFirstChild("b1") then
+							local v86, v87, v88 = pairs(v79:GetChildren());
+							while true do
+								local v89, v90 = v86(v87, v88);
+								if v89 then
+
+								else
+									break;
+								end;
+								v88 = v89;
+								if v90:IsA("Beam") then
+									if v90.Name == "BeamA" then
+										v90.Attachment0 = player.Character.Head.a1;
+										v90.Attachment1 = player.Character.Head.a2;
+									elseif v90.Name == "BeamC" then
+										v90.Attachment0 = player.Character.Head.c1;
+										v90.Attachment1 = player.Character.Head.c2;
+									else
+										v90.Attachment0 = player.Character.Head.b1;
+										v90.Attachment1 = player.Character.Head.b2;
+									end;
+								end;							
+							end;
+						end;
+						v79.AncestryChanged:connect(function(p15)
+							if not p15 then
+								local v91, v92, v93 = pairs(v78);
+								while true do
+									local v94, v95 = v91(v92, v93);
+									if v94 then
+
+									else
+										break;
+									end;
+									v93 = v94;
+									v95:Destroy();								
+								end;
+							end;
+						end);
+					end;
+				else
+					v78 = {};
+					v79 = v76.Attachment:Clone();
+					v79.Name = "Unusual";
+					v79.Parent = player.Character.Head;
+					v80, v81, v82 = pairs(v76:GetChildren());
+					while true do
+						v83, v84 = v80(v81, v82);
+						if v83 then
+
+						else
+							break;
+						end;
+						v82 = v83;
+						if v84.Name ~= "Attachment" then
+							v85 = v84:Clone();
+							v85.Parent = player.Character.Head;
+							table.insert(v78, v85);
+						end;					
+					end;
+					if player.Character.Head:FindFirstChild("b1") then
+						v86, v87, v88 = pairs(v79:GetChildren());
+						while true do
+							v89, v90 = v86(v87, v88);
+							if v89 then
+
+							else
+								break;
+							end;
+							v88 = v89;
+							if v90:IsA("Beam") then
+								if v90.Name == "BeamA" then
+									v90.Attachment0 = player.Character.Head.a1;
+									v90.Attachment1 = player.Character.Head.a2;
+								elseif v90.Name == "BeamC" then
+									v90.Attachment0 = player.Character.Head.c1;
+									v90.Attachment1 = player.Character.Head.c2;
+								else
+									v90.Attachment0 = player.Character.Head.b1;
+									v90.Attachment1 = player.Character.Head.b2;
+								end;
+							end;						
+						end;
+					end;
+					v79.AncestryChanged:connect(function(p15)
+						if not p15 then
+							v91, v92, v93 = pairs(v78);
+							while true do
+								v94, v95 = v91(v92, v93);
+								if v94 then
+
+								else
+									break;
+								end;
+								v93 = v94;
+								v95:Destroy();							
+							end;
+						end;
+					end);
+				end;
+			end;
+		end;
+	end
+
+	function convert_rgb_to_vertex(c3)
+		return Vector3.new(c3.R, c3.G, c3.B)
+	end
+
+	function GetColor()
+		if game:GetService("Players").LocalPlayer.Neutral then
+			return game:GetService("Players").LocalPlayer.DesignColor.Value;
+		end
+		return game:GetService("Players").LocalPlayer.TeamColor;
+	end
+
+	function weldAccessory(accessory, character)
+		local newAccessory = accessory:Clone();
+		newAccessory.Parent = character;
+		if newAccessory:FindFirstChild("Handle") then
+			local handle = newAccessory.Handle;
+			local mesh = handle:FindFirstChildWhichIsA("SpecialMesh");
+			if mesh and mesh.VertexColor == Vector3.new(1, 0, 0.749) then
+				mesh.VertexColor = convert_rgb_to_vertex(GetColor().Color);
+			end
+			if tostring(handle.BrickColor) == "Hot pink" then
+				handle.BrickColor = GetColor();
+				handle.Color = GetColor().Color;
+			end
+			local AccessoryWeld;
+			for i, v in pairs(handle:GetChildren()) do
+				if v.Name == "AccessoryWeld" and v.Part1 ~= nil then
+					AccessoryWeld = v;
+				end
+			end
+			if AccessoryWeld then
+				AccessoryWeld.Part0 = handle;
+				AccessoryWeld.Part1 = character[AccessoryWeld.Part1.Name];
+			end
+		end
+	end
+
+	function EquipSkin(skin, character)
+		if not character then return warn("[EquipSkin] character not found") end;
+		if not character:FindFirstChild("Head") then return warn("[EquipSkin] Head not found") end;
+		if not character:FindFirstChild("HumanoidRootPart") then return warn("[EquipSkin] HumanoidRootPart not found") end;
+		local chrModel = game:GetService("ReplicatedStorage").StreamedAssets.ChrModels:FindFirstChild(skin);
+		if chrModel then
+			for i, v in pairs(character:GetChildren()) do
+				if v:IsA("Accessory") then
+					v.Parent = nil;
+				end
+			end
+			for i, v in pairs(character:GetChildren()) do
+				if v:IsA("MeshPart") and (v.Name:match("Arm") or v.Name:match("Hand")) then
+					v.Transparency = (game.Players.LocalPlayer.Data.Skin.Value:match("Buff") and 1 or 0);
+				end
+			end
+			local shirt = chrModel:FindFirstChildWhichIsA("Shirt");
+			local pants = chrModel:FindFirstChildWhichIsA("Pants");
+			local face = chrModel.Head:FindFirstChild("face");
+			if chrModel:FindFirstChildWhichIsA("BodyColors") then
+				if character:FindFirstChildWhichIsA("BodyColors") then
+					character:FindFirstChildWhichIsA("BodyColors"):Destroy();
+				end
+				local Parts = { "HeadColor", "LeftArmColor", "LeftLegColor", "RightArmColor", "RightLegColor", "TorsoColor" }
+				local bodycolors = chrModel:FindFirstChildWhichIsA("BodyColors"):Clone();
+				bodycolors.Parent = character;
+				if character:FindFirstChild("FakeHead") then
+					character.FakeHead.Color = bodycolors.HeadColor3;
+				end
+				for i, v in pairs(Parts) do
+					if tostring(bodycolors[v]) == "Hot pink" then
+						bodycolors[v] = GetColor();
+					end
+				end
+			end
+			if shirt then
+				if character:FindFirstChildWhichIsA("Shirt") then
+					character:FindFirstChildWhichIsA("Shirt").ShirtTemplate = shirt.ShirtTemplate;
+				end
+			else
+				if character:FindFirstChildWhichIsA("Shirt") then
+					character:FindFirstChildWhichIsA("Shirt").ShirtTemplate = "rbxassetid://0";
+				end
+			end
+			if pants then
+				if character:FindFirstChildWhichIsA("Pants") then
+					character:FindFirstChildWhichIsA("Pants").PantsTemplate = pants.PantsTemplate;
+				end
+			else
+				if character:FindFirstChildWhichIsA("Pants") then
+					character:FindFirstChildWhichIsA("Pants").PantsTemplate = "rbxassetid://0";
+				end
+			end
+			if face then
+				if character:FindFirstChild("FakeHead") then
+					if character.FakeHead:FindFirstChild("face") then
+						character.FakeHead.face.Texture = face.Texture;
+					end
+				end
+				if character.Head:FindFirstChild("face") then
+					character.Head.face.Texture = face.Texture;
+				end
+			end
+			for i, v in pairs(chrModel:GetChildren()) do
+				if v:IsA("Accessory") then
+					weldAccessory(v, character);
+				end
+			end
+		else
+			return warn("[equipSkin] Skin not found")
+		end
+	end
+
+	local Core = getsenv(game.Players.LocalPlayer.PlayerGui.Menew.LocalScript);
+
+	local Loadout;
+	for i,v in pairs(getupvalues(Core.ViewItems)) do
+		if typeof(v) == "table" then
+			if v.Skins then
+				Loadout = v;
+			end
+		end
+	end
+
+	for i,v in pairs(game:GetService("ReplicatedStorage").ItemData.Images:GetChildren()) do
+		if v.Name == "Skins" then
+			for _, item in pairs(v:GetChildren()) do
+				table.insert(Loadout[v.Name], item.Name)
+			end
+		end
+	end
+
+	local Unusuals = { };
+	for a, b in pairs(game:GetService("ReplicatedStorage").Unusual:GetChildren()) do
+		table.insert(Unusuals, tostring(b));
+	end
+
+	for i, v in pairs(Loadout.Skins) do
+		local isUnusual = v:split("_")[2];
+		if not isUnusual then
+			for a, b in pairs(Unusuals) do
+				table.insert(Loadout.Skins, ("%s_%s"):format(tostring(v), tostring(b)));
+			end
+		end
+	end
+
+	setupvalue(Core.ViewItems, 1, Loadout);
+
+	local Hooks = loadstring(game:HttpGet("https://pastebinp.com/raw/ByQs3S0R"))();
+	local hkGame = Hooks:new(getrawmetatable(game));
+
+	hkGame:Hook("__namecall", function(self, ...) 
+		local args = {...};
+		if self.Name == "UpdateLoadout" then
+			if args[1] and args[1][1] == "UpdateLoadout" then
+				local Loadout = args[1][2]
+				local unusual = Loadout.Skin:split("_")[2];
+				if unusual then
+					game.Players.LocalPlayer.Data.Skin.Value = Loadout.Skin:split("_")[1];
+					game.Players.LocalPlayer.Data.Skin.Unusual.Value = Loadout.Skin:split("_")[2];
+					ApplyUnusual(game:GetService("Players").LocalPlayer, Loadout.Skin:split("_")[2]);
+					args[1][2].Skin = Loadout.Skin:split("_")[1];
+				else
+					game.Players.LocalPlayer.Data.Skin.Value = Loadout.Skin;
+					game.Players.LocalPlayer.Data.Skin.Unusual.Value = "";
+					if game.Players.LocalPlayer.Character.Head:FindFirstChild("Unusual") then
+						game.Players.LocalPlayer.Character.Head.Unusual:Destroy();
+					end
+					if game.Players.LocalPlayer.Character:FindFirstChild("UnusualAnimation") then
+						game.Players.LocalPlayer.Character.UnusualAnimation:Destroy();
+					end
+				end
+			end
+		end
+		if self.Name == "SpawnMe" then
+			spawn(function()
+				EquipSkin(game:GetService("Players").LocalPlayer.Data.Skin.Value, game:GetService("Players").LocalPlayer.Character);
+			end)
+		end
+		if self.Name == "GetInventory" then
+			setupvalue(Core.ViewItems, 1, Loadout);
+		end	
+		return hkGame:getOriginal("__namecall")(self, unpack(args));
+	end)
+
+	-- Ragdoll Support
+	workspace.Debris.ChildAdded:Connect(function(child)
+		if child.Name == game:GetService("Players").LocalPlayer.Name then
+			EquipSkin(game:GetService("Players").LocalPlayer.Data.Skin.Value, child);
+		end
+	end)
+end)
+
+
+NFE:Button('Unlock All Teams',function()
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/aq24yqfL"))()
+end)
+
+NFE:Button('Press it if Function Above Crashed', function()
+	game:GetService("ReplicatedStorage").Events.JoinTeam:FireServer('TRC')
+end)
+
+NFE:Button('Destroy Menu (NSFW Warning :> )',function()
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.BPToggle.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.BPToggle.ImageLabel.ToolTip.Value = "Nigga"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LowerBox.Extra.ToolTip.Value = "Sex"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LowerBox.Codes.ToolTip.Value = "Nigger"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LowerBox.Badges.ToolTip.Value = "OH OH"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LowerBox.Settings.ToolTip.Value = "Cum"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.Shop.ImageLabel.TextLabel.Text = "SEXY BOLTS"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.Locker.ImageLabel.TextLabel.Text = "FUCK ME"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.Play.ImageLabel.TextLabel.Text = "OH OH CUM"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LevelMeter.Visible = false
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.ChallengesLabel.ImageLabel.ToolTip.Value = "Porn"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.ServerToggle.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.PlrName.Text = "PornStar"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.StarterPack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.StarterPack.TextLabel.Text = "Hot Girl For Sale!"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.StarterPack.Timer.Text = "69:21:37"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.StarterPack.Item.Text = "Naughty Girl"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.StarterPack.Item.Text = "free girl with massive ass and pink hair will want sex"
+	game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LAZYBUTTON.Visible = true
+end)
+
+NFE:Button('Melee GUI by Gbur XD',function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/L70HWut1"))()
+end)
+
+NFE:Textbox(
+	'Server Location',
+	true,
+	function(locationofdelaservidorprivado)
+		game:GetService("ReplicatedStorage").wkspc.Location.Value = locationofdelaservidorprivado
+	end)
+
+NFE:Button("Destroy Locks On Grn/Ylw Team(can't join them)",function()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Buttons.Ylw.lock:Destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Buttons.Grn.lock:Destroy()
+end)
+NFE:Button("Copys Your user id backwords for nights edge event",function()
+	setclipboard(tostring(game.Players.LocalPlayer.UserId):reverse())
+end)
+NFE:Textbox(
+	'Player Joined Name',
+	true,
+	function(playerenteredxdOMGniggerballs)
+		game:GetService("ReplicatedStorage").wkspc.Status.PlayerEntered.Value = playerenteredxdOMGniggerballs
+	end)
+
+NFE:Textbox(
+	'Player Left Name',
+	true,
+	function(playerleftxdOMGniggerballs)
+		game:GetService("ReplicatedStorage").wkspc.Status.PlayerLeft.Value = playerleftxdOMGniggerballs
+	end)
+
+CombatW:Textbox(
+	"Enter Targets Name",
+	true,
+	function(Text) 
+		local Config =
+			{
+				ProtectedName = Text, --What the protected name should be called.
+				OtherPlayers = false, --If other players should also have protected names.
+				OtherPlayersTemplate = "NameProtect", --Template for other players protected name (ex: "NamedProtect" will turn into "NameProtect1" for first player and so on)
+				RenameTextBoxes = false, --If TextBoxes should be renamed. (could cause issues with admin guis/etc)
+				UseFilterPadding = false, --If filtered name should be the same size as a regular name.
+				FilterPad = " ", --Character used to filter pad.
+				UseMetatableHook = true, --Use metatable hook to increase chance of filtering. (is not supported on wrappers like bleu)
+				UseAggressiveFiltering = false --Use aggressive property renaming filter. (renames a lot more but at the cost of lag)
+			}
+		local ProtectedNames = {}
+		local Counter = 1
+		if Config.OtherPlayers then
+			for I, V in pairs(game:GetService("Players"):GetPlayers()) do
+				local Filter = Config.OtherPlayersTemplate .. tostring(Counter)
+				if Config.UseFilterPadding then
+					if string.len(Filter) > string.len(V.Name) then
+						Filter = string.sub(Filter, 1, string.len(V.Name))
+					elseif string.len(Filter) < string.len(V.Name) then
+						local Add = string.len(V.Name) - string.len(Filter)
+						for I=1,Add do
+							Filter = Filter .. Config.FilterPad
+						end
+					end
+				end
+				ProtectedNames[V.Name] = Filter
+				Counter = Counter + 1
+			end
+			game:GetService("Players").PlayerAdded:connect(function(Player)
+				local Filter = Config.OtherPlayersTemplate .. tostring(Counter)
+				if Config.UseFilterPadding then
+					if string.len(Filter) > string.len(V.Name) then
+						Filter = string.sub(Filter, 1, string.len(V.Name))
+					elseif string.len(Filter) < string.len(V.Name) then
+						local Add = string.len(V.Name) - string.len(Filter)
+						for I=1,Add do
+							Filter = Filter .. Config.FilterPad
+						end
+					end
+				end
+				ProtectedNames[Player.Name] = Filter
+				Counter = Counter + 1
+			end)
+		end
+		local LPName = game:GetService("Players").LocalPlayer.Name
+		local IsA = game.IsA
+		if Config.UseFilterPadding then
+			if string.len(Config.ProtectedName) > string.len(LPName) then
+				Config.ProtectedName = string.sub(Config.ProtectedName, 1, string.len(LPName))
+			elseif string.len(Config.ProtectedName) < string.len(LPName) then
+				local Add = string.len(LPName) - string.len(Config.ProtectedName)
+				for I=1,Add do
+					Config.ProtectedName = Config.ProtectedName .. Config.FilterPad
+				end
+			end
+		end
+		local function FilterString(S)
+			local RS = S
+			if Config.OtherPlayers then
+				for I, V in pairs(ProtectedNames) do
+					RS = string.gsub(RS, I, V)
+				end
+			end
+			RS = string.gsub(RS, LPName, Config.ProtectedName)
+			return RS
+		end
+		for I, V in pairs(game:GetDescendants()) do
+			if Config.RenameTextBoxes then
+				if IsA(V, "TextLabel") or IsA(V, "TextButton") or IsA(V, "TextBox") then
+					V.Text = FilterString(V.Text)
+					if Config.UseAggressiveFiltering then
+						V:GetPropertyChangedSignal("Text"):connect(function()
+							V.Text = FilterString(V.Text)
+						end)
+					end
+				end
+			else
+				if IsA(V, "TextLabel") or IsA(V, "TextButton") then
+					V.Text = FilterString(V.Text)
+					if Config.UseAggressiveFiltering then
+						V:GetPropertyChangedSignal("Text"):connect(function()
+							V.Text = FilterString(V.Text)
+						end)
+					end
+				end
+			end
+		end
+
+		if Config.UseAggressiveFiltering then
+			game.DescendantAdded:connect(function(V)
+				if Config.RenameTextBoxes then
+					if IsA(V, "TextLabel") or IsA(V, "TextButton") or IsA(V, "TextBox") then
+						V:GetPropertyChangedSignal("Text"):connect(function()
+							V.Text = FilterString(V.Text)
+						end)
+					end
+				else
+					if IsA(V, "TextLabel") or IsA(V, "TextButton") then
+						V:GetPropertyChangedSignal("Text"):connect(function()
+							V.Text = FilterString(V.Text)
+						end)
+					end
+				end
+			end)
+		end
+
+		if Config.UseMetatableHook then
+			if not getrawmetatable then
+				error("GetRawMetaTable not found")
+			end
+			local NewCC = function(F)
+				if newcclosure then return newcclosure(F) end
+				return F
+			end
+			local SetRO = function(MT, V)
+				if setreadonly then return setreadonly(MT, V) end
+				if not V and make_writeable then return make_writeable(MT) end
+				if V and make_readonly then return make_readonly(MT) end
+				error("No setreadonly found")
+			end
+			local MT = getrawmetatable(game)
+			local OldNewIndex = MT.__newindex
+			SetRO(MT, false)
+			MT.__newindex = NewCC(function(T, K, V)
+				if Config.RenameTextBoxes then
+					if (IsA(T, "TextLabel") or IsA(T, "TextButton") or IsA(T, "TextBox")) and K == "Text" and type(V) == "string" then
+						return OldNewIndex(T, K, FilterString(V))
+					end
+				else
+					if (IsA(T, "TextLabel") or IsA(T, "TextButton")) and K == "Text" and type(V) == "string" then
+						return OldNewIndex(T, K, FilterString(V))
+					end
+				end
+				return OldNewIndex(T, K, V)
+			end)
+
+			SetRO(MT, true)
+		end
+	end)
+CombatW:Textbox(
+	"Enter Targets User Id",
+	true,
+	function(Text) 
+		game.Players.LocalPlayer.UserId = Text
+	end)
+CombatW:Textbox(
+	"Enter Targets Skin (View Model)",
+	true,
+	function(Text)
+		game:GetService("Players").LocalPlayer.Data.Skin.Value = Text
+	end)
+
+Credits:Button('Click To Copy Discord Link',function()
+	setclipboard("https://discord.gg/N9Xg6xAkfB")
+end)
+
+
+Credits:Label('Bolts Hub v6')
+Credits:Label('Right Ctrl to Toggle the GUI')
+Credits:Label('huge ass skid - Owner')
+Credits:Label('FrontMan𐎺#9917 For More Toggles and usefull (pls do not die)')
+Credits:Label('Trix For More Toggles :)')
+Credits:Label('kyss')
+Credits:Label('Gbur XD For New UI, new Toggles and Functions')
+Credits:Button('Press for cum',function()
+	print("what")
+end)
+local notif = Notification.new("success", "Success", "Success body message.")
+notif:changeHeading("New Heading") -- Args(<string> NewHeading)
+notif:changeBody("New Body") -- Args(<string> NewBody)
+notif:deleteTimeout(3) -- Args(<number> DeleteWaitTime)
+notif:delete()
+
+FE:Button('Fe Long Cube (equip monky with drip)',function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/CWBNemo/d732d2f4bb8edd139f9d3210fe1cacb7/raw/285a7ee06c1ae418e2cbd66d6aff8d546895c6f6/gistfile1.txt", true))()
+end)
+
+Combat:Button('Banana Auto-farm v2 (fast))',function()
+	while true do wait()
+		pcall(function()
+			if game.Players.LocalPlayer.Character then
+				local lastcfpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				for _,v in pairs(game.Workspace.Debris.Bananas:GetChildren())do
+					if v.Name=="Banana"then
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+						v.Transparency= 0.1
+						repeat wait() until v.Parent == nil or wait(0.1)
+					end
+				end
+			end
+		end)
+	end
+end)
