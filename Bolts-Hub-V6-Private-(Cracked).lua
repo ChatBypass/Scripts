@@ -1,6 +1,7 @@
 Luazifier = {} 
 setmetatable(Luazifier, {__metatable = "Don' t touch my table P-Pervert!"})
 
+-- Instances:
 Client = {
 	Modules = {
 		ClientEnvoirment,
@@ -45,7 +46,7 @@ Client = {
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
-local s = VLib:Window("Bolts Hub v6 Private", "Winning", "B")
+local s = VLib:Window("Bolts Hub v6 Private", "Cracked", "B")
 
 local Combat = s:Tab("Combat")
 local Gunmods = s:Tab("Gun Mods")
@@ -88,7 +89,7 @@ function GetAimPart()
 		return 'LowerTorso'
 	end
 	if Client.Values.AimPart == 'Random' then
-		if math.random(1,4) == 1 then
+		if math.random(1,2) == 1 then
 			return 'Head'
 		else
 			return 'LowerTorso'
@@ -3129,7 +3130,7 @@ CombatW:Textbox(
 	end)
 
 Credits:Button('Click To Copy Discord Link',function()
-	setclipboard("https://discord.gg/N9Xg6xAkfB")
+	setclipboard("https://discord/playgame")
 end)
 
 
@@ -3143,6 +3144,12 @@ Credits:Label('Gbur XD For New UI, new Toggles and Functions')
 Credits:Button('Press for cum',function()
 	print("what")
 end)
+
+
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+
+Notification.new("info", "hck", "why") -- Args(<string> Type, <string> Heading, <string> Body, <boolean?> AutoRemoveNotif, <number?> AutoRemoveTime, <function?> OnCloseFunction)
+
 local notif = Notification.new("success", "Success", "Success body message.")
 notif:changeHeading("New Heading") -- Args(<string> NewHeading)
 notif:changeBody("New Body") -- Args(<string> NewBody)
@@ -3169,3 +3176,13 @@ Combat:Button('Banana Auto-farm v2 (fast))',function()
 		end)
 	end
 end)
+
+while true do wait(0.1)
+	function Message(text)
+		if not text then return false end
+		x = game:GetService("Players").LocalPlayer.PlayerGui.Menew.Main.LAZYBUTTON
+		x.Visible = true
+		x.Text = "\240\159\147\162"..text
+	end
+	Message("Dont care+BOOOOOO")
+end
