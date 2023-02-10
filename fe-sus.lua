@@ -1,4 +1,14 @@
---reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
+--https://www.roblox.com/catalog/63690008/Pal-Hair
+
+--https://www.roblox.com/catalog/62724852/Chestnut-Bun
+
+--https://www.roblox.com/catalog/48474294/ROBLOX-Girl-Hair
+
+--https://www.roblox.com/catalog/451220849/Lavender-Updo
+
+--https://www.roblox.com/catalog/62234425/Brown-Hair
+
+--https://www.roblox.com/catalog/376524487/Blonde-Spiked-Hair
 game.Players.LocalPlayer.Character["Pal Hair"].Handle.Mesh:Destroy()
 game.Players.LocalPlayer.Character["Hat1"].Handle.Mesh:Destroy() 
 game.Players.LocalPlayer.Character["Pink Hair"].Handle.Mesh:Destroy() 
